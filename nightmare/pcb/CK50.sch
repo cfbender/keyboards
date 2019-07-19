@@ -1,0 +1,1920 @@
+EESchema Schematic File Version 4
+LIBS:CK50-cache
+EELAYER 26 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L promicro:ProMicro U0
+U 1 1 5CA8217D
+P 5650 6900
+F 0 "U0" H 5650 7937 60  0000 C CNN
+F 1 "ProMicro" H 5650 7831 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" H 5750 5850 60  0001 C CNN
+F 3 "" H 5750 5850 60  0000 C CNN
+	1    5650 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K0
+U 1 1 5CA82206
+P 4000 2100
+F 0 "K0" H 4000 2333 60  0000 C CNN
+F 1 "KEYSW" H 4000 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 4000 2100 60  0001 C CNN
+F 3 "" H 4000 2100 60  0000 C CNN
+	1    4000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K14
+U 1 1 5CA822C2
+P 4000 2600
+F 0 "K14" H 4000 2833 60  0000 C CNN
+F 1 "KEYSW" H 4000 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 4000 2600 60  0001 C CNN
+F 3 "" H 4000 2600 60  0000 C CNN
+	1    4000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K28
+U 1 1 5CA82377
+P 4000 3050
+F 0 "K28" H 4000 3283 60  0000 C CNN
+F 1 "KEYSW" H 4000 2950 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 4000 3050 60  0001 C CNN
+F 3 "" H 4000 3050 60  0000 C CNN
+	1    4000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K420
+U 1 1 5CA8242C
+P 4000 3500
+F 0 "K420" H 4000 3733 60  0000 C CNN
+F 1 "KEYSW" H 4000 3400 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 4000 3500 60  0001 C CNN
+F 3 "" H 4000 3500 60  0000 C CNN
+	1    4000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5CA824B2
+P 5000 2100
+F 0 "K1" H 5000 2333 60  0000 C CNN
+F 1 "KEYSW" H 5000 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 5000 2100 60  0001 C CNN
+F 3 "" H 5000 2100 60  0000 C CNN
+	1    5000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K15
+U 1 1 5CA82574
+P 5050 2600
+F 0 "K15" H 5050 2833 60  0000 C CNN
+F 1 "KEYSW" H 5050 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_125H" H 5050 2600 60  0001 C CNN
+F 3 "" H 5050 2600 60  0000 C CNN
+	1    5050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K29
+U 1 1 5CA82628
+P 5150 3100
+F 0 "K29" H 5150 3333 60  0000 C CNN
+F 1 "KEYSW" H 5150 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_175H" H 5150 3100 60  0001 C CNN
+F 3 "" H 5150 3100 60  0000 C CNN
+	1    5150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K43
+U 1 1 5CA826FE
+P 5450 3500
+F 0 "K43" H 5450 3733 60  0000 C CNN
+F 1 "KEYSW" H 5450 3400 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 5450 3500 60  0001 C CNN
+F 3 "" H 5450 3500 60  0000 C CNN
+	1    5450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 5CA8279A
+P 5950 2100
+F 0 "K2" H 5950 2333 60  0000 C CNN
+F 1 "KEYSW" H 5950 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 5950 2100 60  0001 C CNN
+F 3 "" H 5950 2100 60  0000 C CNN
+	1    5950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D0
+U 1 1 5CA82A63
+P 4300 1950
+F 0 "D0" V 4346 1871 50  0000 R CNN
+F 1 "1N4148" V 4255 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4300 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4300 1950 50  0001 C CNN
+	1    4300 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 5CA82C41
+P 5300 1950
+F 0 "D1" V 5346 1871 50  0000 R CNN
+F 1 "1N4148" V 5255 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 5300 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5300 1950 50  0001 C CNN
+	1    5300 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 5CA82C87
+P 6250 1950
+F 0 "D2" V 6296 1871 50  0000 R CNN
+F 1 "1N4148" V 6205 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 6250 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6250 1950 50  0001 C CNN
+	1    6250 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D14
+U 1 1 5CA82CCD
+P 4300 2450
+F 0 "D14" V 4346 2371 50  0000 R CNN
+F 1 "1N4148" V 4255 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4300 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4300 2450 50  0001 C CNN
+	1    4300 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D15
+U 1 1 5CA82D07
+P 5350 2450
+F 0 "D15" V 5396 2371 50  0000 R CNN
+F 1 "1N4148" V 5305 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 5350 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5350 2450 50  0001 C CNN
+	1    5350 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D28
+U 1 1 5CA82D4B
+P 4300 2900
+F 0 "D28" V 4346 2821 50  0000 R CNN
+F 1 "1N4148" V 4255 2821 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4300 2725 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4300 2900 50  0001 C CNN
+	1    4300 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D29
+U 1 1 5CA82D89
+P 5450 2950
+F 0 "D29" V 5496 2871 50  0000 R CNN
+F 1 "1N4148" V 5405 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 5450 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5450 2950 50  0001 C CNN
+	1    5450 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 2100 4300 2300
+Wire Wire Line
+	4300 2600 4300 2750
+$Comp
+L Diode:1N4148 D420
+U 1 1 5CA82EBA
+P 4300 3350
+F 0 "D420" V 4346 3271 50  0000 R CNN
+F 1 "1N4148" V 4255 3271 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4300 3175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4300 3350 50  0001 C CNN
+	1    4300 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 3050 4300 3200
+Connection ~ 4300 3050
+Wire Wire Line
+	4750 2600 4750 2700
+Wire Wire Line
+	4750 2700 3700 2700
+Wire Wire Line
+	3700 2700 3700 2600
+Wire Wire Line
+	4700 2200 4700 2100
+Wire Wire Line
+	4700 2200 5650 2200
+Wire Wire Line
+	5650 2200 5650 2100
+$Comp
+L keyboard_parts:KEYSW K44
+U 1 1 5CA8327E
+P 6500 3500
+F 0 "K44" H 6500 3733 60  0000 C CNN
+F 1 "KEYSW" H 6500 3400 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_125H" H 6500 3500 60  0001 C CNN
+F 3 "" H 6500 3500 60  0000 C CNN
+	1    6500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K30
+U 1 1 5CA832DA
+P 6250 3100
+F 0 "K30" H 6250 3333 60  0000 C CNN
+F 1 "KEYSW" H 6250 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 6250 3100 60  0001 C CNN
+F 3 "" H 6250 3100 60  0000 C CNN
+	1    6250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K16
+U 1 1 5CA83328
+P 6100 2600
+F 0 "K16" H 6100 2833 60  0000 C CNN
+F 1 "KEYSW" H 6100 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 6100 2600 60  0001 C CNN
+F 3 "" H 6100 2600 60  0000 C CNN
+	1    6100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5CA8347C
+P 6900 2100
+F 0 "K3" H 6900 2333 60  0000 C CNN
+F 1 "KEYSW" H 6900 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 6900 2100 60  0001 C CNN
+F 3 "" H 6900 2100 60  0000 C CNN
+	1    6900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 5CA8350A
+P 7800 2100
+F 0 "K4" H 7800 2333 60  0000 C CNN
+F 1 "KEYSW" H 7800 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 7800 2100 60  0001 C CNN
+F 3 "" H 7800 2100 60  0000 C CNN
+	1    7800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K5
+U 1 1 5CA83574
+P 8650 2100
+F 0 "K5" H 8650 2333 60  0000 C CNN
+F 1 "KEYSW" H 8650 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 8650 2100 60  0001 C CNN
+F 3 "" H 8650 2100 60  0000 C CNN
+	1    8650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K6
+U 1 1 5CA835DA
+P 9450 2100
+F 0 "K6" H 9450 2333 60  0000 C CNN
+F 1 "KEYSW" H 9450 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 9450 2100 60  0001 C CNN
+F 3 "" H 9450 2100 60  0000 C CNN
+	1    9450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K7
+U 1 1 5CA837BB
+P 10250 2100
+F 0 "K7" H 10250 2333 60  0000 C CNN
+F 1 "KEYSW" H 10250 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 10250 2100 60  0001 C CNN
+F 3 "" H 10250 2100 60  0000 C CNN
+	1    10250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K8
+U 1 1 5CA8381F
+P 11050 2100
+F 0 "K8" H 11050 2333 60  0000 C CNN
+F 1 "KEYSW" H 11050 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 11050 2100 60  0001 C CNN
+F 3 "" H 11050 2100 60  0000 C CNN
+	1    11050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K9
+U 1 1 5CA83895
+P 11850 2100
+F 0 "K9" H 11850 2333 60  0000 C CNN
+F 1 "KEYSW" H 11850 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 11850 2100 60  0001 C CNN
+F 3 "" H 11850 2100 60  0000 C CNN
+	1    11850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K10
+U 1 1 5CA838F9
+P 12700 2100
+F 0 "K10" H 12700 2333 60  0000 C CNN
+F 1 "KEYSW" H 12700 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 12700 2100 60  0001 C CNN
+F 3 "" H 12700 2100 60  0000 C CNN
+	1    12700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K11
+U 1 1 5CA83961
+P 13500 2100
+F 0 "K11" H 13500 2333 60  0000 C CNN
+F 1 "KEYSW" H 13500 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 13500 2100 60  0001 C CNN
+F 3 "" H 13500 2100 60  0000 C CNN
+	1    13500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K12
+U 1 1 5CA839C9
+P 14350 2100
+F 0 "K12" H 14350 2333 60  0000 C CNN
+F 1 "KEYSW" H 14350 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 14350 2100 60  0001 C CNN
+F 3 "" H 14350 2100 60  0000 C CNN
+	1    14350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K13
+U 1 1 5CA83BF7
+P 15750 2100
+F 0 "K13" H 15750 2333 60  0000 C CNN
+F 1 "KEYSW" H 15750 2000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 15750 2100 60  0001 C CNN
+F 3 "" H 15750 2100 60  0000 C CNN
+	1    15750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K27
+U 1 1 5CA83C6D
+P 15700 2600
+F 0 "K27" H 15700 2833 60  0000 C CNN
+F 1 "KEYSW" H 15700 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 15700 2600 60  0001 C CNN
+F 3 "" H 15700 2600 60  0000 C CNN
+	1    15700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K17
+U 1 1 5CA83DF1
+P 6900 2600
+F 0 "K17" H 6900 2833 60  0000 C CNN
+F 1 "KEYSW" H 6900 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 6900 2600 60  0001 C CNN
+F 3 "" H 6900 2600 60  0000 C CNN
+	1    6900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K31
+U 1 1 5CA83E89
+P 7050 3100
+F 0 "K31" H 7050 3333 60  0000 C CNN
+F 1 "KEYSW" H 7050 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 7050 3100 60  0001 C CNN
+F 3 "" H 7050 3100 60  0000 C CNN
+	1    7050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K18
+U 1 1 5CA83EFB
+P 7800 2600
+F 0 "K18" H 7800 2833 60  0000 C CNN
+F 1 "KEYSW" H 7800 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 7800 2600 60  0001 C CNN
+F 3 "" H 7800 2600 60  0000 C CNN
+	1    7800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K32
+U 1 1 5CA83F8F
+P 7850 3100
+F 0 "K32" H 7850 3333 60  0000 C CNN
+F 1 "KEYSW" H 7850 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 7850 3100 60  0001 C CNN
+F 3 "" H 7850 3100 60  0000 C CNN
+	1    7850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K33
+U 1 1 5CA8403F
+P 8800 3100
+F 0 "K33" H 8800 3333 60  0000 C CNN
+F 1 "KEYSW" H 8800 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 8800 3100 60  0001 C CNN
+F 3 "" H 8800 3100 60  0000 C CNN
+	1    8800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K19
+U 1 1 5CA840BD
+P 8700 2600
+F 0 "K19" H 8700 2833 60  0000 C CNN
+F 1 "KEYSW" H 8700 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 8700 2600 60  0001 C CNN
+F 3 "" H 8700 2600 60  0000 C CNN
+	1    8700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K34
+U 1 1 5CA8412F
+P 9600 3100
+F 0 "K34" H 9600 3333 60  0000 C CNN
+F 1 "KEYSW" H 9600 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 9600 3100 60  0001 C CNN
+F 3 "" H 9600 3100 60  0000 C CNN
+	1    9600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K45
+U 1 1 5CA841B3
+P 10250 3500
+F 0 "K45" H 10250 3733 60  0000 C CNN
+F 1 "KEYSW" H 10250 3400 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_700H" H 10250 3500 60  0001 C CNN
+F 3 "" H 10250 3500 60  0000 C CNN
+	1    10250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K20
+U 1 1 5CA84239
+P 9450 2600
+F 0 "K20" H 9450 2833 60  0000 C CNN
+F 1 "KEYSW" H 9450 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 9450 2600 60  0001 C CNN
+F 3 "" H 9450 2600 60  0000 C CNN
+	1    9450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K35
+U 1 1 5CA842B7
+P 10500 3100
+F 0 "K35" H 10500 3333 60  0000 C CNN
+F 1 "KEYSW" H 10500 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 10500 3100 60  0001 C CNN
+F 3 "" H 10500 3100 60  0000 C CNN
+	1    10500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K21
+U 1 1 5CA84345
+P 10350 2600
+F 0 "K21" H 10350 2833 60  0000 C CNN
+F 1 "KEYSW" H 10350 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 10350 2600 60  0001 C CNN
+F 3 "" H 10350 2600 60  0000 C CNN
+	1    10350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K22
+U 1 1 5CA8455B
+P 11150 2600
+F 0 "K22" H 11150 2833 60  0000 C CNN
+F 1 "KEYSW" H 11150 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 11150 2600 60  0001 C CNN
+F 3 "" H 11150 2600 60  0000 C CNN
+	1    11150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K36
+U 1 1 5CA845F1
+P 11300 3100
+F 0 "K36" H 11300 3333 60  0000 C CNN
+F 1 "KEYSW" H 11300 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 11300 3100 60  0001 C CNN
+F 3 "" H 11300 3100 60  0000 C CNN
+	1    11300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K23
+U 1 1 5CA84685
+P 11950 2600
+F 0 "K23" H 11950 2833 60  0000 C CNN
+F 1 "KEYSW" H 11950 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 11950 2600 60  0001 C CNN
+F 3 "" H 11950 2600 60  0000 C CNN
+	1    11950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K24
+U 1 1 5CA8482D
+P 12800 2600
+F 0 "K24" H 12800 2833 60  0000 C CNN
+F 1 "KEYSW" H 12800 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 12800 2600 60  0001 C CNN
+F 3 "" H 12800 2600 60  0000 C CNN
+	1    12800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K25
+U 1 1 5CA848BB
+P 13600 2600
+F 0 "K25" H 13600 2833 60  0000 C CNN
+F 1 "KEYSW" H 13600 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 13600 2600 60  0001 C CNN
+F 3 "" H 13600 2600 60  0000 C CNN
+	1    13600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K26
+U 1 1 5CA8494D
+P 14450 2600
+F 0 "K26" H 14450 2833 60  0000 C CNN
+F 1 "KEYSW" H 14450 2500 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_175H" H 14450 2600 60  0001 C CNN
+F 3 "" H 14450 2600 60  0000 C CNN
+	1    14450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K41
+U 1 1 5CA849EB
+P 15650 3100
+F 0 "K41" H 15650 3333 60  0000 C CNN
+F 1 "KEYSW" H 15650 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 15650 3100 60  0001 C CNN
+F 3 "" H 15650 3100 60  0000 C CNN
+	1    15650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K37
+U 1 1 5CA84A8F
+P 12250 3100
+F 0 "K37" H 12250 3333 60  0000 C CNN
+F 1 "KEYSW" H 12250 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 12250 3100 60  0001 C CNN
+F 3 "" H 12250 3100 60  0000 C CNN
+	1    12250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K38
+U 1 1 5CA84B33
+P 13150 3100
+F 0 "K38" H 13150 3333 60  0000 C CNN
+F 1 "KEYSW" H 13150 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 13150 3100 60  0001 C CNN
+F 3 "" H 13150 3100 60  0000 C CNN
+	1    13150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K39
+U 1 1 5CA84BD1
+P 14000 3100
+F 0 "K39" H 14000 3333 60  0000 C CNN
+F 1 "KEYSW" H 14000 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 14000 3100 60  0001 C CNN
+F 3 "" H 14000 3100 60  0000 C CNN
+	1    14000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K40
+U 1 1 5CA84C73
+P 14800 3100
+F 0 "K40" H 14800 3333 60  0000 C CNN
+F 1 "KEYSW" H 14800 3000 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_125H" H 14800 3100 60  0001 C CNN
+F 3 "" H 14800 3100 60  0000 C CNN
+	1    14800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K48
+U 1 1 5CA84D19
+P 15650 3550
+F 0 "K48" H 15650 3783 60  0000 C CNN
+F 1 "KEYSW" H 15650 3450 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 15650 3550 60  0001 C CNN
+F 3 "" H 15650 3550 60  0000 C CNN
+	1    15650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K47
+U 1 1 5CA84DC1
+P 14650 3550
+F 0 "K47" H 14650 3783 60  0000 C CNN
+F 1 "KEYSW" H 14650 3450 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 14650 3550 60  0001 C CNN
+F 3 "" H 14650 3550 60  0000 C CNN
+	1    14650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K46
+U 1 1 5CA84F01
+P 13700 3550
+F 0 "K46" H 13700 3783 60  0000 C CNN
+F 1 "KEYSW" H 13700 3450 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_125H" H 13700 3550 60  0001 C CNN
+F 3 "" H 13700 3550 60  0000 C CNN
+	1    13700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D16
+U 1 1 5CA86EB1
+P 6400 2450
+F 0 "D16" V 6446 2371 50  0000 R CNN
+F 1 "1N4148" V 6355 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 6400 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6400 2450 50  0001 C CNN
+	1    6400 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D17
+U 1 1 5CA86F4F
+P 7200 2450
+F 0 "D17" V 7246 2371 50  0000 R CNN
+F 1 "1N4148" V 7155 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 7200 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7200 2450 50  0001 C CNN
+	1    7200 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D30
+U 1 1 5CA86FED
+P 6550 2950
+F 0 "D30" V 6596 2871 50  0000 R CNN
+F 1 "1N4148" V 6505 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 6550 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6550 2950 50  0001 C CNN
+	1    6550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D43
+U 1 1 5CA87091
+P 5750 3350
+F 0 "D43" V 5796 3271 50  0000 R CNN
+F 1 "1N4148" V 5705 3271 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 5750 3175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5750 3350 50  0001 C CNN
+	1    5750 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D44
+U 1 1 5CA87133
+P 6800 3350
+F 0 "D44" V 6846 3271 50  0000 R CNN
+F 1 "1N4148" V 6755 3271 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 6800 3175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6800 3350 50  0001 C CNN
+	1    6800 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 5CA873CF
+P 7200 1950
+F 0 "D3" V 7246 1871 50  0000 R CNN
+F 1 "1N4148" V 7155 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 7200 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7200 1950 50  0001 C CNN
+	1    7200 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D18
+U 1 1 5CA87491
+P 8100 2450
+F 0 "D18" V 8146 2371 50  0000 R CNN
+F 1 "1N4148" V 8055 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 8100 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8100 2450 50  0001 C CNN
+	1    8100 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 5CA87541
+P 8100 1950
+F 0 "D4" V 8146 1871 50  0000 R CNN
+F 1 "1N4148" V 8055 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 8100 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8100 1950 50  0001 C CNN
+	1    8100 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 5CA875E9
+P 8950 1950
+F 0 "D5" V 8996 1871 50  0000 R CNN
+F 1 "1N4148" V 8905 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 8950 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8950 1950 50  0001 C CNN
+	1    8950 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 5CA8769D
+P 9750 1950
+F 0 "D6" V 9796 1871 50  0000 R CNN
+F 1 "1N4148" V 9705 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 9750 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9750 1950 50  0001 C CNN
+	1    9750 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 5CA8774D
+P 10550 1950
+F 0 "D7" V 10596 1871 50  0000 R CNN
+F 1 "1N4148" V 10505 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 10550 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10550 1950 50  0001 C CNN
+	1    10550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 5CA87A66
+P 11350 1950
+F 0 "D8" V 11396 1871 50  0000 R CNN
+F 1 "1N4148" V 11305 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 11350 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 11350 1950 50  0001 C CNN
+	1    11350 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 5CA87B18
+P 12150 1950
+F 0 "D9" V 12196 1871 50  0000 R CNN
+F 1 "1N4148" V 12105 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 12150 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 12150 1950 50  0001 C CNN
+	1    12150 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 5CA87BCE
+P 13000 1950
+F 0 "D10" V 13046 1871 50  0000 R CNN
+F 1 "1N4148" V 12955 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 13000 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 13000 1950 50  0001 C CNN
+	1    13000 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D11
+U 1 1 5CA88194
+P 13800 1950
+F 0 "D11" V 13846 1871 50  0000 R CNN
+F 1 "1N4148" V 13755 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 13800 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 13800 1950 50  0001 C CNN
+	1    13800 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 5CA88250
+P 14650 1950
+F 0 "D12" V 14696 1871 50  0000 R CNN
+F 1 "1N4148" V 14605 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 14650 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 14650 1950 50  0001 C CNN
+	1    14650 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D13
+U 1 1 5CA8830C
+P 16050 1950
+F 0 "D13" V 16096 1871 50  0000 R CNN
+F 1 "1N4148" V 16005 1871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 16050 1775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 16050 1950 50  0001 C CNN
+	1    16050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D27
+U 1 1 5CA883D4
+P 16000 2450
+F 0 "D27" V 16046 2371 50  0000 R CNN
+F 1 "1N4148" V 15955 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 16000 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 16000 2450 50  0001 C CNN
+	1    16000 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D19
+U 1 1 5CA8873C
+P 9000 2450
+F 0 "D19" V 9046 2371 50  0000 R CNN
+F 1 "1N4148" V 8955 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 9000 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9000 2450 50  0001 C CNN
+	1    9000 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D20
+U 1 1 5CA887F8
+P 9750 2450
+F 0 "D20" V 9796 2371 50  0000 R CNN
+F 1 "1N4148" V 9705 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 9750 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9750 2450 50  0001 C CNN
+	1    9750 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D21
+U 1 1 5CA888B8
+P 10650 2450
+F 0 "D21" V 10696 2371 50  0000 R CNN
+F 1 "1N4148" V 10605 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 10650 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10650 2450 50  0001 C CNN
+	1    10650 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D22
+U 1 1 5CA8897A
+P 11450 2450
+F 0 "D22" V 11496 2371 50  0000 R CNN
+F 1 "1N4148" V 11405 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 11450 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 11450 2450 50  0001 C CNN
+	1    11450 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D23
+U 1 1 5CA88A40
+P 12250 2450
+F 0 "D23" V 12296 2371 50  0000 R CNN
+F 1 "1N4148" V 12205 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 12250 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 12250 2450 50  0001 C CNN
+	1    12250 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D24
+U 1 1 5CA88B04
+P 13100 2450
+F 0 "D24" V 13146 2371 50  0000 R CNN
+F 1 "1N4148" V 13055 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 13100 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 13100 2450 50  0001 C CNN
+	1    13100 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D25
+U 1 1 5CA88BC8
+P 13900 2450
+F 0 "D25" V 13946 2371 50  0000 R CNN
+F 1 "1N4148" V 13855 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 13900 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 13900 2450 50  0001 C CNN
+	1    13900 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D26
+U 1 1 5CA88EDB
+P 14750 2450
+F 0 "D26" V 14796 2371 50  0000 R CNN
+F 1 "1N4148" V 14705 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 14750 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 14750 2450 50  0001 C CNN
+	1    14750 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D41
+U 1 1 5CA88FA3
+P 15950 2950
+F 0 "D41" V 15996 2871 50  0000 R CNN
+F 1 "1N4148" V 15905 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 15950 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 15950 2950 50  0001 C CNN
+	1    15950 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D31
+U 1 1 5CA8931B
+P 7350 2950
+F 0 "D31" V 7396 2871 50  0000 R CNN
+F 1 "1N4148" V 7305 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 7350 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7350 2950 50  0001 C CNN
+	1    7350 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D32
+U 1 1 5CA893ED
+P 8150 2950
+F 0 "D32" V 8196 2871 50  0000 R CNN
+F 1 "1N4148" V 8105 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 8150 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8150 2950 50  0001 C CNN
+	1    8150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D33
+U 1 1 5CA894BB
+P 9100 2950
+F 0 "D33" V 9146 2871 50  0000 R CNN
+F 1 "1N4148" V 9055 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 9100 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9100 2950 50  0001 C CNN
+	1    9100 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D34
+U 1 1 5CA897F7
+P 9900 2950
+F 0 "D34" V 9946 2871 50  0000 R CNN
+F 1 "1N4148" V 9855 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 9900 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9900 2950 50  0001 C CNN
+	1    9900 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D35
+U 1 1 5CA898CB
+P 10800 2950
+F 0 "D35" V 10846 2871 50  0000 R CNN
+F 1 "1N4148" V 10755 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 10800 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10800 2950 50  0001 C CNN
+	1    10800 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D36
+U 1 1 5CA89A03
+P 11600 2950
+F 0 "D36" V 11646 2871 50  0000 R CNN
+F 1 "1N4148" V 11555 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 11600 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 11600 2950 50  0001 C CNN
+	1    11600 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D37
+U 1 1 5CA89AE1
+P 12550 2950
+F 0 "D37" V 12596 2871 50  0000 R CNN
+F 1 "1N4148" V 12505 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 12550 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 12550 2950 50  0001 C CNN
+	1    12550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D38
+U 1 1 5CA89BBD
+P 13450 2950
+F 0 "D38" V 13496 2871 50  0000 R CNN
+F 1 "1N4148" V 13405 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 13450 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 13450 2950 50  0001 C CNN
+	1    13450 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D39
+U 1 1 5CA89F2A
+P 14300 2950
+F 0 "D39" V 14346 2871 50  0000 R CNN
+F 1 "1N4148" V 14255 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 14300 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 14300 2950 50  0001 C CNN
+	1    14300 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D40
+U 1 1 5CA8A00C
+P 15100 2950
+F 0 "D40" V 15146 2871 50  0000 R CNN
+F 1 "1N4148" V 15055 2871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 15100 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 15100 2950 50  0001 C CNN
+	1    15100 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D48
+U 1 1 5CA8A0EE
+P 15950 3400
+F 0 "D48" V 15996 3321 50  0000 R CNN
+F 1 "1N4148" V 15905 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 15950 3225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 15950 3400 50  0001 C CNN
+	1    15950 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D47
+U 1 1 5CA8A1CE
+P 14950 3400
+F 0 "D47" V 14996 3321 50  0000 R CNN
+F 1 "1N4148" V 14905 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 14950 3225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 14950 3400 50  0001 C CNN
+	1    14950 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D46
+U 1 1 5CA8A2BC
+P 14000 3400
+F 0 "D46" V 14046 3321 50  0000 R CNN
+F 1 "1N4148" V 13955 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 14000 3225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 14000 3400 50  0001 C CNN
+	1    14000 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D45
+U 1 1 5CA8A83E
+P 10550 3350
+F 0 "D45" V 10596 3271 50  0000 R CNN
+F 1 "1N4148" V 10505 3271 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 10550 3175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10550 3350 50  0001 C CNN
+	1    10550 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 2200 6600 2200
+Wire Wire Line
+	6600 2200 6600 2100
+Connection ~ 5650 2200
+Wire Wire Line
+	6600 2200 7500 2200
+Wire Wire Line
+	7500 2200 7500 2100
+Connection ~ 6600 2200
+Wire Wire Line
+	7500 2200 8350 2200
+Wire Wire Line
+	8350 2200 8350 2100
+Connection ~ 7500 2200
+Wire Wire Line
+	8350 2200 9150 2200
+Wire Wire Line
+	9150 2200 9150 2100
+Connection ~ 8350 2200
+Wire Wire Line
+	9150 2200 9950 2200
+Wire Wire Line
+	9950 2200 9950 2100
+Connection ~ 9150 2200
+Wire Wire Line
+	9950 2200 10750 2200
+Wire Wire Line
+	10750 2200 10750 2100
+Connection ~ 9950 2200
+Wire Wire Line
+	10750 2200 11550 2200
+Wire Wire Line
+	11550 2200 11550 2100
+Connection ~ 10750 2200
+Wire Wire Line
+	11550 2200 12400 2200
+Wire Wire Line
+	12400 2200 12400 2100
+Connection ~ 11550 2200
+Wire Wire Line
+	12400 2200 13200 2200
+Wire Wire Line
+	13200 2200 13200 2100
+Connection ~ 12400 2200
+Wire Wire Line
+	13200 2200 14050 2200
+Wire Wire Line
+	14050 2200 14050 2100
+Connection ~ 13200 2200
+Wire Wire Line
+	4750 2700 5800 2700
+Wire Wire Line
+	5800 2700 5800 2600
+Connection ~ 4750 2700
+Wire Wire Line
+	5800 2700 6600 2700
+Wire Wire Line
+	6600 2700 6600 2600
+Connection ~ 5800 2700
+Wire Wire Line
+	6600 2700 7500 2700
+Wire Wire Line
+	7500 2700 7500 2600
+Connection ~ 6600 2700
+Wire Wire Line
+	7500 2700 8400 2700
+Wire Wire Line
+	8400 2700 8400 2600
+Connection ~ 7500 2700
+Wire Wire Line
+	8400 2700 9150 2700
+Wire Wire Line
+	9150 2700 9150 2600
+Connection ~ 8400 2700
+Wire Wire Line
+	9150 2700 10050 2700
+Wire Wire Line
+	10050 2700 10050 2600
+Connection ~ 9150 2700
+Wire Wire Line
+	10050 2700 10850 2700
+Wire Wire Line
+	10850 2700 10850 2600
+Connection ~ 10050 2700
+Wire Wire Line
+	10850 2700 11650 2700
+Wire Wire Line
+	11650 2700 11650 2600
+Connection ~ 10850 2700
+Wire Wire Line
+	11650 2700 12500 2700
+Wire Wire Line
+	12500 2700 12500 2600
+Connection ~ 11650 2700
+Wire Wire Line
+	12500 2700 13300 2700
+Wire Wire Line
+	13300 2700 13300 2600
+Connection ~ 12500 2700
+Wire Wire Line
+	13300 2700 14150 2700
+Wire Wire Line
+	14150 2700 14150 2600
+Connection ~ 13300 2700
+Wire Wire Line
+	3700 3050 3700 3150
+Wire Wire Line
+	3700 3150 4850 3150
+Wire Wire Line
+	4850 3150 4850 3100
+Wire Wire Line
+	4850 3150 5950 3150
+Wire Wire Line
+	5950 3150 5950 3100
+Connection ~ 4850 3150
+Wire Wire Line
+	5950 3150 6750 3150
+Wire Wire Line
+	6750 3150 6750 3100
+Connection ~ 5950 3150
+Wire Wire Line
+	6750 3150 7550 3150
+Wire Wire Line
+	7550 3150 7550 3100
+Connection ~ 6750 3150
+Wire Wire Line
+	7550 3150 8500 3150
+Wire Wire Line
+	8500 3150 8500 3100
+Connection ~ 7550 3150
+Wire Wire Line
+	8500 3150 9300 3150
+Wire Wire Line
+	9300 3150 9300 3100
+Connection ~ 8500 3150
+Wire Wire Line
+	9300 3150 10200 3150
+Wire Wire Line
+	10200 3150 10200 3100
+Connection ~ 9300 3150
+Wire Wire Line
+	10200 3150 11000 3150
+Wire Wire Line
+	11000 3150 11000 3100
+Connection ~ 10200 3150
+Wire Wire Line
+	11000 3150 11950 3150
+Wire Wire Line
+	11950 3150 11950 3100
+Connection ~ 11000 3150
+Wire Wire Line
+	11950 3150 12850 3150
+Wire Wire Line
+	12850 3150 12850 3100
+Connection ~ 11950 3150
+Wire Wire Line
+	12850 3150 13700 3150
+Wire Wire Line
+	13700 3150 13700 3100
+Connection ~ 12850 3150
+Wire Wire Line
+	13700 3150 14500 3150
+Wire Wire Line
+	14500 3150 14500 3100
+Connection ~ 13700 3150
+Wire Wire Line
+	3700 3500 3700 3600
+Wire Wire Line
+	3700 3600 5150 3600
+Wire Wire Line
+	5150 3600 5150 3500
+Wire Wire Line
+	5150 3600 6200 3600
+Wire Wire Line
+	6200 3600 6200 3500
+Connection ~ 5150 3600
+Wire Wire Line
+	6200 3600 9950 3600
+Wire Wire Line
+	9950 3600 9950 3500
+Connection ~ 6200 3600
+Wire Wire Line
+	9950 3600 13400 3600
+Wire Wire Line
+	13400 3600 13400 3550
+Connection ~ 9950 3600
+Wire Wire Line
+	13400 3600 14350 3600
+Wire Wire Line
+	14350 3600 14350 3550
+Connection ~ 13400 3600
+Text Label 4300 1700 0    50   ~ 0
+col0
+Text Label 3450 2200 2    50   ~ 0
+row0
+Text Label 3400 2700 2    50   ~ 0
+row1
+Wire Wire Line
+	3400 2700 3700 2700
+Connection ~ 3700 2700
+Text Label 3350 3150 2    50   ~ 0
+row2
+Wire Wire Line
+	3350 3150 3700 3150
+Connection ~ 3700 3150
+Text Label 3350 3600 2    50   ~ 0
+row3
+Wire Wire Line
+	3350 3600 3700 3600
+Connection ~ 3700 3600
+Text Label 5300 1650 0    50   ~ 0
+col1
+Wire Wire Line
+	5300 1650 5300 1800
+Wire Wire Line
+	5300 2100 5300 2300
+Wire Wire Line
+	5300 2300 5350 2300
+Connection ~ 5300 2100
+Wire Wire Line
+	5350 2800 5450 2800
+Connection ~ 5350 2600
+Wire Wire Line
+	5350 2600 5350 2800
+Wire Wire Line
+	5450 3100 5750 3100
+Connection ~ 5450 3100
+Text Label 6250 1650 0    50   ~ 0
+col2
+Wire Wire Line
+	6250 2300 6400 2300
+Connection ~ 6250 2100
+Wire Wire Line
+	6250 2100 6250 2300
+Wire Wire Line
+	6400 2800 6550 2800
+Connection ~ 6400 2600
+Wire Wire Line
+	6400 2600 6400 2800
+Wire Wire Line
+	6550 3200 6800 3200
+Connection ~ 6550 3100
+Wire Wire Line
+	6550 3100 6550 3200
+Wire Wire Line
+	7200 2600 7200 2800
+Wire Wire Line
+	7200 2800 7350 2800
+Connection ~ 7200 2600
+Wire Wire Line
+	7200 2300 7200 2100
+Connection ~ 7200 2100
+Text Label 7200 1650 0    50   ~ 0
+col3
+Wire Wire Line
+	7200 1650 7200 1800
+Text Label 8100 1650 0    50   ~ 0
+col4
+Wire Wire Line
+	8100 1650 8100 1800
+Wire Wire Line
+	8100 2100 8100 2300
+Connection ~ 8100 2100
+Wire Wire Line
+	8100 2600 8100 2800
+Wire Wire Line
+	8100 2800 8150 2800
+Connection ~ 8100 2600
+Wire Wire Line
+	9000 2600 9000 2800
+Wire Wire Line
+	9000 2800 9100 2800
+Connection ~ 9000 2600
+Wire Wire Line
+	8950 2100 8950 2300
+Wire Wire Line
+	8950 2300 9000 2300
+Connection ~ 8950 2100
+Wire Wire Line
+	9750 2100 9750 2300
+Connection ~ 9750 2100
+Wire Wire Line
+	9750 2600 9750 2800
+Wire Wire Line
+	9750 2800 9900 2800
+Connection ~ 9750 2600
+Wire Wire Line
+	10550 2100 10550 2300
+Wire Wire Line
+	10550 2300 10650 2300
+Connection ~ 10550 2100
+Wire Wire Line
+	10650 2600 10650 2800
+Connection ~ 10650 2600
+Wire Wire Line
+	10800 3100 10550 3100
+Wire Wire Line
+	10550 3100 10550 3200
+Connection ~ 10800 3100
+Wire Wire Line
+	11450 2600 11450 2800
+Wire Wire Line
+	11450 2800 11600 2800
+Connection ~ 11450 2600
+Wire Wire Line
+	11350 2100 11350 2300
+Wire Wire Line
+	11350 2300 11450 2300
+Connection ~ 11350 2100
+Wire Wire Line
+	12150 2100 12150 2300
+Wire Wire Line
+	12150 2300 12250 2300
+Connection ~ 12150 2100
+Wire Wire Line
+	12250 2600 12250 2800
+Connection ~ 12250 2600
+Wire Wire Line
+	13000 2100 13100 2100
+Wire Wire Line
+	13100 2100 13100 2300
+Connection ~ 13000 2100
+Wire Wire Line
+	13100 2600 13100 2800
+Connection ~ 13100 2600
+Wire Wire Line
+	13800 2100 13800 2300
+Wire Wire Line
+	13800 2300 13900 2300
+Connection ~ 13800 2100
+Wire Wire Line
+	13900 2600 13900 2800
+Connection ~ 13900 2600
+Wire Wire Line
+	14300 3100 14300 3250
+Wire Wire Line
+	14300 3250 14000 3250
+Connection ~ 14300 3100
+Wire Wire Line
+	15100 3100 15100 3250
+Wire Wire Line
+	15100 3250 14950 3250
+Connection ~ 15100 3100
+Wire Wire Line
+	15100 2800 14950 2800
+Wire Wire Line
+	14750 2800 14750 2600
+Connection ~ 14750 2600
+Wire Wire Line
+	14650 2100 14650 2300
+Wire Wire Line
+	14650 2300 14750 2300
+Connection ~ 14650 2100
+Text Label 8950 1650 0    50   ~ 0
+col5
+Wire Wire Line
+	8950 1650 8950 1800
+Text Label 9800 1650 0    50   ~ 0
+col6
+Wire Wire Line
+	9800 1650 9800 1800
+Wire Wire Line
+	9800 1800 9750 1800
+Text Label 10550 1650 0    50   ~ 0
+col7
+Wire Wire Line
+	10550 1650 10550 1800
+Text Label 11350 1650 0    50   ~ 0
+col8
+Wire Wire Line
+	11350 1650 11350 1800
+Text Label 12150 1650 0    50   ~ 0
+col9
+Wire Wire Line
+	12150 1650 12150 1800
+Text Label 13000 1650 0    50   ~ 0
+col10
+Wire Wire Line
+	13000 1650 13000 1800
+Text Label 13800 1650 0    50   ~ 0
+col11
+Wire Wire Line
+	13800 1650 13800 1800
+Text Label 14650 1650 0    50   ~ 0
+col12
+Wire Wire Line
+	14650 1650 14650 1800
+Text Label 16050 1650 0    50   ~ 0
+col13
+Text Label 4650 6750 2    50   ~ 0
+row0
+Wire Wire Line
+	4650 6750 4950 6750
+Text Label 4650 6850 2    50   ~ 0
+row1
+Text Label 4650 6950 2    50   ~ 0
+row2
+Text Label 4650 7050 2    50   ~ 0
+row3
+Wire Wire Line
+	4650 6850 4950 6850
+Wire Wire Line
+	4650 6950 4950 6950
+Wire Wire Line
+	4650 7050 4950 7050
+Text Label 4650 7150 2    50   ~ 0
+col0
+Wire Wire Line
+	4650 7150 4950 7150
+Text Label 4650 7250 2    50   ~ 0
+col1
+Wire Wire Line
+	4650 7250 4950 7250
+Text Label 6600 6550 0    50   ~ 0
+col6
+Text Label 4650 6150 2    50   ~ 0
+col2
+Wire Wire Line
+	4650 6150 4950 6150
+Text Label 4650 6250 2    50   ~ 0
+col3
+Wire Wire Line
+	4650 6250 4950 6250
+Text Label 4650 6550 2    50   ~ 0
+col4
+Wire Wire Line
+	4650 6550 4950 6550
+Text Label 4650 6650 2    50   ~ 0
+col5
+Wire Wire Line
+	4650 6650 4950 6650
+Wire Wire Line
+	6600 6550 6350 6550
+Text Label 6600 6650 0    50   ~ 0
+col7
+Wire Wire Line
+	6600 6650 6350 6650
+Text Label 6600 6750 0    50   ~ 0
+col8
+Wire Wire Line
+	6600 6750 6350 6750
+Text Label 6600 6850 0    50   ~ 0
+col9
+Wire Wire Line
+	6600 6850 6350 6850
+Text Label 6600 6950 0    50   ~ 0
+col10
+Wire Wire Line
+	6600 6950 6350 6950
+Text Label 6600 7050 0    50   ~ 0
+col11
+Wire Wire Line
+	6600 7050 6350 7050
+Text Label 6600 7150 0    50   ~ 0
+col12
+Wire Wire Line
+	6600 7150 6350 7150
+Text Label 6600 7250 0    50   ~ 0
+col13
+Wire Wire Line
+	6600 7250 6350 7250
+Wire Wire Line
+	14350 3600 15350 3600
+Wire Wire Line
+	15350 3600 15350 3550
+Connection ~ 14350 3600
+Wire Wire Line
+	14500 3150 15350 3150
+Wire Wire Line
+	15350 3150 15350 3100
+Connection ~ 14500 3150
+Wire Wire Line
+	15950 3100 15950 3250
+Connection ~ 15950 3100
+Wire Wire Line
+	16050 1650 16050 1800
+Wire Wire Line
+	15450 2100 15450 2200
+Wire Wire Line
+	15450 2200 14050 2200
+Connection ~ 14050 2200
+Wire Wire Line
+	15400 2600 15400 2700
+Wire Wire Line
+	15400 2700 14150 2700
+Connection ~ 14150 2700
+Wire Wire Line
+	16050 2100 16050 2300
+Wire Wire Line
+	16050 2300 16000 2300
+Connection ~ 16050 2100
+Wire Wire Line
+	16000 2600 16000 2800
+Wire Wire Line
+	16000 2800 15950 2800
+Connection ~ 16000 2600
+$Comp
+L power:GND #PWR0101
+U 1 1 5CD541F4
+P 4200 6350
+F 0 "#PWR0101" H 4200 6100 50  0001 C CNN
+F 1 "GND" V 4205 6222 50  0000 R CNN
+F 2 "" H 4200 6350 50  0001 C CNN
+F 3 "" H 4200 6350 50  0001 C CNN
+	1    4200 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CD5433F
+P 4250 6450
+F 0 "#PWR0102" H 4250 6200 50  0001 C CNN
+F 1 "GND" V 4255 6322 50  0000 R CNN
+F 2 "" H 4250 6450 50  0001 C CNN
+F 3 "" H 4250 6450 50  0001 C CNN
+	1    4250 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 6350 4950 6350
+Wire Wire Line
+	4250 6450 4950 6450
+$Comp
+L power:GND #PWR0103
+U 1 1 5CD6823A
+P 6700 6250
+F 0 "#PWR0103" H 6700 6000 50  0001 C CNN
+F 1 "GND" V 6705 6122 50  0000 R CNN
+F 2 "" H 6700 6250 50  0001 C CNN
+F 3 "" H 6700 6250 50  0001 C CNN
+	1    6700 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 6250 6700 6250
+NoConn ~ 6500 6150
+Wire Wire Line
+	6500 6150 6350 6150
+NoConn ~ 6500 6350
+Wire Wire Line
+	6500 6350 6350 6350
+Text GLabel 7050 6450 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	6350 6450 7050 6450
+Wire Wire Line
+	6250 1650 6250 1800
+Wire Wire Line
+	4300 1700 4300 1800
+Connection ~ 4300 2100
+Wire Wire Line
+	3450 2200 3700 2200
+Wire Wire Line
+	3700 2200 4700 2200
+Connection ~ 3700 2200
+Wire Wire Line
+	3700 2100 3700 2200
+Connection ~ 4700 2200
+Connection ~ 4300 2600
+Wire Wire Line
+	4300 1800 4450 1800
+Wire Wire Line
+	4450 1800 4450 2300
+Wire Wire Line
+	4450 2300 4300 2300
+Connection ~ 4300 1800
+Connection ~ 4300 2300
+Wire Wire Line
+	4450 2300 4450 2750
+Wire Wire Line
+	4450 2750 4300 2750
+Connection ~ 4450 2300
+Connection ~ 4300 2750
+Wire Wire Line
+	4450 2750 4450 3200
+Wire Wire Line
+	4450 3200 4300 3200
+Connection ~ 4450 2750
+Connection ~ 4300 3200
+Wire Wire Line
+	5300 1800 5500 1800
+Wire Wire Line
+	5500 1800 5500 2300
+Wire Wire Line
+	5500 2300 5350 2300
+Connection ~ 5300 1800
+Connection ~ 5350 2300
+Wire Wire Line
+	5500 2300 5500 2800
+Wire Wire Line
+	5500 2800 5450 2800
+Connection ~ 5500 2300
+Connection ~ 5450 2800
+Wire Wire Line
+	5500 2800 5750 2800
+Wire Wire Line
+	5750 2800 5750 3100
+Connection ~ 5500 2800
+Connection ~ 5750 3100
+Wire Wire Line
+	5750 3100 5750 3200
+Wire Wire Line
+	6250 1800 6400 1800
+Wire Wire Line
+	6400 1800 6400 2300
+Connection ~ 6250 1800
+Connection ~ 6400 2300
+Wire Wire Line
+	6400 2300 6550 2300
+Wire Wire Line
+	6550 2300 6550 2800
+Connection ~ 6550 2800
+Wire Wire Line
+	6550 2800 6800 2800
+Wire Wire Line
+	6800 2800 6800 3200
+Connection ~ 6800 3200
+Wire Wire Line
+	7200 1800 7350 1800
+Wire Wire Line
+	7350 1800 7350 2300
+Wire Wire Line
+	7350 2300 7200 2300
+Connection ~ 7200 1800
+Connection ~ 7200 2300
+Wire Wire Line
+	7350 2300 7350 2800
+Connection ~ 7350 2300
+Connection ~ 7350 2800
+Wire Wire Line
+	8100 1800 8225 1800
+Wire Wire Line
+	8225 1800 8225 2300
+Wire Wire Line
+	8225 2300 8100 2300
+Connection ~ 8100 1800
+Connection ~ 8100 2300
+Wire Wire Line
+	8225 2300 8225 2800
+Wire Wire Line
+	8225 2800 8150 2800
+Connection ~ 8225 2300
+Connection ~ 8150 2800
+Wire Wire Line
+	8950 1800 9100 1800
+Wire Wire Line
+	9100 1800 9100 2300
+Wire Wire Line
+	9100 2300 9000 2300
+Connection ~ 8950 1800
+Connection ~ 9000 2300
+Wire Wire Line
+	9100 2300 9100 2800
+Connection ~ 9100 2300
+Connection ~ 9100 2800
+Wire Wire Line
+	9750 1800 9600 1800
+Wire Wire Line
+	9600 1800 9600 2300
+Wire Wire Line
+	9600 2300 9750 2300
+Connection ~ 9750 1800
+Connection ~ 9750 2300
+Wire Wire Line
+	9750 2300 9900 2300
+Wire Wire Line
+	9900 2300 9900 2800
+Connection ~ 9900 2800
+Wire Wire Line
+	10550 1800 10725 1800
+Wire Wire Line
+	10725 1800 10725 2300
+Wire Wire Line
+	10725 2300 10650 2300
+Connection ~ 10550 1800
+Connection ~ 10650 2300
+Wire Wire Line
+	10725 2300 10725 2800
+Wire Wire Line
+	10650 2800 10725 2800
+Connection ~ 10725 2300
+Connection ~ 10725 2800
+Wire Wire Line
+	10725 2800 10800 2800
+Wire Wire Line
+	11350 1800 11450 1800
+Wire Wire Line
+	11450 1800 11450 2300
+Connection ~ 11350 1800
+Connection ~ 11450 2300
+Wire Wire Line
+	11450 2300 11600 2300
+Wire Wire Line
+	11600 2300 11600 2800
+Connection ~ 11600 2800
+Wire Wire Line
+	12150 1800 12250 1800
+Wire Wire Line
+	12250 1800 12250 2300
+Connection ~ 12150 1800
+Connection ~ 12250 2300
+Wire Wire Line
+	12250 2300 12400 2300
+Wire Wire Line
+	12400 2300 12400 2800
+Wire Wire Line
+	12250 2800 12400 2800
+Connection ~ 12400 2800
+Wire Wire Line
+	12400 2800 12550 2800
+Wire Wire Line
+	13000 1800 13000 2100
+Wire Wire Line
+	13000 2325 13100 2325
+Wire Wire Line
+	13100 2325 13100 2300
+Wire Wire Line
+	13000 2100 13000 2325
+Connection ~ 13000 1800
+Connection ~ 13100 2300
+Wire Wire Line
+	13100 2300 13250 2300
+Wire Wire Line
+	13250 2300 13250 2800
+Wire Wire Line
+	13100 2800 13250 2800
+Connection ~ 13250 2800
+Wire Wire Line
+	13250 2800 13450 2800
+Wire Wire Line
+	13800 1800 13900 1800
+Wire Wire Line
+	13900 1800 13900 2300
+Connection ~ 13800 1800
+Connection ~ 13900 2300
+Wire Wire Line
+	13900 2300 14100 2300
+Wire Wire Line
+	14100 2300 14100 2800
+Wire Wire Line
+	13900 2800 14100 2800
+Connection ~ 14100 2800
+Wire Wire Line
+	14100 2800 14300 2800
+Wire Wire Line
+	14000 2825 14000 3250
+Connection ~ 14000 3250
+Wire Wire Line
+	14650 1800 14750 1800
+Wire Wire Line
+	14750 1800 14750 2300
+Connection ~ 14650 1800
+Connection ~ 14750 2300
+Wire Wire Line
+	14750 2300 15100 2300
+Wire Wire Line
+	15100 2300 15100 2800
+Connection ~ 15100 2800
+Wire Wire Line
+	14950 2800 14950 3250
+Connection ~ 14950 2800
+Wire Wire Line
+	14950 2800 14750 2800
+Connection ~ 14950 3250
+Wire Wire Line
+	16050 1800 16150 1800
+Wire Wire Line
+	16150 1800 16150 2300
+Wire Wire Line
+	16150 2300 16050 2300
+Connection ~ 16050 1800
+Connection ~ 16050 2300
+Wire Wire Line
+	16050 2300 16050 2800
+Wire Wire Line
+	16050 2800 16000 2800
+Connection ~ 16000 2800
+Wire Wire Line
+	16050 2800 16050 3250
+Wire Wire Line
+	16050 3250 15950 3250
+Connection ~ 16050 2800
+Connection ~ 15950 3250
+Wire Wire Line
+	10550 2800 10550 3100
+Connection ~ 10650 2800
+Wire Wire Line
+	10650 2800 10550 2800
+Connection ~ 10550 3100
+Wire Wire Line
+	14000 2825 14300 2825
+Wire Wire Line
+	14300 2825 14300 2800
+Connection ~ 14300 2800
+$EndSCHEMATC
