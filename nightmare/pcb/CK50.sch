@@ -1300,12 +1300,11 @@ Wire Wire Line
 	6200 3600 6200 3500
 Connection ~ 5150 3600
 Wire Wire Line
-	6200 3600 9950 3600
+	6200 3600 7500 3600
 Wire Wire Line
 	9950 3600 9950 3500
-Connection ~ 6200 3600
 Wire Wire Line
-	9950 3600 13400 3600
+	9950 3600 11025 3600
 Wire Wire Line
 	13400 3600 13400 3550
 Connection ~ 9950 3600
@@ -1313,7 +1312,6 @@ Wire Wire Line
 	13400 3600 14350 3600
 Wire Wire Line
 	14350 3600 14350 3550
-Connection ~ 13400 3600
 Text Label 4300 1700 0    50   ~ 0
 col0
 Text Label 3450 2200 2    50   ~ 0
@@ -1917,4 +1915,155 @@ Wire Wire Line
 Wire Wire Line
 	14300 2825 14300 2800
 Connection ~ 14300 2800
+Connection ~ 13400 3600
+Connection ~ 6200 3600
+$Comp
+L keyboard_parts:KEYSW K49
+U 1 1 5D63DDF8
+P 7800 3475
+F 0 "K49" H 7800 3708 60  0000 C CNN
+F 1 "KEYSW" H 7800 3375 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_700H" H 7800 3475 60  0001 C CNN
+F 3 "" H 7800 3475 60  0000 C CNN
+	1    7800 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K50
+U 1 1 5D63DFB8
+P 8775 3475
+F 0 "K50" H 8775 3708 60  0000 C CNN
+F 1 "KEYSW" H 8775 3375 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_700H" H 8775 3475 60  0001 C CNN
+F 3 "" H 8775 3475 60  0000 C CNN
+	1    8775 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K51
+U 1 1 5D63E0F4
+P 12275 3475
+F 0 "K51" H 12275 3708 60  0000 C CNN
+F 1 "KEYSW" H 12275 3375 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_700H" H 12275 3475 60  0001 C CNN
+F 3 "" H 12275 3475 60  0000 C CNN
+	1    12275 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D50
+U 1 1 5D63E2C2
+P 9175 3375
+F 0 "D50" V 9221 3296 50  0000 R CNN
+F 1 "1N4148" V 9130 3296 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 9175 3200 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9175 3375 50  0001 C CNN
+	1    9175 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D49
+U 1 1 5D63E3F4
+P 8200 3350
+F 0 "D49" V 8246 3271 50  0000 R CNN
+F 1 "1N4148" V 8155 3271 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 8200 3175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8200 3350 50  0001 C CNN
+	1    8200 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D51
+U 1 1 5D63E502
+P 12725 3350
+F 0 "D51" V 12771 3271 50  0000 R CNN
+F 1 "1N4148" V 12680 3271 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 12725 3175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 12725 3350 50  0001 C CNN
+	1    12725 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 3100 8200 3100
+Wire Wire Line
+	8200 3100 8200 3200
+Connection ~ 8150 3100
+Wire Wire Line
+	8225 2800 8225 3200
+Wire Wire Line
+	8225 3200 8200 3200
+Connection ~ 8225 2800
+Connection ~ 8200 3200
+Wire Wire Line
+	8200 3500 8100 3500
+Wire Wire Line
+	8100 3500 8100 3475
+Wire Wire Line
+	7500 3475 7500 3600
+Connection ~ 7500 3600
+Wire Wire Line
+	7500 3600 8475 3600
+Wire Wire Line
+	8475 3475 8475 3600
+Connection ~ 8475 3600
+Wire Wire Line
+	8475 3600 9950 3600
+Wire Wire Line
+	9175 3525 9075 3525
+Wire Wire Line
+	9075 3525 9075 3475
+Wire Wire Line
+	9175 3100 9100 3100
+Connection ~ 9100 3100
+Wire Wire Line
+	9175 2800 9100 2800
+Wire Wire Line
+	9175 2800 9175 3100
+Connection ~ 9175 3100
+Wire Wire Line
+	9175 3100 9175 3225
+Connection ~ 9175 3225
+Wire Wire Line
+	9175 3225 9175 3250
+Wire Wire Line
+	11975 3475 11975 3600
+Connection ~ 11975 3600
+Wire Wire Line
+	11975 3600 13400 3600
+Wire Wire Line
+	12725 3500 12575 3500
+Wire Wire Line
+	12575 3500 12575 3475
+Wire Wire Line
+	12725 3100 12550 3100
+Connection ~ 12550 3100
+Wire Wire Line
+	12725 2800 12550 2800
+Wire Wire Line
+	12725 2800 12725 3100
+Connection ~ 12725 3100
+Wire Wire Line
+	12725 3100 12725 3200
+Connection ~ 12550 2800
+$Comp
+L keyboard_parts:KEYSW K45.2
+U 1 1 5D753EDF
+P 11325 3450
+F 0 "K45.2" H 11325 3683 60  0000 C CNN
+F 1 "KEYSW" H 11325 3350 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_700H" H 11325 3450 60  0001 C CNN
+F 3 "" H 11325 3450 60  0000 C CNN
+	1    11325 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 3500 11625 3500
+Wire Wire Line
+	11625 3500 11625 3450
+Connection ~ 10550 3500
+Wire Wire Line
+	11025 3450 11025 3600
+Connection ~ 11025 3600
+Wire Wire Line
+	11025 3600 11975 3600
 $EndSCHEMATC
