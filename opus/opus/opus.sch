@@ -1,0 +1,1827 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A0 46811 33110
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keyboard_parts:KEYSW K100
+U 1 1 5E23526A
+P 1575 3700
+F 0 "K100" H 1575 3933 60  0000 C CNN
+F 1 "KEYSW" H 1575 3600 60  0001 C CNN
+F 2 "" H 1575 3700 60  0000 C CNN
+F 3 "" H 1575 3700 60  0000 C CNN
+	1    1575 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K101
+U 1 1 5E235348
+P 2675 3700
+F 0 "K101" H 2675 3933 60  0000 C CNN
+F 1 "KEYSW" H 2675 3600 60  0001 C CNN
+F 2 "" H 2675 3700 60  0000 C CNN
+F 3 "" H 2675 3700 60  0000 C CNN
+	1    2675 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K102
+U 1 1 5E2353B6
+P 3925 3425
+F 0 "K102" H 3925 3658 60  0000 C CNN
+F 1 "KEYSW" H 3925 3325 60  0001 C CNN
+F 2 "" H 3925 3425 60  0000 C CNN
+F 3 "" H 3925 3425 60  0000 C CNN
+	1    3925 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K103
+U 1 1 5E23545A
+P 5375 3200
+F 0 "K103" H 5375 3433 60  0000 C CNN
+F 1 "KEYSW" H 5375 3100 60  0001 C CNN
+F 2 "" H 5375 3200 60  0000 C CNN
+F 3 "" H 5375 3200 60  0000 C CNN
+	1    5375 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K104
+U 1 1 5E2354F6
+P 6450 3625
+F 0 "K104" H 6450 3858 60  0000 C CNN
+F 1 "KEYSW" H 6450 3525 60  0001 C CNN
+F 2 "" H 6450 3625 60  0000 C CNN
+F 3 "" H 6450 3625 60  0000 C CNN
+	1    6450 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K105
+U 1 1 5E235BB0
+P 7675 3950
+F 0 "K105" H 7675 4183 60  0000 C CNN
+F 1 "KEYSW" H 7675 3850 60  0001 C CNN
+F 2 "" H 7675 3950 60  0000 C CNN
+F 3 "" H 7675 3950 60  0000 C CNN
+	1    7675 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K000
+U 1 1 5E2360DA
+P 1525 2675
+F 0 "K000" H 1525 2908 60  0000 C CNN
+F 1 "KEYSW" H 1525 2575 60  0001 C CNN
+F 2 "" H 1525 2675 60  0000 C CNN
+F 3 "" H 1525 2675 60  0000 C CNN
+	1    1525 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K001
+U 1 1 5E2360E1
+P 2625 2675
+F 0 "K001" H 2625 2908 60  0000 C CNN
+F 1 "KEYSW" H 2625 2575 60  0001 C CNN
+F 2 "" H 2625 2675 60  0000 C CNN
+F 3 "" H 2625 2675 60  0000 C CNN
+	1    2625 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K002
+U 1 1 5E2360E8
+P 3875 2400
+F 0 "K002" H 3875 2633 60  0000 C CNN
+F 1 "KEYSW" H 3875 2300 60  0001 C CNN
+F 2 "" H 3875 2400 60  0000 C CNN
+F 3 "" H 3875 2400 60  0000 C CNN
+	1    3875 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K003
+U 1 1 5E2360EF
+P 5325 2175
+F 0 "K003" H 5325 2408 60  0000 C CNN
+F 1 "KEYSW" H 5325 2075 60  0001 C CNN
+F 2 "" H 5325 2175 60  0000 C CNN
+F 3 "" H 5325 2175 60  0000 C CNN
+	1    5325 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K004
+U 1 1 5E2360F6
+P 6400 2600
+F 0 "K004" H 6400 2833 60  0000 C CNN
+F 1 "KEYSW" H 6400 2500 60  0001 C CNN
+F 2 "" H 6400 2600 60  0000 C CNN
+F 3 "" H 6400 2600 60  0000 C CNN
+	1    6400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K005
+U 1 1 5E2360FD
+P 7625 2925
+F 0 "K005" H 7625 3158 60  0000 C CNN
+F 1 "KEYSW" H 7625 2825 60  0001 C CNN
+F 2 "" H 7625 2925 60  0000 C CNN
+F 3 "" H 7625 2925 60  0000 C CNN
+	1    7625 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K200
+U 1 1 5E2361AC
+P 1550 4875
+F 0 "K200" H 1550 5108 60  0000 C CNN
+F 1 "KEYSW" H 1550 4775 60  0001 C CNN
+F 2 "" H 1550 4875 60  0000 C CNN
+F 3 "" H 1550 4875 60  0000 C CNN
+	1    1550 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K201
+U 1 1 5E2361B3
+P 2650 4875
+F 0 "K201" H 2650 5108 60  0000 C CNN
+F 1 "KEYSW" H 2650 4775 60  0001 C CNN
+F 2 "" H 2650 4875 60  0000 C CNN
+F 3 "" H 2650 4875 60  0000 C CNN
+	1    2650 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K202
+U 1 1 5E2361BA
+P 3900 4600
+F 0 "K202" H 3900 4833 60  0000 C CNN
+F 1 "KEYSW" H 3900 4500 60  0001 C CNN
+F 2 "" H 3900 4600 60  0000 C CNN
+F 3 "" H 3900 4600 60  0000 C CNN
+	1    3900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K203
+U 1 1 5E2361C1
+P 5350 4375
+F 0 "K203" H 5350 4608 60  0000 C CNN
+F 1 "KEYSW" H 5350 4275 60  0001 C CNN
+F 2 "" H 5350 4375 60  0000 C CNN
+F 3 "" H 5350 4375 60  0000 C CNN
+	1    5350 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K204
+U 1 1 5E2361C8
+P 6425 4800
+F 0 "K204" H 6425 5033 60  0000 C CNN
+F 1 "KEYSW" H 6425 4700 60  0001 C CNN
+F 2 "" H 6425 4800 60  0000 C CNN
+F 3 "" H 6425 4800 60  0000 C CNN
+	1    6425 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K205
+U 1 1 5E2361CF
+P 7650 5125
+F 0 "K205" H 7650 5358 60  0000 C CNN
+F 1 "KEYSW" H 7650 5025 60  0001 C CNN
+F 2 "" H 7650 5125 60  0000 C CNN
+F 3 "" H 7650 5125 60  0000 C CNN
+	1    7650 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K006
+U 1 1 5E237590
+P 12275 2600
+F 0 "K006" H 12275 2833 60  0000 C CNN
+F 1 "KEYSW" H 12275 2500 60  0001 C CNN
+F 2 "" H 12275 2600 60  0000 C CNN
+F 3 "" H 12275 2600 60  0000 C CNN
+	1    12275 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K007
+U 1 1 5E237597
+P 13375 2200
+F 0 "K007" H 13375 2433 60  0000 C CNN
+F 1 "KEYSW" H 13375 2100 60  0001 C CNN
+F 2 "" H 13375 2200 60  0000 C CNN
+F 3 "" H 13375 2200 60  0000 C CNN
+	1    13375 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K008
+U 1 1 5E23759E
+P 14550 1950
+F 0 "K008" H 14550 2183 60  0000 C CNN
+F 1 "KEYSW" H 14550 1850 60  0001 C CNN
+F 2 "" H 14550 1950 60  0000 C CNN
+F 3 "" H 14550 1950 60  0000 C CNN
+	1    14550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K009
+U 1 1 5E2375A5
+P 16000 2550
+F 0 "K009" H 16000 2783 60  0000 C CNN
+F 1 "KEYSW" H 16000 2450 60  0001 C CNN
+F 2 "" H 16000 2550 60  0000 C CNN
+F 3 "" H 16000 2550 60  0000 C CNN
+	1    16000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K010
+U 1 1 5E2375AC
+P 17250 2800
+F 0 "K010" H 17250 3033 60  0000 C CNN
+F 1 "KEYSW" H 17250 2700 60  0001 C CNN
+F 2 "" H 17250 2800 60  0000 C CNN
+F 3 "" H 17250 2800 60  0000 C CNN
+	1    17250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K011
+U 1 1 5E2375B3
+P 18375 2850
+F 0 "K011" H 18375 3083 60  0000 C CNN
+F 1 "KEYSW" H 18375 2750 60  0001 C CNN
+F 2 "" H 18375 2850 60  0000 C CNN
+F 3 "" H 18375 2850 60  0000 C CNN
+	1    18375 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K106
+U 1 1 5E237C92
+P 12300 3800
+F 0 "K106" H 12300 4033 60  0000 C CNN
+F 1 "KEYSW" H 12300 3700 60  0001 C CNN
+F 2 "" H 12300 3800 60  0000 C CNN
+F 3 "" H 12300 3800 60  0000 C CNN
+	1    12300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K107
+U 1 1 5E237C99
+P 13400 3400
+F 0 "K107" H 13400 3633 60  0000 C CNN
+F 1 "KEYSW" H 13400 3300 60  0001 C CNN
+F 2 "" H 13400 3400 60  0000 C CNN
+F 3 "" H 13400 3400 60  0000 C CNN
+	1    13400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K108
+U 1 1 5E237CA0
+P 14575 3150
+F 0 "K108" H 14575 3383 60  0000 C CNN
+F 1 "KEYSW" H 14575 3050 60  0001 C CNN
+F 2 "" H 14575 3150 60  0000 C CNN
+F 3 "" H 14575 3150 60  0000 C CNN
+	1    14575 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K109
+U 1 1 5E237CA7
+P 16025 3750
+F 0 "K109" H 16025 3983 60  0000 C CNN
+F 1 "KEYSW" H 16025 3650 60  0001 C CNN
+F 2 "" H 16025 3750 60  0000 C CNN
+F 3 "" H 16025 3750 60  0000 C CNN
+	1    16025 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K110
+U 1 1 5E237CAE
+P 17275 4000
+F 0 "K110" H 17275 4233 60  0000 C CNN
+F 1 "KEYSW" H 17275 3900 60  0001 C CNN
+F 2 "" H 17275 4000 60  0000 C CNN
+F 3 "" H 17275 4000 60  0000 C CNN
+	1    17275 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K111
+U 1 1 5E237CB5
+P 18400 4050
+F 0 "K111" H 18400 4283 60  0000 C CNN
+F 1 "KEYSW" H 18400 3950 60  0001 C CNN
+F 2 "" H 18400 4050 60  0000 C CNN
+F 3 "" H 18400 4050 60  0000 C CNN
+	1    18400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K206
+U 1 1 5E237E66
+P 12325 5225
+F 0 "K206" H 12325 5458 60  0000 C CNN
+F 1 "KEYSW" H 12325 5125 60  0001 C CNN
+F 2 "" H 12325 5225 60  0000 C CNN
+F 3 "" H 12325 5225 60  0000 C CNN
+	1    12325 5225
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K207
+U 1 1 5E237E6D
+P 13425 4825
+F 0 "K207" H 13425 5058 60  0000 C CNN
+F 1 "KEYSW" H 13425 4725 60  0001 C CNN
+F 2 "" H 13425 4825 60  0000 C CNN
+F 3 "" H 13425 4825 60  0000 C CNN
+	1    13425 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K208
+U 1 1 5E237E74
+P 14600 4575
+F 0 "K208" H 14600 4808 60  0000 C CNN
+F 1 "KEYSW" H 14600 4475 60  0001 C CNN
+F 2 "" H 14600 4575 60  0000 C CNN
+F 3 "" H 14600 4575 60  0000 C CNN
+	1    14600 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K209
+U 1 1 5E237E7B
+P 16050 5175
+F 0 "K209" H 16050 5408 60  0000 C CNN
+F 1 "KEYSW" H 16050 5075 60  0001 C CNN
+F 2 "" H 16050 5175 60  0000 C CNN
+F 3 "" H 16050 5175 60  0000 C CNN
+	1    16050 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K210
+U 1 1 5E237E82
+P 17300 5425
+F 0 "K210" H 17300 5658 60  0000 C CNN
+F 1 "KEYSW" H 17300 5325 60  0001 C CNN
+F 2 "" H 17300 5425 60  0000 C CNN
+F 3 "" H 17300 5425 60  0000 C CNN
+	1    17300 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K211
+U 1 1 5E237E89
+P 18425 5475
+F 0 "K211" H 18425 5708 60  0000 C CNN
+F 1 "KEYSW" H 18425 5375 60  0001 C CNN
+F 2 "" H 18425 5475 60  0000 C CNN
+F 3 "" H 18425 5475 60  0000 C CNN
+	1    18425 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K303
+U 1 1 5E2385D3
+P 6325 6300
+F 0 "K303" H 6325 6533 60  0000 C CNN
+F 1 "KEYSW" H 6325 6200 60  0001 C CNN
+F 2 "" H 6325 6300 60  0000 C CNN
+F 3 "" H 6325 6300 60  0000 C CNN
+	1    6325 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K304
+U 1 1 5E2385DA
+P 7400 6725
+F 0 "K304" H 7400 6958 60  0000 C CNN
+F 1 "KEYSW" H 7400 6625 60  0001 C CNN
+F 2 "" H 7400 6725 60  0000 C CNN
+F 3 "" H 7400 6725 60  0000 C CNN
+	1    7400 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K305
+U 1 1 5E2385E1
+P 8625 7050
+F 0 "K305" H 8625 7283 60  0000 C CNN
+F 1 "KEYSW" H 8625 6950 60  0001 C CNN
+F 2 "" H 8625 7050 60  0000 C CNN
+F 3 "" H 8625 7050 60  0000 C CNN
+	1    8625 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K308
+U 1 1 5E238C52
+P 13075 6325
+F 0 "K308" H 13075 6558 60  0000 C CNN
+F 1 "KEYSW" H 13075 6225 60  0001 C CNN
+F 2 "" H 13075 6325 60  0000 C CNN
+F 3 "" H 13075 6325 60  0000 C CNN
+	1    13075 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K306
+U 1 1 5E238C59
+P 10800 6975
+F 0 "K306" H 10800 7208 60  0000 C CNN
+F 1 "KEYSW" H 10800 6875 60  0001 C CNN
+F 2 "" H 10800 6975 60  0000 C CNN
+F 3 "" H 10800 6975 60  0000 C CNN
+	1    10800 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K307
+U 1 1 5E238C60
+P 11900 6525
+F 0 "K307" H 11900 6758 60  0000 C CNN
+F 1 "KEYSW" H 11900 6425 60  0001 C CNN
+F 2 "" H 11900 6525 60  0000 C CNN
+F 3 "" H 11900 6525 60  0000 C CNN
+	1    11900 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L promicro:ProMicro U0
+U 1 1 5E23A1B1
+P 4050 11625
+F 0 "U0" H 4050 12662 60  0000 C CNN
+F 1 "ProMicro" H 4050 12556 60  0000 C CNN
+F 2 "" H 4150 10575 60  0000 C CNN
+F 3 "" H 4150 10575 60  0000 C CNN
+	1    4050 11625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E23A388
+P 2525 11125
+F 0 "#PWR0101" H 2525 10875 50  0001 C CNN
+F 1 "GND" V 2530 10997 50  0000 R CNN
+F 2 "" H 2525 11125 50  0001 C CNN
+F 3 "" H 2525 11125 50  0001 C CNN
+	1    2525 11125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 11075 2525 11075
+Wire Wire Line
+	3350 11175 2525 11175
+Wire Wire Line
+	2525 11175 2525 11125
+$Comp
+L power:GND #PWR0102
+U 1 1 5E23A5FB
+P 5075 10975
+F 0 "#PWR0102" H 5075 10725 50  0001 C CNN
+F 1 "GND" V 5080 10847 50  0000 R CNN
+F 2 "" H 5075 10975 50  0001 C CNN
+F 3 "" H 5075 10975 50  0001 C CNN
+	1    5075 10975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 10975 5075 10975
+Connection ~ 2525 11125
+Wire Wire Line
+	2525 11075 2525 11125
+NoConn ~ 4750 10875
+NoConn ~ 4750 11075
+Text GLabel 18825 5850 2    50   Input ~ 0
+row2
+Text GLabel 13450 6750 2    50   Input ~ 0
+row3
+Text GLabel 1775 1400 1    50   Input ~ 0
+col0
+Text GLabel 2800 1300 1    50   Input ~ 0
+col1
+Text GLabel 3900 1300 1    50   Input ~ 0
+col2
+Text GLabel 5400 1375 1    50   Input ~ 0
+col3
+Text GLabel 6475 1425 1    50   Input ~ 0
+col4
+Text GLabel 7625 1900 1    50   Input ~ 0
+col5
+Text GLabel 12175 1750 1    50   Input ~ 0
+col6
+Text GLabel 13275 1550 1    50   Input ~ 0
+col7
+Text GLabel 14450 1350 1    50   Input ~ 0
+col8
+Text GLabel 15950 1750 1    50   Input ~ 0
+col9
+Text GLabel 17225 2025 1    50   Input ~ 0
+col10
+Text GLabel 18225 2050 1    50   Input ~ 0
+col11
+$Comp
+L Diode:1N4148 D000
+U 1 1 5E247C4B
+P 1750 3075
+F 0 "D000" H 1750 2859 50  0000 C CNN
+F 1 "1N4148" H 1750 2950 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1750 2900 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1750 3075 50  0001 C CNN
+	1    1750 3075
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D001
+U 1 1 5E24817F
+P 2750 3075
+F 0 "D001" H 2750 2859 50  0000 C CNN
+F 1 "1N4148" H 2750 2950 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2750 2900 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2750 3075 50  0001 C CNN
+	1    2750 3075
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D002
+U 1 1 5E248203
+P 4350 2675
+F 0 "D002" H 4350 2459 50  0000 C CNN
+F 1 "1N4148" H 4350 2550 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4350 2500 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4350 2675 50  0001 C CNN
+	1    4350 2675
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D003
+U 1 1 5E24844F
+P 5525 2650
+F 0 "D003" H 5525 2434 50  0000 C CNN
+F 1 "1N4148" H 5525 2525 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5525 2475 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5525 2650 50  0001 C CNN
+	1    5525 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D004
+U 1 1 5E2484D9
+P 6775 2975
+F 0 "D004" H 6775 2759 50  0000 C CNN
+F 1 "1N4148" H 6775 2850 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6775 2800 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6775 2975 50  0001 C CNN
+	1    6775 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D005
+U 1 1 5E248579
+P 7925 3225
+F 0 "D005" H 7925 3009 50  0000 C CNN
+F 1 "1N4148" H 7925 3100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7925 3050 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7925 3225 50  0001 C CNN
+	1    7925 3225
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D100
+U 1 1 5E248AF2
+P 1700 4050
+F 0 "D100" H 1700 3834 50  0000 C CNN
+F 1 "1N4148" H 1700 3925 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1700 3875 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1700 4050 50  0001 C CNN
+	1    1700 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D101
+U 1 1 5E248BC4
+P 2900 4050
+F 0 "D101" H 2900 3834 50  0000 C CNN
+F 1 "1N4148" H 2900 3925 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2900 3875 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2900 4050 50  0001 C CNN
+	1    2900 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D102
+U 1 1 5E248C6C
+P 4150 3825
+F 0 "D102" H 4150 3609 50  0000 C CNN
+F 1 "1N4148" H 4150 3700 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4150 3650 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4150 3825 50  0001 C CNN
+	1    4150 3825
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D103
+U 1 1 5E249158
+P 5500 3600
+F 0 "D103" H 5500 3384 50  0000 C CNN
+F 1 "1N4148" H 5500 3475 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5500 3425 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5500 3600 50  0001 C CNN
+	1    5500 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D104
+U 1 1 5E24921C
+P 6700 4075
+F 0 "D104" H 6700 3859 50  0000 C CNN
+F 1 "1N4148" H 6700 3950 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6700 3900 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6700 4075 50  0001 C CNN
+	1    6700 4075
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D105
+U 1 1 5E2492DE
+P 7900 4350
+F 0 "D105" H 7900 4134 50  0000 C CNN
+F 1 "1N4148" H 7900 4225 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7900 4175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7900 4350 50  0001 C CNN
+	1    7900 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D006
+U 1 1 5E249A3F
+P 12475 2975
+F 0 "D006" H 12475 2759 50  0000 C CNN
+F 1 "1N4148" H 12475 2850 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12475 2800 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 12475 2975 50  0001 C CNN
+	1    12475 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D007
+U 1 1 5E24A069
+P 13700 2550
+F 0 "D007" H 13700 2334 50  0000 C CNN
+F 1 "1N4148" H 13700 2425 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13700 2375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 13700 2550 50  0001 C CNN
+	1    13700 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D008
+U 1 1 5E24A111
+P 14875 2350
+F 0 "D008" H 14875 2134 50  0000 C CNN
+F 1 "1N4148" H 14875 2225 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14875 2175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 14875 2350 50  0001 C CNN
+	1    14875 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D009
+U 1 1 5E24A3F3
+P 16250 2950
+F 0 "D009" H 16250 2734 50  0000 C CNN
+F 1 "1N4148" H 16250 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16250 2775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 16250 2950 50  0001 C CNN
+	1    16250 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D010
+U 1 1 5E24AA43
+P 17475 3150
+F 0 "D010" H 17475 2934 50  0000 C CNN
+F 1 "1N4148" H 17475 3025 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17475 2975 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 17475 3150 50  0001 C CNN
+	1    17475 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D011
+U 1 1 5E24AAFD
+P 18600 3175
+F 0 "D011" H 18600 2959 50  0000 C CNN
+F 1 "1N4148" H 18600 3050 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 18600 3000 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 18600 3175 50  0001 C CNN
+	1    18600 3175
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D106
+U 1 1 5E24B019
+P 12500 4175
+F 0 "D106" H 12500 3959 50  0000 C CNN
+F 1 "1N4148" H 12500 4050 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12500 4000 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 12500 4175 50  0001 C CNN
+	1    12500 4175
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D107
+U 1 1 5E24B0E3
+P 13600 3800
+F 0 "D107" H 13600 3584 50  0000 C CNN
+F 1 "1N4148" H 13600 3675 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13600 3625 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 13600 3800 50  0001 C CNN
+	1    13600 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D108
+U 1 1 5E24B1A1
+P 14800 3525
+F 0 "D108" H 14800 3309 50  0000 C CNN
+F 1 "1N4148" H 14800 3400 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14800 3350 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 14800 3525 50  0001 C CNN
+	1    14800 3525
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D109
+U 1 1 5E24B297
+P 16250 4150
+F 0 "D109" H 16250 3934 50  0000 C CNN
+F 1 "1N4148" H 16250 4025 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16250 3975 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 16250 4150 50  0001 C CNN
+	1    16250 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D110
+U 1 1 5E24B389
+P 17500 4375
+F 0 "D110" H 17500 4159 50  0000 C CNN
+F 1 "1N4148" H 17500 4250 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17500 4200 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 17500 4375 50  0001 C CNN
+	1    17500 4375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D111
+U 1 1 5E24B45D
+P 18675 4475
+F 0 "D111" H 18675 4259 50  0000 C CNN
+F 1 "1N4148" H 18675 4350 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 18675 4300 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 18675 4475 50  0001 C CNN
+	1    18675 4475
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D206
+U 1 1 5E24BE56
+P 12525 5625
+F 0 "D206" H 12525 5409 50  0000 C CNN
+F 1 "1N4148" H 12525 5500 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12525 5450 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 12525 5625 50  0001 C CNN
+	1    12525 5625
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D207
+U 1 1 5E24BF2A
+P 13625 5250
+F 0 "D207" H 13625 5034 50  0000 C CNN
+F 1 "1N4148" H 13625 5125 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13625 5075 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 13625 5250 50  0001 C CNN
+	1    13625 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D208
+U 1 1 5E24C004
+P 14825 4975
+F 0 "D208" H 14825 4759 50  0000 C CNN
+F 1 "1N4148" H 14825 4850 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14825 4800 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 14825 4975 50  0001 C CNN
+	1    14825 4975
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D209
+U 1 1 5E24C0DA
+P 16300 5575
+F 0 "D209" H 16300 5359 50  0000 C CNN
+F 1 "1N4148" H 16300 5450 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16300 5400 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 16300 5575 50  0001 C CNN
+	1    16300 5575
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D210
+U 1 1 5E24C1AC
+P 17525 5825
+F 0 "D210" H 17525 5609 50  0000 C CNN
+F 1 "1N4148" H 17525 5700 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17525 5650 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 17525 5825 50  0001 C CNN
+	1    17525 5825
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D211
+U 1 1 5E24C27E
+P 18675 5850
+F 0 "D211" H 18675 5634 50  0000 C CNN
+F 1 "1N4148" H 18675 5725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 18675 5675 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 18675 5850 50  0001 C CNN
+	1    18675 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D306
+U 1 1 5E24CB13
+P 10925 7475
+F 0 "D306" H 10925 7259 50  0000 C CNN
+F 1 "1N4148" H 10925 7350 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10925 7300 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10925 7475 50  0001 C CNN
+	1    10925 7475
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D307
+U 1 1 5E24CC27
+P 12100 6950
+F 0 "D307" H 12100 6734 50  0000 C CNN
+F 1 "1N4148" H 12100 6825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12100 6775 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 12100 6950 50  0001 C CNN
+	1    12100 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D308
+U 1 1 5E24CD17
+P 13300 6750
+F 0 "D308" H 13300 6534 50  0000 C CNN
+F 1 "1N4148" H 13300 6625 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13300 6575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 13300 6750 50  0001 C CNN
+	1    13300 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D205
+U 1 1 5E24D19D
+P 7850 5525
+F 0 "D205" H 7850 5309 50  0000 C CNN
+F 1 "1N4148" H 7850 5400 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7850 5350 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7850 5525 50  0001 C CNN
+	1    7850 5525
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D305
+U 1 1 5E24D291
+P 8850 7425
+F 0 "D305" H 8850 7209 50  0000 C CNN
+F 1 "1N4148" H 8850 7300 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8850 7250 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8850 7425 50  0001 C CNN
+	1    8850 7425
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D304
+U 1 1 5E24D3B3
+P 7575 7150
+F 0 "D304" H 7575 6934 50  0000 C CNN
+F 1 "1N4148" H 7575 7025 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7575 6975 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7575 7150 50  0001 C CNN
+	1    7575 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D303
+U 1 1 5E24D4A5
+P 6500 6700
+F 0 "D303" H 6500 6484 50  0000 C CNN
+F 1 "1N4148" H 6500 6575 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6500 6525 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6500 6700 50  0001 C CNN
+	1    6500 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D204
+U 1 1 5E24D5BB
+P 6625 5175
+F 0 "D204" H 6625 4959 50  0000 C CNN
+F 1 "1N4148" H 6625 5050 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6625 5000 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6625 5175 50  0001 C CNN
+	1    6625 5175
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D203
+U 1 1 5E24D6D1
+P 5550 4800
+F 0 "D203" H 5550 4584 50  0000 C CNN
+F 1 "1N4148" H 5550 4675 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5550 4625 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5550 4800 50  0001 C CNN
+	1    5550 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D202
+U 1 1 5E24D7CD
+P 4125 5050
+F 0 "D202" H 4125 4834 50  0000 C CNN
+F 1 "1N4148" H 4125 4925 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4125 4875 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4125 5050 50  0001 C CNN
+	1    4125 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D201
+U 1 1 5E24E046
+P 2900 5300
+F 0 "D201" H 2900 5084 50  0000 C CNN
+F 1 "1N4148" H 2900 5175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2900 5125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2900 5300 50  0001 C CNN
+	1    2900 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D200
+U 1 1 5E24E136
+P 1775 5300
+F 0 "D200" H 1775 5084 50  0000 C CNN
+F 1 "1N4148" H 1775 5175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1775 5125 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1775 5300 50  0001 C CNN
+	1    1775 5300
+	-1   0    0    1   
+$EndComp
+Text GLabel 1900 3075 2    50   Input ~ 0
+row0
+Text GLabel 2900 3075 2    50   Input ~ 0
+row0
+Text GLabel 4500 2675 2    50   Input ~ 0
+row0
+Text GLabel 5675 2650 2    50   Input ~ 0
+row0
+Text GLabel 6925 2975 2    50   Input ~ 0
+row0
+Text GLabel 8075 3225 2    50   Input ~ 0
+row0
+Text GLabel 12625 2975 2    50   Input ~ 0
+row0
+Text GLabel 13850 2550 2    50   Input ~ 0
+row0
+Text GLabel 15025 2350 2    50   Input ~ 0
+row0
+Text GLabel 16400 2950 2    50   Input ~ 0
+row0
+Text GLabel 17625 3150 2    50   Input ~ 0
+row0
+Text GLabel 18750 3175 2    50   Input ~ 0
+row0
+Text GLabel 18825 4475 2    50   Input ~ 0
+row1
+Text GLabel 17650 4375 2    50   Input ~ 0
+row1
+Text GLabel 16400 4150 2    50   Input ~ 0
+row1
+Text GLabel 14950 3525 2    50   Input ~ 0
+row1
+Text GLabel 13750 3800 2    50   Input ~ 0
+row1
+Text GLabel 12650 4175 2    50   Input ~ 0
+row1
+Text GLabel 8050 4350 2    50   Input ~ 0
+row1
+Text GLabel 6850 4075 2    50   Input ~ 0
+row1
+Text GLabel 5650 3600 2    50   Input ~ 0
+row1
+Text GLabel 4300 3825 2    50   Input ~ 0
+row1
+Text GLabel 3050 4050 2    50   Input ~ 0
+row1
+Text GLabel 1850 4050 2    50   Input ~ 0
+row1
+Text GLabel 3050 5300 2    50   Input ~ 0
+row2
+Text GLabel 1925 5300 2    50   Input ~ 0
+row2
+Text GLabel 4275 5050 2    50   Input ~ 0
+row2
+Text GLabel 5700 4800 2    50   Input ~ 0
+row2
+Text GLabel 6775 5175 2    50   Input ~ 0
+row2
+Text GLabel 8000 5525 2    50   Input ~ 0
+row2
+Text GLabel 12675 5625 2    50   Input ~ 0
+row2
+Text GLabel 13775 5250 2    50   Input ~ 0
+row2
+Text GLabel 14975 4975 2    50   Input ~ 0
+row2
+Text GLabel 16450 5575 2    50   Input ~ 0
+row2
+Text GLabel 17675 5825 2    50   Input ~ 0
+row2
+Text GLabel 12250 6950 2    50   Input ~ 0
+row3
+Text GLabel 11075 7475 2    50   Input ~ 0
+row3
+Text GLabel 9000 7425 2    50   Input ~ 0
+row3
+Text GLabel 7725 7150 2    50   Input ~ 0
+row3
+Text GLabel 6650 6700 2    50   Input ~ 0
+row3
+Wire Wire Line
+	4175 2400 4175 2675
+Wire Wire Line
+	4175 2675 4200 2675
+Wire Wire Line
+	5625 2175 5625 2325
+Wire Wire Line
+	5625 2325 5275 2325
+Wire Wire Line
+	5275 2325 5275 2650
+Wire Wire Line
+	5275 2650 5375 2650
+Wire Wire Line
+	6700 2600 6700 2750
+Wire Wire Line
+	6700 2750 6475 2750
+Wire Wire Line
+	6475 2750 6475 2975
+Wire Wire Line
+	6475 2975 6625 2975
+Wire Wire Line
+	7925 2925 7925 3050
+Wire Wire Line
+	7925 3050 7675 3050
+Wire Wire Line
+	7675 3050 7675 3225
+Wire Wire Line
+	7675 3225 7775 3225
+Wire Wire Line
+	1225 2675 1050 2675
+Wire Wire Line
+	1050 2675 1050 1775
+Wire Wire Line
+	1050 1775 1775 1775
+Wire Wire Line
+	1775 1775 1775 1400
+Wire Wire Line
+	2325 2675 2175 2675
+Wire Wire Line
+	2175 2675 2175 1700
+Wire Wire Line
+	2175 1700 2800 1700
+Wire Wire Line
+	2800 1700 2800 1300
+Wire Wire Line
+	3575 2400 3250 2400
+Wire Wire Line
+	3250 2400 3250 1675
+Wire Wire Line
+	3250 1675 3900 1675
+Wire Wire Line
+	3900 1675 3900 1300
+Wire Wire Line
+	5025 2175 4725 2175
+Wire Wire Line
+	4725 2175 4725 1650
+Wire Wire Line
+	4725 1650 5400 1650
+Wire Wire Line
+	5400 1650 5400 1375
+Wire Wire Line
+	1050 2675 1050 3700
+Wire Wire Line
+	1050 4875 1250 4875
+Connection ~ 1050 2675
+Wire Wire Line
+	1275 3700 1050 3700
+Connection ~ 1050 3700
+Wire Wire Line
+	1050 3700 1050 4875
+Wire Wire Line
+	2175 4875 2350 4875
+Wire Wire Line
+	2175 2675 2175 3700
+Connection ~ 2175 2675
+Wire Wire Line
+	2375 3700 2175 3700
+Connection ~ 2175 3700
+Wire Wire Line
+	2175 3700 2175 4875
+Wire Wire Line
+	1825 2675 1825 2800
+Wire Wire Line
+	1825 2800 1525 2800
+Wire Wire Line
+	1525 2800 1525 3075
+Wire Wire Line
+	1525 3075 1600 3075
+Wire Wire Line
+	1875 3700 1875 3875
+Wire Wire Line
+	1875 3875 1425 3875
+Wire Wire Line
+	1425 3875 1425 4050
+Wire Wire Line
+	1425 4050 1550 4050
+Wire Wire Line
+	2925 2675 2925 2900
+Wire Wire Line
+	2925 2900 2500 2900
+Wire Wire Line
+	2500 2900 2500 3075
+Wire Wire Line
+	2500 3075 2600 3075
+Wire Wire Line
+	3250 2400 3250 3425
+Wire Wire Line
+	3250 4600 3600 4600
+Connection ~ 3250 2400
+Wire Wire Line
+	3625 3425 3250 3425
+Connection ~ 3250 3425
+Wire Wire Line
+	3250 3425 3250 4600
+Wire Wire Line
+	4725 4375 5050 4375
+Connection ~ 4725 2175
+Wire Wire Line
+	5075 3200 4725 3200
+Wire Wire Line
+	4725 2175 4725 3200
+Connection ~ 4725 3200
+Wire Wire Line
+	4725 3200 4725 4375
+Wire Wire Line
+	6475 1425 6475 1650
+Wire Wire Line
+	6475 1650 6000 1650
+Wire Wire Line
+	6000 1650 6000 2600
+Wire Wire Line
+	6000 4800 6125 4800
+Wire Wire Line
+	6150 3625 6000 3625
+Connection ~ 6000 3625
+Wire Wire Line
+	6000 3625 6000 4800
+Wire Wire Line
+	6100 2600 6000 2600
+Connection ~ 6000 2600
+Wire Wire Line
+	6000 2600 6000 3625
+Wire Wire Line
+	7625 1900 7625 2100
+Wire Wire Line
+	7625 2100 7200 2100
+Wire Wire Line
+	7200 2100 7200 2925
+Wire Wire Line
+	7200 5125 7350 5125
+Wire Wire Line
+	7375 3950 7200 3950
+Connection ~ 7200 3950
+Wire Wire Line
+	7325 2925 7200 2925
+Connection ~ 7200 2925
+Wire Wire Line
+	7200 2925 7200 3950
+Wire Wire Line
+	4725 4375 4725 6300
+Wire Wire Line
+	4725 6300 6025 6300
+Connection ~ 4725 4375
+Wire Wire Line
+	7100 6725 6975 6725
+Wire Wire Line
+	6975 6725 6975 5500
+Wire Wire Line
+	6975 5500 6000 5500
+Wire Wire Line
+	6000 5500 6000 4800
+Connection ~ 6000 4800
+Wire Wire Line
+	8325 7050 8075 7050
+Wire Wire Line
+	8075 7050 8075 5875
+Wire Wire Line
+	8075 5875 7200 5875
+Wire Wire Line
+	7200 3950 7200 5125
+Connection ~ 7200 5125
+Wire Wire Line
+	7200 5125 7200 5875
+Wire Wire Line
+	12775 6325 12625 6325
+Wire Wire Line
+	12625 6325 12625 5900
+Wire Wire Line
+	11600 6525 11450 6525
+Wire Wire Line
+	11450 6525 11450 5800
+Wire Wire Line
+	11450 5800 12950 5800
+Wire Wire Line
+	12950 5800 12950 4825
+Wire Wire Line
+	12950 4825 13125 4825
+Wire Wire Line
+	12625 5900 14100 5900
+Wire Wire Line
+	14100 5900 14100 4575
+Wire Wire Line
+	14100 4575 14300 4575
+Wire Wire Line
+	10500 6975 10325 6975
+Wire Wire Line
+	10325 6975 10325 5225
+Wire Wire Line
+	10325 5225 11800 5225
+Wire Wire Line
+	11800 5225 11800 3800
+Wire Wire Line
+	11800 3800 12000 3800
+Wire Wire Line
+	11800 5225 12025 5225
+Connection ~ 11800 5225
+Wire Wire Line
+	11800 3800 11800 2600
+Wire Wire Line
+	11800 2600 11975 2600
+Connection ~ 11800 3800
+Wire Wire Line
+	11800 2600 11800 1925
+Wire Wire Line
+	11800 1925 12175 1925
+Wire Wire Line
+	12175 1925 12175 1750
+Connection ~ 11800 2600
+Wire Wire Line
+	13275 1550 13275 1800
+Wire Wire Line
+	12950 4825 12950 3400
+Wire Wire Line
+	12950 3400 13100 3400
+Connection ~ 12950 4825
+Wire Wire Line
+	12950 3400 12950 2200
+Connection ~ 12950 3400
+Connection ~ 12950 2200
+Wire Wire Line
+	12950 2200 13075 2200
+Wire Wire Line
+	13275 1800 12950 1800
+Wire Wire Line
+	12950 1800 12950 2200
+Wire Wire Line
+	14100 4575 14100 3150
+Wire Wire Line
+	14100 1525 14450 1525
+Wire Wire Line
+	14450 1525 14450 1350
+Connection ~ 14100 4575
+Wire Wire Line
+	14250 1950 14100 1950
+Connection ~ 14100 1950
+Wire Wire Line
+	14100 1950 14100 1525
+Wire Wire Line
+	14275 3150 14100 3150
+Connection ~ 14100 3150
+Wire Wire Line
+	14100 3150 14100 1950
+Wire Wire Line
+	15750 5175 15525 5175
+Wire Wire Line
+	15525 5175 15525 3750
+Wire Wire Line
+	15525 2000 15950 2000
+Wire Wire Line
+	15950 2000 15950 1750
+Wire Wire Line
+	15700 2550 15525 2550
+Connection ~ 15525 2550
+Wire Wire Line
+	15525 2550 15525 2000
+Wire Wire Line
+	15725 3750 15525 3750
+Connection ~ 15525 3750
+Wire Wire Line
+	15525 3750 15525 2550
+Wire Wire Line
+	17000 5425 16800 5425
+Wire Wire Line
+	16800 5425 16800 4000
+Wire Wire Line
+	16800 2250 17225 2250
+Wire Wire Line
+	17225 2250 17225 2025
+Wire Wire Line
+	16950 2800 16800 2800
+Connection ~ 16800 2800
+Wire Wire Line
+	16800 2800 16800 2250
+Wire Wire Line
+	16975 4000 16800 4000
+Connection ~ 16800 4000
+Wire Wire Line
+	16800 4000 16800 2800
+Wire Wire Line
+	18125 5475 17975 5475
+Wire Wire Line
+	17975 5475 17975 4050
+Wire Wire Line
+	17975 2225 18225 2225
+Wire Wire Line
+	18225 2225 18225 2050
+Wire Wire Line
+	18075 2850 17975 2850
+Connection ~ 17975 2850
+Wire Wire Line
+	17975 2850 17975 2225
+Wire Wire Line
+	18100 4050 17975 4050
+Connection ~ 17975 4050
+Wire Wire Line
+	17975 4050 17975 2850
+Wire Wire Line
+	2975 3700 3075 3700
+Wire Wire Line
+	3075 3700 3075 3875
+Wire Wire Line
+	3075 3875 2700 3875
+Wire Wire Line
+	2700 3875 2700 4050
+Wire Wire Line
+	2700 4050 2750 4050
+Wire Wire Line
+	4225 3425 4400 3425
+Wire Wire Line
+	4400 3425 4400 3675
+Wire Wire Line
+	4400 3675 3900 3675
+Wire Wire Line
+	3900 3675 3900 3825
+Wire Wire Line
+	3900 3825 4000 3825
+Wire Wire Line
+	5675 3200 5775 3200
+Wire Wire Line
+	5775 3200 5775 3425
+Wire Wire Line
+	5775 3425 5250 3425
+Wire Wire Line
+	5250 3425 5250 3600
+Wire Wire Line
+	5250 3600 5350 3600
+Wire Wire Line
+	6750 3625 6950 3625
+Wire Wire Line
+	6950 3625 6950 3900
+Wire Wire Line
+	6950 3900 6400 3900
+Wire Wire Line
+	6400 3900 6400 4075
+Wire Wire Line
+	6400 4075 6550 4075
+Wire Wire Line
+	7975 3950 8150 3950
+Wire Wire Line
+	8150 3950 8150 4175
+Wire Wire Line
+	8150 4175 7625 4175
+Wire Wire Line
+	7625 4175 7625 4350
+Wire Wire Line
+	7625 4350 7750 4350
+Wire Wire Line
+	1850 4875 2000 4875
+Wire Wire Line
+	2000 4875 2000 5125
+Wire Wire Line
+	2000 5125 1450 5125
+Wire Wire Line
+	1450 5125 1450 5300
+Wire Wire Line
+	1450 5300 1625 5300
+Wire Wire Line
+	2950 4875 3150 4875
+Wire Wire Line
+	3150 4875 3150 5125
+Wire Wire Line
+	3150 5125 2600 5125
+Wire Wire Line
+	2600 5125 2600 5300
+Wire Wire Line
+	2600 5300 2750 5300
+Wire Wire Line
+	4200 4600 4300 4600
+Wire Wire Line
+	4300 4600 4300 4875
+Wire Wire Line
+	4300 4875 3800 4875
+Wire Wire Line
+	3800 4875 3800 5050
+Wire Wire Line
+	3800 5050 3975 5050
+Wire Wire Line
+	5650 4375 5750 4375
+Wire Wire Line
+	5750 4375 5750 4625
+Wire Wire Line
+	5750 4625 5250 4625
+Wire Wire Line
+	5250 4625 5250 4800
+Wire Wire Line
+	5250 4800 5400 4800
+Wire Wire Line
+	6725 4800 6950 4800
+Wire Wire Line
+	6950 4800 6950 5000
+Wire Wire Line
+	6950 5000 6375 5000
+Wire Wire Line
+	6375 5000 6375 5175
+Wire Wire Line
+	6375 5175 6475 5175
+Wire Wire Line
+	7950 5125 8175 5125
+Wire Wire Line
+	8175 5125 8175 5350
+Wire Wire Line
+	8175 5350 7600 5350
+Wire Wire Line
+	7600 5350 7600 5525
+Wire Wire Line
+	7600 5525 7700 5525
+Wire Wire Line
+	6625 6300 6825 6300
+Wire Wire Line
+	6825 6300 6825 6525
+Wire Wire Line
+	6825 6525 6175 6525
+Wire Wire Line
+	6175 6525 6175 6700
+Wire Wire Line
+	6175 6700 6350 6700
+Wire Wire Line
+	7700 6725 7875 6725
+Wire Wire Line
+	7875 6725 7875 6975
+Wire Wire Line
+	7875 6975 7275 6975
+Wire Wire Line
+	7275 6975 7275 7150
+Wire Wire Line
+	7275 7150 7425 7150
+Wire Wire Line
+	8925 7050 9150 7050
+Wire Wire Line
+	9150 7050 9150 7250
+Wire Wire Line
+	9150 7250 8575 7250
+Wire Wire Line
+	8575 7250 8575 7425
+Wire Wire Line
+	8575 7425 8700 7425
+Wire Wire Line
+	12575 2600 12675 2600
+Wire Wire Line
+	12675 2600 12675 2800
+Wire Wire Line
+	12675 2800 12225 2800
+Wire Wire Line
+	12225 2800 12225 2975
+Wire Wire Line
+	12225 2975 12325 2975
+Wire Wire Line
+	13675 2200 13875 2200
+Wire Wire Line
+	13875 2200 13875 2375
+Wire Wire Line
+	13875 2375 13450 2375
+Wire Wire Line
+	13450 2375 13450 2550
+Wire Wire Line
+	13450 2550 13550 2550
+Wire Wire Line
+	14850 1950 15050 1950
+Wire Wire Line
+	15050 1950 15050 2175
+Wire Wire Line
+	15050 2175 14575 2175
+Wire Wire Line
+	14575 2175 14575 2350
+Wire Wire Line
+	14575 2350 14725 2350
+Wire Wire Line
+	16300 2550 16475 2550
+Wire Wire Line
+	16475 2550 16475 2775
+Wire Wire Line
+	16475 2775 16000 2775
+Wire Wire Line
+	16000 2775 16000 2950
+Wire Wire Line
+	16000 2950 16100 2950
+Wire Wire Line
+	17550 2800 17700 2800
+Wire Wire Line
+	17700 2800 17700 2975
+Wire Wire Line
+	17700 2975 17200 2975
+Wire Wire Line
+	17200 2975 17200 3150
+Wire Wire Line
+	17200 3150 17325 3150
+Wire Wire Line
+	18675 2850 18875 2850
+Wire Wire Line
+	18875 2850 18875 3000
+Wire Wire Line
+	18875 3000 18325 3000
+Wire Wire Line
+	18325 3000 18325 3175
+Wire Wire Line
+	18325 3175 18450 3175
+Wire Wire Line
+	12600 3800 12650 3800
+Wire Wire Line
+	12650 3800 12650 4000
+Wire Wire Line
+	12650 4000 12250 4000
+Wire Wire Line
+	12250 4000 12250 4175
+Wire Wire Line
+	12250 4175 12350 4175
+Wire Wire Line
+	13700 3400 13800 3400
+Wire Wire Line
+	13800 3400 13800 3625
+Wire Wire Line
+	13800 3625 13275 3625
+Wire Wire Line
+	13275 3625 13275 3800
+Wire Wire Line
+	13275 3800 13450 3800
+Wire Wire Line
+	14875 3150 15075 3150
+Wire Wire Line
+	15075 3150 15075 3350
+Wire Wire Line
+	15075 3350 14500 3350
+Wire Wire Line
+	14500 3350 14500 3525
+Wire Wire Line
+	14500 3525 14650 3525
+Wire Wire Line
+	16325 3750 16375 3750
+Wire Wire Line
+	16375 3750 16375 3975
+Wire Wire Line
+	16375 3975 15950 3975
+Wire Wire Line
+	15950 3975 15950 4150
+Wire Wire Line
+	15950 4150 16100 4150
+Wire Wire Line
+	17575 4000 17675 4000
+Wire Wire Line
+	17675 4000 17675 4200
+Wire Wire Line
+	17675 4200 17225 4200
+Wire Wire Line
+	17225 4200 17225 4375
+Wire Wire Line
+	17225 4375 17350 4375
+Wire Wire Line
+	18700 4050 18925 4050
+Wire Wire Line
+	18925 4050 18925 4300
+Wire Wire Line
+	18925 4300 18375 4300
+Wire Wire Line
+	18375 4300 18375 4475
+Wire Wire Line
+	18375 4475 18525 4475
+Wire Wire Line
+	18725 5475 18875 5475
+Wire Wire Line
+	18875 5475 18875 5700
+Wire Wire Line
+	18875 5700 18350 5700
+Wire Wire Line
+	18350 5700 18350 5850
+Wire Wire Line
+	18350 5850 18525 5850
+Wire Wire Line
+	17600 5425 17725 5425
+Wire Wire Line
+	17725 5425 17725 5650
+Wire Wire Line
+	17725 5650 17250 5650
+Wire Wire Line
+	17250 5650 17250 5825
+Wire Wire Line
+	17250 5825 17375 5825
+Wire Wire Line
+	16350 5175 16500 5175
+Wire Wire Line
+	16500 5175 16500 5400
+Wire Wire Line
+	16500 5400 16025 5400
+Wire Wire Line
+	16025 5400 16025 5575
+Wire Wire Line
+	16025 5575 16150 5575
+Wire Wire Line
+	14900 4575 15050 4575
+Wire Wire Line
+	15050 4575 15050 4800
+Wire Wire Line
+	15050 4800 14525 4800
+Wire Wire Line
+	14525 4800 14525 4975
+Wire Wire Line
+	14525 4975 14675 4975
+Wire Wire Line
+	13725 4825 13850 4825
+Wire Wire Line
+	13850 4825 13850 5075
+Wire Wire Line
+	13850 5075 13325 5075
+Wire Wire Line
+	13325 5075 13325 5250
+Wire Wire Line
+	13325 5250 13475 5250
+Wire Wire Line
+	12625 5225 12725 5225
+Wire Wire Line
+	12725 5225 12725 5450
+Wire Wire Line
+	12725 5450 12275 5450
+Wire Wire Line
+	12275 5450 12275 5625
+Wire Wire Line
+	12275 5625 12375 5625
+Wire Wire Line
+	13375 6325 13575 6325
+Wire Wire Line
+	13575 6325 13575 6575
+Wire Wire Line
+	13575 6575 13025 6575
+Wire Wire Line
+	13025 6575 13025 6750
+Wire Wire Line
+	13025 6750 13150 6750
+Wire Wire Line
+	12200 6525 12350 6525
+Wire Wire Line
+	12350 6525 12350 6775
+Wire Wire Line
+	12350 6775 11825 6775
+Wire Wire Line
+	11825 6775 11825 6950
+Wire Wire Line
+	11825 6950 11950 6950
+Wire Wire Line
+	11100 6975 11225 6975
+Wire Wire Line
+	11225 6975 11225 7300
+Wire Wire Line
+	11225 7300 10650 7300
+Wire Wire Line
+	10650 7300 10650 7475
+Wire Wire Line
+	10650 7475 10775 7475
+Text GLabel 3025 11275 0    50   Input ~ 0
+col0
+Text GLabel 3025 11375 0    50   Input ~ 0
+col1
+Text GLabel 3025 11675 0    50   Input ~ 0
+col4
+Text GLabel 3025 11775 0    50   Input ~ 0
+col5
+Text GLabel 3025 11875 0    50   Input ~ 0
+col6
+Text GLabel 3025 11975 0    50   Input ~ 0
+col7
+Text GLabel 5125 11275 2    50   Input ~ 0
+col8
+Text GLabel 5125 11375 2    50   Input ~ 0
+col9
+Text GLabel 5125 11475 2    50   Input ~ 0
+col10
+Text GLabel 5125 11575 2    50   Input ~ 0
+col11
+Text GLabel 5125 11675 2    50   Input ~ 0
+row0
+Text GLabel 5125 11775 2    50   Input ~ 0
+row1
+Text GLabel 5125 11875 2    50   Input ~ 0
+row2
+Text GLabel 5125 11975 2    50   Input ~ 0
+row3
+Text GLabel 3025 11475 0    50   Input ~ 0
+col2
+Text GLabel 3025 11575 0    50   Input ~ 0
+col3
+Wire Wire Line
+	3350 11275 3025 11275
+Wire Wire Line
+	3025 11375 3350 11375
+Wire Wire Line
+	3350 11475 3025 11475
+Wire Wire Line
+	3025 11575 3350 11575
+Wire Wire Line
+	3350 11675 3025 11675
+Wire Wire Line
+	3025 11775 3350 11775
+Wire Wire Line
+	3350 11875 3025 11875
+Wire Wire Line
+	3350 11975 3025 11975
+Wire Wire Line
+	5125 11275 4750 11275
+Wire Wire Line
+	5125 11375 4750 11375
+Wire Wire Line
+	5125 11475 4750 11475
+Wire Wire Line
+	5125 11575 4750 11575
+Wire Wire Line
+	5125 11675 4750 11675
+Wire Wire Line
+	5125 11775 4750 11775
+Wire Wire Line
+	5125 11875 4750 11875
+Wire Wire Line
+	5125 11975 4750 11975
+NoConn ~ 3350 10875
+NoConn ~ 3350 10975
+NoConn ~ 4750 11175
+$EndSCHEMATC
