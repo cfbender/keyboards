@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="295.80051mm"
+   height="29.417755mm"
+   viewBox="0 0 295.80051 29.417755"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="lattice60_rev0_cover-Edge_Cuts_edit.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.12"
+     inkscape:cx="1038.3058"
+     inkscape:cy="35.6065"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:window-width="1280"
+     inkscape:window-height="755"
+     inkscape:window-x="0"
+     inkscape:window-y="82"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(178.13835,-134.12446)">
+    <g
+       id="g1419"
+       transform="matrix(0.00254,0,0,0.00254,-217.5631,83.269708)"
+       style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="g838"
+         style="fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+      <g
+         id="g840"
+         style="fill:#000000;fill-opacity:0;stroke:#ff0000;stroke-width:39.37007917;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <g
+         id="g1218"
+         style="fill:#000000;fill-opacity:0;stroke:#ff0000;stroke-width:39.37007917;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none">
+        <path
+           id="path842"
+           d="m 17500,29125 a 500,500 0 0 0 500,500"
+           inkscape:connector-curvature="0"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           id="path844"
+           d="m 129500,29625 a 500,500 0 0 0 500,-500"
+           inkscape:connector-curvature="0"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           id="path846"
+           d="M 18000,29625 H 129500"
+           inkscape:connector-curvature="0"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <circle
+           id="circle848"
+           r="450"
+           cy="25750"
+           cx="18750"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <circle
+           id="circle850"
+           r="450"
+           cy="23250"
+           cx="56250"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <circle
+           id="circle852"
+           r="450"
+           cy="23250"
+           cx="91250"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <circle
+           id="circle854"
+           r="450"
+           cy="25750"
+           cx="128750"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           id="path856"
+           d="m 130000,23250 -1250,-1250"
+           inkscape:connector-curvature="0"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           id="path858"
+           d="m 18750,22000 -1250,1250"
+           inkscape:connector-curvature="0"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           id="path860"
+           d="m 130000,23250 v 5875"
+           inkscape:connector-curvature="0"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           id="path862"
+           d="M 18750,22000 H 128750"
+           inkscape:connector-curvature="0"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           id="path864"
+           d="M 17500,29125 V 23250"
+           inkscape:connector-curvature="0"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g866"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g868"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g870"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g872"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g874"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g876"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g878"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g880"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g882"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g884"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g886"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g888"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g890"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g892"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g894"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g896"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g898"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g900"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g902"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g904"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g906"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g908"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g910"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g912"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g914"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g916"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g918"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g920"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g922"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g924"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g926"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g928"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g930"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g932"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g934"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g936"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g938"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g940"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g942"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g944"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g946"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g948"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g950"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g952"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g954"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g956"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g958"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g960"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g962"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g964"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g966"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g968"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g970"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g972"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g974"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g976"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g978"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g980"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g982"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g984"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g986"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g988"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g990"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g992"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g994"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g996"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g998"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1000"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1002"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1004"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1006"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1008"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1010"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1012"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1014"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1016"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1018"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1020"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1022"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1024"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1026"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1028"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1030"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1032"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1034"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1036"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1038"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1040"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1042"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1044"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1046"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1048"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1050"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1052"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1054"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1056"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1058"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1060"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1062"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1064"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1066"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1068"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1070"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1072"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1074"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1076"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1078"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1080"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1082"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1084"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1086"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1088"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1090"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1092"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1094"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1096"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1098"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1100"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1102"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1104"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1106"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1108"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1110"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1112"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1114"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1116"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1118"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1120"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1122"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1124"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1126"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1128"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1130"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1132"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1134"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1136"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1138"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1140"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1142"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1144"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1146"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1148"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1150"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1152"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1154"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1156"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1158"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1160"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1162"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1164"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1166"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1168"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1170"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1172"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1174"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1176"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1178"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1180"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1182"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1184"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1186"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1188"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1190"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1192"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1194"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1196"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1198"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1200"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1202"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1204"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1206"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1208"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1210"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1212"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1214"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+        <g
+           id="g1216"
+           style="stroke:#ff0000;stroke-opacity:1;stroke-width:39.37007917;stroke-miterlimit:4;stroke-dasharray:none" />
+      </g>
+    </g>
+  </g>
+</svg>
