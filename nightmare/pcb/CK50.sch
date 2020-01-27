@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:CK50-cache
 EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
@@ -201,10 +200,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5450 2950 50  
 	1    5450 2950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4300 2100 4300 2300
-Wire Wire Line
-	4300 2600 4300 2750
 $Comp
 L Diode:1N4148 D420
 U 1 1 5CA82EBA
@@ -216,9 +211,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4300 3350 50  
 	1    4300 3350
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4300 3050 4300 3200
-Connection ~ 4300 3050
 Wire Wire Line
 	4750 2600 4750 2700
 Wire Wire Line
@@ -870,17 +862,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 16000 2450 50 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D19
-U 1 1 5CA8873C
-P 9000 2450
-F 0 "D19" V 9046 2371 50  0000 R CNN
-F 1 "1N4148" V 8955 2371 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" H 9000 2275 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9000 2450 50  0001 C CNN
-	1    9000 2450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Diode:1N4148 D20
 U 1 1 5CA887F8
 P 9750 2450
@@ -1336,43 +1317,9 @@ col1
 Wire Wire Line
 	5300 1650 5300 1800
 Wire Wire Line
-	5300 2100 5300 2300
-Wire Wire Line
 	5300 2300 5350 2300
-Connection ~ 5300 2100
-Wire Wire Line
-	5350 2800 5450 2800
-Connection ~ 5350 2600
-Wire Wire Line
-	5350 2600 5350 2800
-Wire Wire Line
-	5450 3100 5750 3100
-Connection ~ 5450 3100
 Text Label 6250 1650 0    50   ~ 0
 col2
-Wire Wire Line
-	6250 2300 6400 2300
-Connection ~ 6250 2100
-Wire Wire Line
-	6250 2100 6250 2300
-Wire Wire Line
-	6400 2800 6550 2800
-Connection ~ 6400 2600
-Wire Wire Line
-	6400 2600 6400 2800
-Wire Wire Line
-	6550 3200 6800 3200
-Connection ~ 6550 3100
-Wire Wire Line
-	6550 3100 6550 3200
-Wire Wire Line
-	7200 2600 7200 2800
-Wire Wire Line
-	7200 2800 7350 2800
-Connection ~ 7200 2600
-Wire Wire Line
-	7200 2300 7200 2100
-Connection ~ 7200 2100
 Text Label 7200 1650 0    50   ~ 0
 col3
 Wire Wire Line
@@ -1382,98 +1329,12 @@ col4
 Wire Wire Line
 	8100 1650 8100 1800
 Wire Wire Line
-	8100 2100 8100 2300
-Connection ~ 8100 2100
-Wire Wire Line
-	8100 2600 8100 2800
-Wire Wire Line
-	8100 2800 8150 2800
-Connection ~ 8100 2600
-Wire Wire Line
-	9000 2600 9000 2800
-Wire Wire Line
-	9000 2800 9100 2800
-Connection ~ 9000 2600
-Wire Wire Line
-	8950 2100 8950 2300
-Wire Wire Line
-	8950 2300 9000 2300
-Connection ~ 8950 2100
-Wire Wire Line
-	9750 2100 9750 2300
-Connection ~ 9750 2100
-Wire Wire Line
-	9750 2600 9750 2800
-Wire Wire Line
-	9750 2800 9900 2800
-Connection ~ 9750 2600
-Wire Wire Line
-	10550 2100 10550 2300
-Wire Wire Line
-	10550 2300 10650 2300
-Connection ~ 10550 2100
-Wire Wire Line
-	10650 2600 10650 2800
-Connection ~ 10650 2600
-Wire Wire Line
-	10800 3100 10550 3100
-Wire Wire Line
-	10550 3100 10550 3200
-Connection ~ 10800 3100
-Wire Wire Line
-	11450 2600 11450 2800
-Wire Wire Line
-	11450 2800 11600 2800
-Connection ~ 11450 2600
-Wire Wire Line
-	11350 2100 11350 2300
-Wire Wire Line
-	11350 2300 11450 2300
-Connection ~ 11350 2100
-Wire Wire Line
-	12150 2100 12150 2300
-Wire Wire Line
-	12150 2300 12250 2300
-Connection ~ 12150 2100
-Wire Wire Line
-	12250 2600 12250 2800
-Connection ~ 12250 2600
-Wire Wire Line
 	13000 2100 13100 2100
 Wire Wire Line
 	13100 2100 13100 2300
 Connection ~ 13000 2100
 Wire Wire Line
-	13100 2600 13100 2800
-Connection ~ 13100 2600
-Wire Wire Line
-	13800 2100 13800 2300
-Wire Wire Line
-	13800 2300 13900 2300
-Connection ~ 13800 2100
-Wire Wire Line
-	13900 2600 13900 2800
-Connection ~ 13900 2600
-Wire Wire Line
-	14300 3100 14300 3250
-Wire Wire Line
-	14300 3250 14000 3250
-Connection ~ 14300 3100
-Wire Wire Line
-	15100 3100 15100 3250
-Wire Wire Line
-	15100 3250 14950 3250
-Connection ~ 15100 3100
-Wire Wire Line
 	15100 2800 14950 2800
-Wire Wire Line
-	14750 2800 14750 2600
-Connection ~ 14750 2600
-Wire Wire Line
-	14650 2100 14650 2300
-Wire Wire Line
-	14650 2300 14750 2300
-Connection ~ 14650 2100
 Text Label 8950 1650 0    50   ~ 0
 col5
 Wire Wire Line
@@ -1593,9 +1454,6 @@ Wire Wire Line
 	15350 3150 15350 3100
 Connection ~ 14500 3150
 Wire Wire Line
-	15950 3100 15950 3250
-Connection ~ 15950 3100
-Wire Wire Line
 	16050 1650 16050 1800
 Wire Wire Line
 	15450 2100 15450 2200
@@ -1608,15 +1466,7 @@ Wire Wire Line
 	15400 2700 14150 2700
 Connection ~ 14150 2700
 Wire Wire Line
-	16050 2100 16050 2300
-Wire Wire Line
 	16050 2300 16000 2300
-Connection ~ 16050 2100
-Wire Wire Line
-	16000 2600 16000 2800
-Wire Wire Line
-	16000 2800 15950 2800
-Connection ~ 16000 2600
 $Comp
 L power:GND #PWR0101
 U 1 1 5CD541F4
@@ -1662,15 +1512,10 @@ Wire Wire Line
 NoConn ~ 6500 6350
 Wire Wire Line
 	6500 6350 6350 6350
-Text GLabel 7050 6450 2    50   Input ~ 0
-VCC
-Wire Wire Line
-	6350 6450 7050 6450
 Wire Wire Line
 	6250 1650 6250 1800
 Wire Wire Line
 	4300 1700 4300 1800
-Connection ~ 4300 2100
 Wire Wire Line
 	3450 2200 3700 2200
 Wire Wire Line
@@ -1679,7 +1524,6 @@ Connection ~ 3700 2200
 Wire Wire Line
 	3700 2100 3700 2200
 Connection ~ 4700 2200
-Connection ~ 4300 2600
 Wire Wire Line
 	4300 1800 4450 1800
 Wire Wire Line
@@ -1687,19 +1531,16 @@ Wire Wire Line
 Wire Wire Line
 	4450 2300 4300 2300
 Connection ~ 4300 1800
-Connection ~ 4300 2300
 Wire Wire Line
 	4450 2300 4450 2750
 Wire Wire Line
 	4450 2750 4300 2750
 Connection ~ 4450 2300
-Connection ~ 4300 2750
 Wire Wire Line
 	4450 2750 4450 3200
 Wire Wire Line
 	4450 3200 4300 3200
 Connection ~ 4450 2750
-Connection ~ 4300 3200
 Wire Wire Line
 	5300 1800 5500 1800
 Wire Wire Line
@@ -1713,15 +1554,9 @@ Wire Wire Line
 Wire Wire Line
 	5500 2800 5450 2800
 Connection ~ 5500 2300
-Connection ~ 5450 2800
 Wire Wire Line
 	5500 2800 5750 2800
-Wire Wire Line
-	5750 2800 5750 3100
 Connection ~ 5500 2800
-Connection ~ 5750 3100
-Wire Wire Line
-	5750 3100 5750 3200
 Wire Wire Line
 	6250 1800 6400 1800
 Wire Wire Line
@@ -1737,7 +1572,6 @@ Wire Wire Line
 	6550 2800 6800 2800
 Wire Wire Line
 	6800 2800 6800 3200
-Connection ~ 6800 3200
 Wire Wire Line
 	7200 1800 7350 1800
 Wire Wire Line
@@ -1745,11 +1579,9 @@ Wire Wire Line
 Wire Wire Line
 	7350 2300 7200 2300
 Connection ~ 7200 1800
-Connection ~ 7200 2300
 Wire Wire Line
 	7350 2300 7350 2800
 Connection ~ 7350 2300
-Connection ~ 7350 2800
 Wire Wire Line
 	8100 1800 8225 1800
 Wire Wire Line
@@ -1757,38 +1589,25 @@ Wire Wire Line
 Wire Wire Line
 	8225 2300 8100 2300
 Connection ~ 8100 1800
-Connection ~ 8100 2300
 Wire Wire Line
 	8225 2300 8225 2800
 Wire Wire Line
 	8225 2800 8150 2800
 Connection ~ 8225 2300
-Connection ~ 8150 2800
 Wire Wire Line
 	8950 1800 9100 1800
 Wire Wire Line
 	9100 1800 9100 2300
-Wire Wire Line
-	9100 2300 9000 2300
 Connection ~ 8950 1800
-Connection ~ 9000 2300
 Wire Wire Line
 	9100 2300 9100 2800
 Connection ~ 9100 2300
 Connection ~ 9100 2800
-Wire Wire Line
-	9750 1800 9600 1800
-Wire Wire Line
-	9600 1800 9600 2300
-Wire Wire Line
-	9600 2300 9750 2300
-Connection ~ 9750 1800
 Connection ~ 9750 2300
 Wire Wire Line
 	9750 2300 9900 2300
 Wire Wire Line
 	9900 2300 9900 2800
-Connection ~ 9900 2800
 Wire Wire Line
 	10550 1800 10725 1800
 Wire Wire Line
@@ -1796,11 +1615,8 @@ Wire Wire Line
 Wire Wire Line
 	10725 2300 10650 2300
 Connection ~ 10550 1800
-Connection ~ 10650 2300
 Wire Wire Line
 	10725 2300 10725 2800
-Wire Wire Line
-	10650 2800 10725 2800
 Connection ~ 10725 2300
 Connection ~ 10725 2800
 Wire Wire Line
@@ -1815,7 +1631,6 @@ Wire Wire Line
 	11450 2300 11600 2300
 Wire Wire Line
 	11600 2300 11600 2800
-Connection ~ 11600 2800
 Wire Wire Line
 	12150 1800 12250 1800
 Wire Wire Line
@@ -1827,27 +1642,15 @@ Wire Wire Line
 Wire Wire Line
 	12400 2300 12400 2800
 Wire Wire Line
-	12250 2800 12400 2800
-Connection ~ 12400 2800
-Wire Wire Line
 	12400 2800 12550 2800
 Wire Wire Line
 	13000 1800 13000 2100
-Wire Wire Line
-	13000 2325 13100 2325
-Wire Wire Line
-	13100 2325 13100 2300
-Wire Wire Line
-	13000 2100 13000 2325
 Connection ~ 13000 1800
 Connection ~ 13100 2300
 Wire Wire Line
 	13100 2300 13250 2300
 Wire Wire Line
 	13250 2300 13250 2800
-Wire Wire Line
-	13100 2800 13250 2800
-Connection ~ 13250 2800
 Wire Wire Line
 	13250 2800 13450 2800
 Wire Wire Line
@@ -1861,13 +1664,9 @@ Wire Wire Line
 Wire Wire Line
 	14100 2300 14100 2800
 Wire Wire Line
-	13900 2800 14100 2800
-Connection ~ 14100 2800
-Wire Wire Line
 	14100 2800 14300 2800
 Wire Wire Line
 	14000 2825 14000 3250
-Connection ~ 14000 3250
 Wire Wire Line
 	14650 1800 14750 1800
 Wire Wire Line
@@ -1881,10 +1680,6 @@ Wire Wire Line
 Connection ~ 15100 2800
 Wire Wire Line
 	14950 2800 14950 3250
-Connection ~ 14950 2800
-Wire Wire Line
-	14950 2800 14750 2800
-Connection ~ 14950 3250
 Wire Wire Line
 	16050 1800 16150 1800
 Wire Wire Line
@@ -1896,20 +1691,10 @@ Connection ~ 16050 2300
 Wire Wire Line
 	16050 2300 16050 2800
 Wire Wire Line
-	16050 2800 16000 2800
-Connection ~ 16000 2800
-Wire Wire Line
 	16050 2800 16050 3250
 Wire Wire Line
 	16050 3250 15950 3250
 Connection ~ 16050 2800
-Connection ~ 15950 3250
-Wire Wire Line
-	10550 2800 10550 3100
-Connection ~ 10650 2800
-Wire Wire Line
-	10650 2800 10550 2800
-Connection ~ 10550 3100
 Wire Wire Line
 	14000 2825 14300 2825
 Wire Wire Line
@@ -1984,16 +1769,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 12725 3350 50 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8150 3100 8200 3100
-Wire Wire Line
-	8200 3100 8200 3200
-Connection ~ 8150 3100
-Wire Wire Line
 	8225 2800 8225 3200
 Wire Wire Line
 	8225 3200 8200 3200
 Connection ~ 8225 2800
-Connection ~ 8200 3200
 Wire Wire Line
 	8200 3500 8100 3500
 Wire Wire Line
@@ -2013,15 +1792,7 @@ Wire Wire Line
 Wire Wire Line
 	9075 3525 9075 3475
 Wire Wire Line
-	9175 3100 9100 3100
-Connection ~ 9100 3100
-Wire Wire Line
 	9175 2800 9100 2800
-Wire Wire Line
-	9175 2800 9175 3100
-Connection ~ 9175 3100
-Wire Wire Line
-	9175 3100 9175 3225
 Connection ~ 9175 3225
 Wire Wire Line
 	9175 3225 9175 3250
@@ -2035,15 +1806,7 @@ Wire Wire Line
 Wire Wire Line
 	12575 3500 12575 3475
 Wire Wire Line
-	12725 3100 12550 3100
-Connection ~ 12550 3100
-Wire Wire Line
 	12725 2800 12550 2800
-Wire Wire Line
-	12725 2800 12725 3100
-Connection ~ 12725 3100
-Wire Wire Line
-	12725 3100 12725 3200
 Connection ~ 12550 2800
 $Comp
 L keyboard_parts:KEYSW K45.2
@@ -2066,4 +1829,37 @@ Wire Wire Line
 Connection ~ 11025 3600
 Wire Wire Line
 	11025 3600 11975 3600
+Wire Wire Line
+	5750 2800 5750 3200
+Wire Wire Line
+	9175 2800 9175 3225
+Wire Wire Line
+	9100 2300 9000 2300
+$Comp
+L Diode:1N4148 D19
+U 1 1 5CA8873C
+P 9000 2450
+F 0 "D19" V 9046 2371 50  0000 R CNN
+F 1 "1N4148" V 8955 2371 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 9000 2275 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9000 2450 50  0001 C CNN
+	1    9000 2450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9750 1800
+Wire Wire Line
+	9750 1800 9600 1800
+Wire Wire Line
+	9600 1800 9600 2300
+Wire Wire Line
+	9600 2300 9750 2300
+Wire Wire Line
+	10550 2800 10725 2800
+Wire Wire Line
+	10550 2800 10550 3200
+Wire Wire Line
+	12725 2800 12725 3200
+Wire Wire Line
+	15950 2800 16050 2800
+NoConn ~ 6350 6450
 $EndSCHEMATC
