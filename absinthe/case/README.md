@@ -2,11 +2,11 @@
 
 ## Parts Needed
 
-1x L6
-1x L5
-1x L4_plate (in one variation)
-3x L1_L2_L3
-1x L0 (in one variation)
++ 1x L6
++ 1x L5
++ 1x L4_plate (in one variation)
++ 3x L1_L2_L3
++ 1x L0 (in one variation)
 
 For M2 version you'll want some variation of round male-female M2 standoffs (less than 17+3) that will thread directly to the bottom and then have M2 screws that will reach down to attach
 
