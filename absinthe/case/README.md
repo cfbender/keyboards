@@ -16,4 +16,4 @@ If you're unsure of what to get, go for half-plate and M3.
 
 ## Ponoko order
 
-You can use the included EPS files to order directly from Ponoko. You will need one version of `middle` and one version of `top_bottom`
+You can use the included EPS files to order directly from Ponoko. You will need one version of `middle` and one version of `top_bottom`. The width of the case should read 377.7mm.
