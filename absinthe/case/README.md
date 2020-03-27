@@ -1,5 +1,8 @@
 # Absinthe Case
 
+## Exploded view
+
+![absinthe case exploded view](./exploded.png)
 ## Parts Needed
 
 + 1x L6
