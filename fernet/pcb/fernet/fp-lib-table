@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name fernet)(type KiCad)(uri ${KIPRJMOD}/fernet.pretty)(options "")(descr ""))
+)

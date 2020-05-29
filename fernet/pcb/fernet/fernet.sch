@@ -1,0 +1,2979 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	13100 7200 13350 7200
+Wire Wire Line
+	1400 7550 1650 7550
+Wire Wire Line
+	1400 4550 1650 4550
+Wire Wire Line
+	1400 3550 1650 3550
+Wire Wire Line
+	1400 2550 1650 2550
+Text GLabel 14300 1650 0    50   Input ~ 0
+col12
+Text GLabel 13300 1650 0    50   Input ~ 0
+col11
+Text GLabel 12150 1550 0    50   Input ~ 0
+col10
+Text GLabel 11150 1650 0    50   Input ~ 0
+col9
+Text GLabel 10300 1650 0    50   Input ~ 0
+col8
+Text GLabel 9300 1650 0    50   Input ~ 0
+col7
+Text GLabel 8300 1650 0    50   Input ~ 0
+col6
+Text GLabel 7300 1650 0    50   Input ~ 0
+col5
+Text GLabel 6300 1650 0    50   Input ~ 0
+col4
+Text GLabel 5300 1650 0    50   Input ~ 0
+col3
+Text GLabel 4300 1650 0    50   Input ~ 0
+col2
+Text GLabel 3300 1650 0    50   Input ~ 0
+col1
+Text GLabel 2300 1650 0    50   Input ~ 0
+col0
+$Comp
+L Diode:1N4148 D_ESC1
+U 1 1 5F08581D
+P 1650 2400
+F 0 "D_ESC1" V 1696 2321 50  0000 R CNN
+F 1 "D" V 1595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 2400 50  0001 C CNN
+	1    1650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F1
+U 1 1 5F08581B
+P 3000 2000
+F 0 "K_F1" H 3000 2233 60  0000 C CNN
+F 1 "KEYSW" H 3000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3000 2000 60  0001 C CNN
+F 3 "" H 3000 2000 60  0000 C CNN
+	1    3000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_F1
+U 1 1 55F73724
+P 2650 2400
+F 0 "D_F1" V 2696 2321 50  0000 R CNN
+F 1 "D" V 2595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 2400 50  0001 C CNN
+	1    2650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F2
+U 1 1 55F7FF69
+P 4000 2000
+F 0 "K_F2" H 4000 2233 60  0000 C CNN
+F 1 "KEYSW" H 4000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 4000 2000 60  0001 C CNN
+F 3 "" H 4000 2000 60  0000 C CNN
+	1    4000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_F2
+U 1 1 5F085856
+P 3650 2400
+F 0 "D_F2" V 3696 2321 50  0000 R CNN
+F 1 "D" V 3595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 2400 50  0001 C CNN
+	1    3650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D_F3
+U 1 1 5F08581C
+P 4650 2400
+F 0 "D_F3" V 4696 2321 50  0000 R CNN
+F 1 "D" V 4595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4650 2400 50  0001 C CNN
+	1    4650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F4
+U 1 1 5F08583B
+P 6000 2000
+F 0 "K_F4" H 6000 2233 60  0000 C CNN
+F 1 "KEYSW" H 6000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6000 2000 60  0001 C CNN
+F 3 "" H 6000 2000 60  0000 C CNN
+	1    6000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_F4
+U 1 1 55F7A3ED
+P 5650 2400
+F 0 "D_F4" V 5696 2321 50  0000 R CNN
+F 1 "D" V 5595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 2400 50  0001 C CNN
+	1    5650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F5
+U 1 1 5F085836
+P 7000 2000
+F 0 "K_F5" H 7000 2233 60  0000 C CNN
+F 1 "KEYSW" H 7000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 7000 2000 60  0001 C CNN
+F 3 "" H 7000 2000 60  0000 C CNN
+	1    7000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_F5
+U 1 1 55F79E22
+P 6650 2400
+F 0 "D_F5" V 6696 2321 50  0000 R CNN
+F 1 "D" V 6595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6650 2400 50  0001 C CNN
+	1    6650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F6
+U 1 1 55F72A0A
+P 8000 2000
+F 0 "K_F6" H 8000 2233 60  0000 C CNN
+F 1 "KEYSW" H 8000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8000 2000 60  0001 C CNN
+F 3 "" H 8000 2000 60  0000 C CNN
+	1    8000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_F6
+U 1 1 5F085816
+P 7650 2400
+F 0 "D_F6" V 7696 2321 50  0000 R CNN
+F 1 "D" V 7595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7650 2400 50  0001 C CNN
+	1    7650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F7
+U 1 1 55F7AAE4
+P 9000 2000
+F 0 "K_F7" H 9000 2233 60  0000 C CNN
+F 1 "KEYSW" H 9000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9000 2000 60  0001 C CNN
+F 3 "" H 9000 2000 60  0000 C CNN
+	1    9000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_F7
+U 1 1 5F08583D
+P 8650 2400
+F 0 "D_F7" V 8696 2321 50  0000 R CNN
+F 1 "D" V 8595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8650 2400 50  0001 C CNN
+	1    8650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F8
+U 1 1 55F775E3
+P 10000 2000
+F 0 "K_F8" H 10000 2233 60  0000 C CNN
+F 1 "KEYSW" H 10000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 10000 2000 60  0001 C CNN
+F 3 "" H 10000 2000 60  0000 C CNN
+	1    10000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_F8
+U 1 1 5F085827
+P 9650 2400
+F 0 "D_F8" V 9696 2321 50  0000 R CNN
+F 1 "D" V 9595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9650 2400 50  0001 C CNN
+	1    9650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F9
+U 1 1 5F085812
+P 11000 2000
+F 0 "K_F9" H 11000 2233 60  0000 C CNN
+F 1 "KEYSW" H 11000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 11000 2000 60  0001 C CNN
+F 3 "" H 11000 2000 60  0000 C CNN
+	1    11000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_F9
+U 1 1 55F71D28
+P 10650 2400
+F 0 "D_F9" V 10696 2321 50  0000 R CNN
+F 1 "D" V 10595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10650 2400 50  0001 C CNN
+	1    10650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F10
+U 1 1 5F085826
+P 12000 2000
+F 0 "K_F10" H 12000 2233 60  0000 C CNN
+F 1 "KEYSW" H 12000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 12000 2000 60  0001 C CNN
+F 3 "" H 12000 2000 60  0000 C CNN
+	1    12000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_F10
+U 1 1 55F774D6
+P 11650 2400
+F 0 "D_F10" V 11696 2321 50  0000 R CNN
+F 1 "D" V 11595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 11650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11650 2400 50  0001 C CNN
+	1    11650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F11
+U 1 1 5F085834
+P 13000 2000
+F 0 "K_F11" H 13000 2233 60  0000 C CNN
+F 1 "KEYSW" H 13000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 13000 2000 60  0001 C CNN
+F 3 "" H 13000 2000 60  0000 C CNN
+	1    13000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_F11
+U 1 1 55F79C4B
+P 12650 2400
+F 0 "D_F11" V 12696 2321 50  0000 R CNN
+F 1 "D" V 12595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 12650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12650 2400 50  0001 C CNN
+	1    12650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F12
+U 1 1 5F085841
+P 14000 2000
+F 0 "K_F12" H 14000 2233 60  0000 C CNN
+F 1 "KEYSW" H 14000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 14000 2000 60  0001 C CNN
+F 3 "" H 14000 2000 60  0000 C CNN
+	1    14000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_F12
+U 1 1 55F7B745
+P 13650 2400
+F 0 "D_F12" V 13696 2321 50  0000 R CNN
+F 1 "D" V 13595 2321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 13650 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13650 2400 50  0001 C CNN
+	1    13650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_`1
+U 1 1 5F08580F
+P 2000 3000
+F 0 "K_`1" H 2000 3233 60  0000 C CNN
+F 1 "KEYSW" H 2000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2000 3000 60  0001 C CNN
+F 3 "" H 2000 3000 60  0000 C CNN
+	1    2000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_`1
+U 1 1 55F71A08
+P 1650 3400
+F 0 "D_`1" V 1696 3321 50  0000 R CNN
+F 1 "D" V 1595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 3400 50  0001 C CNN
+	1    1650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_1
+U 1 1 5F08580C
+P 3000 3000
+F 0 "K_1" H 3000 3233 60  0000 C CNN
+F 1 "KEYSW" H 3000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3000 3000 60  0001 C CNN
+F 3 "" H 3000 3000 60  0000 C CNN
+	1    3000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_1
+U 1 1 55F71449
+P 2650 3400
+F 0 "D_1" V 2696 3321 50  0000 R CNN
+F 1 "D" V 2595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 3400 50  0001 C CNN
+	1    2650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_2
+U 1 1 55F7A0D3
+P 4000 3000
+F 0 "K_2" H 4000 3233 60  0000 C CNN
+F 1 "KEYSW" H 4000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 4000 3000 60  0001 C CNN
+F 3 "" H 4000 3000 60  0000 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_2
+U 1 1 5F085839
+P 3650 3400
+F 0 "D_2" V 3696 3321 50  0000 R CNN
+F 1 "D" V 3595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 3400 50  0001 C CNN
+	1    3650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_3
+U 1 1 5F085818
+P 5000 3000
+F 0 "K_3" H 5000 3233 60  0000 C CNN
+F 1 "KEYSW" H 5000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5000 3000 60  0001 C CNN
+F 3 "" H 5000 3000 60  0000 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_3
+U 1 1 55F73160
+P 4650 3400
+F 0 "D_3" V 4696 3321 50  0000 R CNN
+F 1 "D" V 4595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4650 3400 50  0001 C CNN
+	1    4650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_4
+U 1 1 5F085852
+P 6000 3000
+F 0 "K_4" H 6000 3233 60  0000 C CNN
+F 1 "KEYSW" H 6000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6000 3000 60  0001 C CNN
+F 3 "" H 6000 3000 60  0000 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_4
+U 1 1 55F7F3F0
+P 5650 3400
+F 0 "D_4" V 5696 3321 50  0000 R CNN
+F 1 "D" V 5595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 3400 50  0001 C CNN
+	1    5650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_5
+U 1 1 55F7AF55
+P 7000 3000
+F 0 "K_5" H 7000 3233 60  0000 C CNN
+F 1 "KEYSW" H 7000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 7000 3000 60  0001 C CNN
+F 3 "" H 7000 3000 60  0000 C CNN
+	1    7000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_5
+U 1 1 5F08583E
+P 6650 3400
+F 0 "D_5" V 6696 3321 50  0000 R CNN
+F 1 "D" V 6595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6650 3400 50  0001 C CNN
+	1    6650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_6
+U 1 1 55F783E7
+P 8000 3000
+F 0 "K_6" H 8000 3233 60  0000 C CNN
+F 1 "KEYSW" H 8000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8000 3000 60  0001 C CNN
+F 3 "" H 8000 3000 60  0000 C CNN
+	1    8000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_6
+U 1 1 5F08582B
+P 7650 3400
+F 0 "D_6" V 7696 3321 50  0000 R CNN
+F 1 "D" V 7595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7650 3400 50  0001 C CNN
+	1    7650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_7
+U 1 1 5F085824
+P 9000 3000
+F 0 "K_7" H 9000 3233 60  0000 C CNN
+F 1 "KEYSW" H 9000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9000 3000 60  0001 C CNN
+F 3 "" H 9000 3000 60  0000 C CNN
+	1    9000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_7
+U 1 1 55F771EA
+P 8650 3400
+F 0 "D_7" V 8696 3321 50  0000 R CNN
+F 1 "D" V 8595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8650 3400 50  0001 C CNN
+	1    8650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_8
+U 1 1 55F71D95
+P 10000 3000
+F 0 "K_8" H 10000 3233 60  0000 C CNN
+F 1 "KEYSW" H 10000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 10000 3000 60  0001 C CNN
+F 3 "" H 10000 3000 60  0000 C CNN
+	1    10000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_8
+U 1 1 5F085813
+P 9650 3400
+F 0 "D_8" V 9696 3321 50  0000 R CNN
+F 1 "D" V 9595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9650 3400 50  0001 C CNN
+	1    9650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_9
+U 1 1 5F085853
+P 11000 3000
+F 0 "K_9" H 11000 3233 60  0000 C CNN
+F 1 "KEYSW" H 11000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 11000 3000 60  0001 C CNN
+F 3 "" H 11000 3000 60  0000 C CNN
+	1    11000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_9
+U 1 1 55F7F749
+P 10650 3400
+F 0 "D_9" V 10696 3321 50  0000 R CNN
+F 1 "D" V 10595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10650 3400 50  0001 C CNN
+	1    10650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_0
+U 1 1 5F085829
+P 12000 3000
+F 0 "K_0" H 12000 3233 60  0000 C CNN
+F 1 "KEYSW" H 12000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 12000 3000 60  0001 C CNN
+F 3 "" H 12000 3000 60  0000 C CNN
+	1    12000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_0
+U 1 1 55F77B59
+P 11650 3400
+F 0 "D_0" V 11696 3321 50  0000 R CNN
+F 1 "D" V 11595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 11650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11650 3400 50  0001 C CNN
+	1    11650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_MINUS1
+U 1 1 55F71AED
+P 13000 3000
+F 0 "K_MINUS1" H 13000 3233 60  0000 C CNN
+F 1 "KEYSW" H 13000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 13000 3000 60  0001 C CNN
+F 3 "" H 13000 3000 60  0000 C CNN
+	1    13000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_MINUS1
+U 1 1 5F085810
+P 12650 3400
+F 0 "D_MINUS1" V 12696 3321 50  0000 R CNN
+F 1 "D" V 12595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 12650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12650 3400 50  0001 C CNN
+	1    12650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_EQUAL1
+U 1 1 5F085822
+P 14000 3000
+F 0 "K_EQUAL1" H 14000 3233 60  0000 C CNN
+F 1 "KEYSW" H 14000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 14000 3000 60  0001 C CNN
+F 3 "" H 14000 3000 60  0000 C CNN
+	1    14000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_EQUAL1
+U 1 1 55F7649B
+P 13650 3400
+F 0 "D_EQUAL1" V 13696 3321 50  0000 R CNN
+F 1 "D" V 13595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 13650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13650 3400 50  0001 C CNN
+	1    13650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_TAB1
+U 1 1 5F085850
+P 2000 4000
+F 0 "K_TAB1" H 2000 4233 60  0000 C CNN
+F 1 "KEYSW" H 2000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 2000 4000 60  0001 C CNN
+F 3 "" H 2000 4000 60  0000 C CNN
+	1    2000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_TAB1
+U 1 1 55F7F2CA
+P 1650 4400
+F 0 "D_TAB1" V 1696 4321 50  0000 R CNN
+F 1 "D" V 1595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 4400 50  0001 C CNN
+	1    1650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_Q1
+U 1 1 5F08582C
+P 3000 4000
+F 0 "K_Q1" H 3000 4233 60  0000 C CNN
+F 1 "KEYSW" H 3000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3000 4000 60  0001 C CNN
+F 3 "" H 3000 4000 60  0000 C CNN
+	1    3000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_Q1
+U 1 1 55F78C9D
+P 2650 4400
+F 0 "D_Q1" V 2696 4321 50  0000 R CNN
+F 1 "D" V 2595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 4400 50  0001 C CNN
+	1    2650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_W1
+U 1 1 55F795D0
+P 4000 4000
+F 0 "K_W1" H 4000 4233 60  0000 C CNN
+F 1 "KEYSW" H 4000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 4000 4000 60  0001 C CNN
+F 3 "" H 4000 4000 60  0000 C CNN
+	1    4000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_W1
+U 1 1 5F08582F
+P 3650 4400
+F 0 "D_W1" V 3696 4321 50  0000 R CNN
+F 1 "D" V 3595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 4400 50  0001 C CNN
+	1    3650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_E1
+U 1 1 55F7BC85
+P 5000 4000
+F 0 "K_E1" H 5000 4233 60  0000 C CNN
+F 1 "KEYSW" H 5000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5000 4000 60  0001 C CNN
+F 3 "" H 5000 4000 60  0000 C CNN
+	1    5000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_E1
+U 1 1 5F085843
+P 4650 4400
+F 0 "D_E1" V 4696 4321 50  0000 R CNN
+F 1 "D" V 4595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4650 4400 50  0001 C CNN
+	1    4650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_R1
+U 1 1 5F08584C
+P 6000 4000
+F 0 "K_R1" H 6000 4233 60  0000 C CNN
+F 1 "KEYSW" H 6000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6000 4000 60  0001 C CNN
+F 3 "" H 6000 4000 60  0000 C CNN
+	1    6000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_R1
+U 1 1 55F7DACF
+P 5650 4400
+F 0 "D_R1" V 5696 4321 50  0000 R CNN
+F 1 "D" V 5595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 4400 50  0001 C CNN
+	1    5650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_T1
+U 1 1 55F7BA78
+P 7000 4000
+F 0 "K_T1" H 7000 4233 60  0000 C CNN
+F 1 "KEYSW" H 7000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 7000 4000 60  0001 C CNN
+F 3 "" H 7000 4000 60  0000 C CNN
+	1    7000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_T1
+U 1 1 5F085842
+P 6650 4400
+F 0 "D_T1" V 6696 4321 50  0000 R CNN
+F 1 "D" V 6595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6650 4400 50  0001 C CNN
+	1    6650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_Y1
+U 1 1 55F772E9
+P 8000 4000
+F 0 "K_Y1" H 8000 4233 60  0000 C CNN
+F 1 "KEYSW" H 8000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8000 4000 60  0001 C CNN
+F 3 "" H 8000 4000 60  0000 C CNN
+	1    8000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_Y1
+U 1 1 5F085825
+P 7650 4400
+F 0 "D_Y1" V 7696 4321 50  0000 R CNN
+F 1 "D" V 7595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7650 4400 50  0001 C CNN
+	1    7650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_U1
+U 1 1 5F08584A
+P 9000 4000
+F 0 "K_U1" H 9000 4233 60  0000 C CNN
+F 1 "KEYSW" H 9000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9000 4000 60  0001 C CNN
+F 3 "" H 9000 4000 60  0000 C CNN
+	1    9000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_U1
+U 1 1 55F7D408
+P 8650 4400
+F 0 "D_U1" V 8696 4321 50  0000 R CNN
+F 1 "D" V 8595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8650 4400 50  0001 C CNN
+	1    8650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_I1
+U 1 1 55F74FD5
+P 10000 4000
+F 0 "K_I1" H 10000 4233 60  0000 C CNN
+F 1 "KEYSW" H 10000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 10000 4000 60  0001 C CNN
+F 3 "" H 10000 4000 60  0000 C CNN
+	1    10000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_I1
+U 1 1 5F085820
+P 9650 4400
+F 0 "D_I1" V 9696 4321 50  0000 R CNN
+F 1 "D" V 9595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9650 4400 50  0001 C CNN
+	1    9650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_O1
+U 1 1 55F72616
+P 11000 4000
+F 0 "K_O1" H 11000 4233 60  0000 C CNN
+F 1 "KEYSW" H 11000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 11000 4000 60  0001 C CNN
+F 3 "" H 11000 4000 60  0000 C CNN
+	1    11000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_O1
+U 1 1 5F085814
+P 10650 4400
+F 0 "D_O1" V 10696 4321 50  0000 R CNN
+F 1 "D" V 10595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10650 4400 50  0001 C CNN
+	1    10650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_P1
+U 1 1 55F79D85
+P 12000 4000
+F 0 "K_P1" H 12000 4233 60  0000 C CNN
+F 1 "KEYSW" H 12000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 12000 4000 60  0001 C CNN
+F 3 "" H 12000 4000 60  0000 C CNN
+	1    12000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_P1
+U 1 1 5F085835
+P 11650 4400
+F 0 "D_P1" V 11696 4321 50  0000 R CNN
+F 1 "D" V 11595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 11650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11650 4400 50  0001 C CNN
+	1    11650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_[1
+U 1 1 55F70DEC
+P 13000 4000
+F 0 "K_[1" H 13000 4233 60  0000 C CNN
+F 1 "KEYSW" H 13000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 13000 4000 60  0001 C CNN
+F 3 "" H 13000 4000 60  0000 C CNN
+	1    13000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_[1
+U 1 1 5F08580A
+P 12650 4400
+F 0 "D_[1" V 12696 4321 50  0000 R CNN
+F 1 "D" V 12595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 12650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12650 4400 50  0001 C CNN
+	1    12650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_]1
+U 1 1 55F71CC6
+P 14000 4000
+F 0 "K_]1" H 14000 4233 60  0000 C CNN
+F 1 "KEYSW" H 14000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 14000 4000 60  0001 C CNN
+F 3 "" H 14000 4000 60  0000 C CNN
+	1    14000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_]1
+U 1 1 5F085811
+P 13650 4400
+F 0 "D_]1" V 13696 4321 50  0000 R CNN
+F 1 "D" V 13595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 13650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13650 4400 50  0001 C CNN
+	1    13650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_CAPS_LOCK1
+U 1 1 5F085833
+P 2000 5000
+F 0 "K_CAPS_LOCK1" H 2000 5233 60  0000 C CNN
+F 1 "KEYSW" H 2000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1.75U-NoLED" H 2000 5000 60  0001 C CNN
+F 3 "" H 2000 5000 60  0000 C CNN
+	1    2000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_CAPS_LOCK1
+U 1 1 55F79A3F
+P 1650 5400
+F 0 "D_CAPS_LOCK1" V 1696 5321 50  0000 R CNN
+F 1 "D" V 1595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 5400 50  0001 C CNN
+	1    1650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_A1
+U 1 1 5F085848
+P 3000 5000
+F 0 "K_A1" H 3000 5233 60  0000 C CNN
+F 1 "KEYSW" H 3000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3000 5000 60  0001 C CNN
+F 3 "" H 3000 5000 60  0000 C CNN
+	1    3000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_A1
+U 1 1 55F7CF48
+P 2650 5400
+F 0 "D_A1" V 2696 5321 50  0000 R CNN
+F 1 "D" V 2595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 5400 50  0001 C CNN
+	1    2650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_S1
+U 1 1 55F7F3DD
+P 4000 5000
+F 0 "K_S1" H 4000 5233 60  0000 C CNN
+F 1 "KEYSW" H 4000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 4000 5000 60  0001 C CNN
+F 3 "" H 4000 5000 60  0000 C CNN
+	1    4000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_S1
+U 1 1 5F085851
+P 3650 5400
+F 0 "D_S1" V 3696 5321 50  0000 R CNN
+F 1 "D" V 3595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 5400 50  0001 C CNN
+	1    3650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_D1
+U 1 1 5F085817
+P 5000 5000
+F 0 "K_D1" H 5000 5233 60  0000 C CNN
+F 1 "KEYSW" H 5000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5000 5000 60  0001 C CNN
+F 3 "" H 5000 5000 60  0000 C CNN
+	1    5000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_D1
+U 1 1 55F72E8E
+P 4650 5400
+F 0 "D_D1" V 4696 5321 50  0000 R CNN
+F 1 "D" V 4595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4650 5400 50  0001 C CNN
+	1    4650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F13
+U 1 1 55F76CEF
+P 6000 5000
+F 0 "K_F13" H 6000 5233 60  0000 C CNN
+F 1 "KEYSW" H 6000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6000 5000 60  0001 C CNN
+F 3 "" H 6000 5000 60  0000 C CNN
+	1    6000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_F13
+U 1 1 5F085823
+P 5650 5400
+F 0 "D_F13" V 5696 5321 50  0000 R CNN
+F 1 "D" V 5595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 5400 50  0001 C CNN
+	1    5650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_G1
+U 1 1 55F7E92C
+P 7000 5000
+F 0 "K_G1" H 7000 5233 60  0000 C CNN
+F 1 "KEYSW" H 7000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 7000 5000 60  0001 C CNN
+F 3 "" H 7000 5000 60  0000 C CNN
+	1    7000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_G1
+U 1 1 5F08584E
+P 6650 5400
+F 0 "D_G1" V 6696 5321 50  0000 R CNN
+F 1 "D" V 6595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6650 5400 50  0001 C CNN
+	1    6650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_H1
+U 1 1 5F085844
+P 8000 5000
+F 0 "K_H1" H 8000 5233 60  0000 C CNN
+F 1 "KEYSW" H 8000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8000 5000 60  0001 C CNN
+F 3 "" H 8000 5000 60  0000 C CNN
+	1    8000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_H1
+U 1 1 55F7BE5A
+P 7650 5400
+F 0 "D_H1" V 7696 5321 50  0000 R CNN
+F 1 "D" V 7595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7650 5400 50  0001 C CNN
+	1    7650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_J1
+U 1 1 5F08583C
+P 9000 5000
+F 0 "K_J1" H 9000 5233 60  0000 C CNN
+F 1 "KEYSW" H 9000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9000 5000 60  0001 C CNN
+F 3 "" H 9000 5000 60  0000 C CNN
+	1    9000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_J1
+U 1 1 55F7A798
+P 8650 5400
+F 0 "D_J1" V 8696 5321 50  0000 R CNN
+F 1 "D" V 8595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8650 5400 50  0001 C CNN
+	1    8650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_K1
+U 1 1 5F085815
+P 10000 5000
+F 0 "K_K1" H 10000 5233 60  0000 C CNN
+F 1 "KEYSW" H 10000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 10000 5000 60  0001 C CNN
+F 3 "" H 10000 5000 60  0000 C CNN
+	1    10000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_K1
+U 1 1 55F729B5
+P 9650 5400
+F 0 "D_K1" V 9696 5321 50  0000 R CNN
+F 1 "D" V 9595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9650 5400 50  0001 C CNN
+	1    9650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_L1
+U 1 1 55F7CB11
+P 11000 5000
+F 0 "K_L1" H 11000 5233 60  0000 C CNN
+F 1 "KEYSW" H 11000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 11000 5000 60  0001 C CNN
+F 3 "" H 11000 5000 60  0000 C CNN
+	1    11000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_L1
+U 1 1 5F085846
+P 10650 5400
+F 0 "D_L1" V 10696 5321 50  0000 R CNN
+F 1 "D" V 10595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10650 5400 50  0001 C CNN
+	1    10650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_SEMIC1
+U 1 1 55F75B6F
+P 12000 5000
+F 0 "K_SEMIC1" H 12000 5233 60  0000 C CNN
+F 1 "KEYSW" H 12000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 12000 5000 60  0001 C CNN
+F 3 "" H 12000 5000 60  0000 C CNN
+	1    12000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_SEMIC1
+U 1 1 5F085821
+P 11650 5400
+F 0 "D_SEMIC1" V 11696 5321 50  0000 R CNN
+F 1 "D" V 11595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 11650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11650 5400 50  0001 C CNN
+	1    11650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_QUOTE1
+U 1 1 55F7D434
+P 13000 5000
+F 0 "K_QUOTE1" H 13000 5233 60  0000 C CNN
+F 1 "KEYSW" H 13000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 13000 5000 60  0001 C CNN
+F 3 "" H 13000 5000 60  0000 C CNN
+	1    13000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_QUOTE1
+U 1 1 5F08584B
+P 12650 5400
+F 0 "D_QUOTE1" V 12696 5321 50  0000 R CNN
+F 1 "D" V 12595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 12650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12650 5400 50  0001 C CNN
+	1    12650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_ENTER1
+U 1 1 5F085845
+P 14000 5000
+F 0 "K_ENTER1" H 14000 5233 60  0000 C CNN
+F 1 "KEYSW" H 14000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-2.25U-NoLED" H 14000 5000 60  0001 C CNN
+F 3 "" H 14000 5000 60  0000 C CNN
+	1    14000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_ENTER1
+U 1 1 55F7C03F
+P 13650 5400
+F 0 "D_ENTER1" V 13696 5321 50  0000 R CNN
+F 1 "D" V 13595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 13650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13650 5400 50  0001 C CNN
+	1    13650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_SHIFT2
+U 1 1 55F7FC7A
+P 2000 6000
+F 0 "K_SHIFT2" H 2000 6233 60  0000 C CNN
+F 1 "KEYSW" H 2000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-2.25U-NoLED" H 2000 6000 60  0001 C CNN
+F 3 "" H 2000 6000 60  0000 C CNN
+	1    2000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_SHIFT2
+U 1 1 5F085855
+P 1650 6400
+F 0 "D_SHIFT2" V 1696 6321 50  0000 R CNN
+F 1 "D" V 1595 6321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1650 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 6400 50  0001 C CNN
+	1    1650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_Z1
+U 1 1 5F08581F
+P 3000 6000
+F 0 "K_Z1" H 3000 6233 60  0000 C CNN
+F 1 "KEYSW" H 3000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3000 6000 60  0001 C CNN
+F 3 "" H 3000 6000 60  0000 C CNN
+	1    3000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_Z1
+U 1 1 55F749CE
+P 2650 6400
+F 0 "D_Z1" V 2696 6321 50  0000 R CNN
+F 1 "D" V 2595 6321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 6400 50  0001 C CNN
+	1    2650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_X1
+U 1 1 55F79EEA
+P 4000 6000
+F 0 "K_X1" H 4000 6233 60  0000 C CNN
+F 1 "KEYSW" H 4000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 4000 6000 60  0001 C CNN
+F 3 "" H 4000 6000 60  0000 C CNN
+	1    4000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_X1
+U 1 1 5F085838
+P 3650 6400
+F 0 "D_X1" V 3696 6321 50  0000 R CNN
+F 1 "D" V 3595 6321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3650 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 6400 50  0001 C CNN
+	1    3650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_C1
+U 1 1 55F7946B
+P 5000 6000
+F 0 "K_C1" H 5000 6233 60  0000 C CNN
+F 1 "KEYSW" H 5000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5000 6000 60  0001 C CNN
+F 3 "" H 5000 6000 60  0000 C CNN
+	1    5000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_C1
+U 1 1 5F08582D
+P 4650 6400
+F 0 "D_C1" V 4696 6321 50  0000 R CNN
+F 1 "D" V 4595 6321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4650 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4650 6400 50  0001 C CNN
+	1    4650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_V1
+U 1 1 5F085819
+P 6000 6000
+F 0 "K_V1" H 6000 6233 60  0000 C CNN
+F 1 "KEYSW" H 6000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6000 6000 60  0001 C CNN
+F 3 "" H 6000 6000 60  0000 C CNN
+	1    6000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_V1
+U 1 1 55F731B0
+P 5650 6400
+F 0 "D_V1" V 5696 6321 50  0000 R CNN
+F 1 "D" V 5595 6321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5650 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 6400 50  0001 C CNN
+	1    5650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_B1
+U 1 1 5F085828
+P 7000 6000
+F 0 "K_B1" H 7000 6233 60  0000 C CNN
+F 1 "KEYSW" H 7000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 7000 6000 60  0001 C CNN
+F 3 "" H 7000 6000 60  0000 C CNN
+	1    7000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_B1
+U 1 1 55F77687
+P 6650 6400
+F 0 "D_B1" V 6696 6321 50  0000 R CNN
+F 1 "D" V 6595 6321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6650 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6650 6400 50  0001 C CNN
+	1    6650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_N1
+U 1 1 5F08584F
+P 8000 6000
+F 0 "K_N1" H 8000 6233 60  0000 C CNN
+F 1 "KEYSW" H 8000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8000 6000 60  0001 C CNN
+F 3 "" H 8000 6000 60  0000 C CNN
+	1    8000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_N1
+U 1 1 55F7ED93
+P 7650 6400
+F 0 "D_N1" V 7696 6321 50  0000 R CNN
+F 1 "D" V 7595 6321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7650 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7650 6400 50  0001 C CNN
+	1    7650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_M1
+U 1 1 5F08584D
+P 9000 6000
+F 0 "K_M1" H 9000 6233 60  0000 C CNN
+F 1 "KEYSW" H 9000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9000 6000 60  0001 C CNN
+F 3 "" H 9000 6000 60  0000 C CNN
+	1    9000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_M1
+U 1 1 55F7E5E6
+P 8650 6400
+F 0 "D_M1" V 8696 6321 50  0000 R CNN
+F 1 "D" V 8595 6321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8650 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8650 6400 50  0001 C CNN
+	1    8650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_COMMA1
+U 1 1 5F085837
+P 10000 6000
+F 0 "K_COMMA1" H 10000 6233 60  0000 C CNN
+F 1 "KEYSW" H 10000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 10000 6000 60  0001 C CNN
+F 3 "" H 10000 6000 60  0000 C CNN
+	1    10000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_COMMA1
+U 1 1 55F79E47
+P 9650 6400
+F 0 "D_COMMA1" V 9696 6321 50  0000 R CNN
+F 1 "D" V 9595 6321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9650 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9650 6400 50  0001 C CNN
+	1    9650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_DOT1
+U 1 1 5F08581E
+P 11000 6000
+F 0 "K_DOT1" H 11000 6233 60  0000 C CNN
+F 1 "KEYSW" H 11000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 11000 6000 60  0001 C CNN
+F 3 "" H 11000 6000 60  0000 C CNN
+	1    11000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_DOT1
+U 1 1 55F74830
+P 10650 6400
+F 0 "D_DOT1" V 10696 6321 50  0000 R CNN
+F 1 "D" V 10595 6321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10650 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10650 6400 50  0001 C CNN
+	1    10650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_SLASH1
+U 1 1 55F795EF
+P 12000 6000
+F 0 "K_SLASH1" H 12000 6233 60  0000 C CNN
+F 1 "KEYSW" H 12000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 12000 6000 60  0001 C CNN
+F 3 "" H 12000 6000 60  0000 C CNN
+	1    12000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_SLASH1
+U 1 1 5F085830
+P 11650 6400
+F 0 "D_SLASH1" V 11696 6321 50  0000 R CNN
+F 1 "D" V 11595 6321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 11650 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11650 6400 50  0001 C CNN
+	1    11650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_SHIFT1
+U 1 1 55F7F96E
+P 13000 6000
+F 0 "K_SHIFT1" H 13000 6233 60  0000 C CNN
+F 1 "KEYSW" H 13000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1.75U-NoLED" H 13000 6000 60  0001 C CNN
+F 3 "" H 13000 6000 60  0000 C CNN
+	1    13000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_SHIFT1
+U 1 1 5F085854
+P 12650 6400
+F 0 "D_SHIFT1" V 12696 6321 50  0000 R CNN
+F 1 "D" V 12595 6321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 12650 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12650 6400 50  0001 C CNN
+	1    12650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_FN1
+U 1 1 55F71611
+P 16000 6000
+F 0 "K_FN1" H 16000 6233 60  0000 C CNN
+F 1 "KEYSW" H 16000 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 16000 6000 60  0001 C CNN
+F 3 "" H 16000 6000 60  0000 C CNN
+	1    16000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_FN1
+U 1 1 5F08580D
+P 15650 6250
+F 0 "D_FN1" V 15696 6171 50  0000 R CNN
+F 1 "D" V 15595 6171 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 15650 6250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15650 6250 50  0001 C CNN
+	1    15650 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_12
+U 1 1 55F7038F
+P 14700 6000
+F 0 "K_12" H 14700 6233 60  0000 C CNN
+F 1 "KEYSW" H 14700 5900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 14700 6000 60  0001 C CNN
+F 3 "" H 14700 6000 60  0000 C CNN
+	1    14700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_12
+U 1 1 5F085809
+P 14350 6250
+F 0 "D_12" V 14396 6171 50  0000 R CNN
+F 1 "D" V 14295 6171 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 14350 6250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14350 6250 50  0001 C CNN
+	1    14350 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D_14
+U 1 1 5F085831
+P 15350 7050
+F 0 "D_14" V 15396 6971 50  0000 R CNN
+F 1 "D" V 15295 6971 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 15350 7050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15350 7050 50  0001 C CNN
+	1    15350 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_14
+U 1 1 55F797FA
+P 15700 6800
+F 0 "K_14" H 15700 7033 60  0000 C CNN
+F 1 "KEYSW" H 15700 6700 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 15700 6800 60  0001 C CNN
+F 3 "" H 15700 6800 60  0000 C CNN
+	1    15700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_13
+U 1 1 55F78110
+P 14350 7050
+F 0 "D_13" V 14396 6971 50  0000 R CNN
+F 1 "D" V 14295 6971 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 14350 7050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14350 7050 50  0001 C CNN
+	1    14350 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_13
+U 1 1 5F08582A
+P 14700 6800
+F 0 "K_13" H 14700 7033 60  0000 C CNN
+F 1 "KEYSW" H 14700 6700 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 14700 6800 60  0001 C CNN
+F 3 "" H 14700 6800 60  0000 C CNN
+	1    14700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_11
+U 1 1 55F7956D
+P 13350 7050
+F 0 "D_11" V 13396 6971 50  0000 R CNN
+F 1 "D" V 13295 6971 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 13350 7050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13350 7050 50  0001 C CNN
+	1    13350 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_11
+U 1 1 5F08582E
+P 13700 6800
+F 0 "K_11" H 13700 7033 60  0000 C CNN
+F 1 "KEYSW" H 13700 6700 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 13700 6800 60  0001 C CNN
+F 3 "" H 13700 6800 60  0000 C CNN
+	1    13700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_CTRL2
+U 1 1 55F7CEBA
+P 11500 7400
+F 0 "D_CTRL2" V 11546 7321 50  0000 R CNN
+F 1 "D" V 11445 7321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 11500 7400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11500 7400 50  0001 C CNN
+	1    11500 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_CTRL2
+U 1 1 5F085847
+P 11850 7000
+F 0 "K_CTRL2" H 11850 7233 60  0000 C CNN
+F 1 "KEYSW" H 11850 6900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 11850 7000 60  0001 C CNN
+F 3 "" H 11850 7000 60  0000 C CNN
+	1    11850 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_ALT1
+U 1 1 55F7D157
+P 10500 7400
+F 0 "D_ALT1" V 10546 7321 50  0000 R CNN
+F 1 "D" V 10445 7321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10500 7400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10500 7400 50  0001 C CNN
+	1    10500 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_ALT1
+U 1 1 5F085849
+P 10850 7000
+F 0 "K_ALT1" H 10850 7233 60  0000 C CNN
+F 1 "KEYSW" H 10850 6900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 10850 7000 60  0001 C CNN
+F 3 "" H 10850 7000 60  0000 C CNN
+	1    10850 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_10
+U 1 1 5F08583A
+P 6650 7400
+F 0 "D_10" V 6696 7321 50  0000 R CNN
+F 1 "D" V 6595 7321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 6650 7400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6650 7400 50  0001 C CNN
+	1    6650 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_10
+U 1 1 55F7A396
+P 7000 7000
+F 0 "K_10" H 7000 7233 60  0000 C CNN
+F 1 "KEYSW" H 7000 6900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-7U-ReversedStabilizers-NoLED" H 7000 7000 60  0001 C CNN
+F 3 "" H 7000 7000 60  0000 C CNN
+	1    7000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_ALT2
+U 1 1 55F7B721
+P 2650 7400
+F 0 "D_ALT2" V 2696 7321 50  0000 R CNN
+F 1 "D" V 2595 7321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 7400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 7400 50  0001 C CNN
+	1    2650 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_ALT2
+U 1 1 5F085840
+P 3000 7000
+F 0 "K_ALT2" H 3000 7233 60  0000 C CNN
+F 1 "KEYSW" H 3000 6900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 3000 7000 60  0001 C CNN
+F 3 "" H 3000 7000 60  0000 C CNN
+	1    3000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_CTRL1
+U 1 1 55F70FE3
+P 1650 7400
+F 0 "D_CTRL1" V 1696 7321 50  0000 R CNN
+F 1 "D" V 1595 7321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1650 7400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 7400 50  0001 C CNN
+	1    1650 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_CTRL1
+U 1 1 5F08580B
+P 2000 7000
+F 0 "K_CTRL1" H 2000 7233 60  0000 C CNN
+F 1 "KEYSW" H 2000 6900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 2000 7000 60  0001 C CNN
+F 3 "" H 2000 7000 60  0000 C CNN
+	1    2000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_PGDN1
+U 1 1 55F71639
+P 15650 5400
+F 0 "D_PGDN1" V 15696 5321 50  0000 R CNN
+F 1 "D" V 15595 5321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 15650 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15650 5400 50  0001 C CNN
+	1    15650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_PGDN1
+U 1 1 5F08580E
+P 16000 5000
+F 0 "K_PGDN1" H 16000 5233 60  0000 C CNN
+F 1 "KEYSW" H 16000 4900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 16000 5000 60  0001 C CNN
+F 3 "" H 16000 5000 60  0000 C CNN
+	1    16000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_PGUP1
+U 1 1 5F085832
+P 15650 4400
+F 0 "D_PGUP1" V 15696 4321 50  0000 R CNN
+F 1 "D" V 15595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 15650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15650 4400 50  0001 C CNN
+	1    15650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_PGUP1
+U 1 1 55F797FD
+P 16000 4000
+F 0 "K_PGUP1" H 16000 4233 60  0000 C CNN
+F 1 "KEYSW" H 16000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 16000 4000 60  0001 C CNN
+F 3 "" H 16000 4000 60  0000 C CNN
+	1    16000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_BKSPC1
+U 1 1 55F7B30B
+P 14650 4400
+F 0 "D_BKSPC1" V 14696 4321 50  0000 R CNN
+F 1 "D" V 14595 4321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 14650 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14650 4400 50  0001 C CNN
+	1    14650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_BKSPC1
+U 1 1 5F08583F
+P 15000 4000
+F 0 "K_BKSPC1" H 15000 4233 60  0000 C CNN
+F 1 "KEYSW" H 15000 3900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 15000 4000 60  0001 C CNN
+F 3 "" H 15000 4000 60  0000 C CNN
+	1    15000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D_PIPE1
+U 1 1 5F08581A
+P 14650 3400
+F 0 "D_PIPE1" V 14696 3321 50  0000 R CNN
+F 1 "D" V 14595 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 14650 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14650 3400 50  0001 C CNN
+	1    14650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_PIPE1
+U 1 1 55F736AF
+P 15000 3000
+F 0 "K_PIPE1" H 15000 3233 60  0000 C CNN
+F 1 "KEYSW" H 15000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 15000 3000 60  0001 C CNN
+F 3 "" H 15000 3000 60  0000 C CNN
+	1    15000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_F3
+U 1 1 55F737C6
+P 5000 2000
+F 0 "K_F3" H 5000 2233 60  0000 C CNN
+F 1 "KEYSW" H 5000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5000 2000 60  0001 C CNN
+F 3 "" H 5000 2000 60  0000 C CNN
+	1    5000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_ESC1
+U 1 1 55F73D17
+P 2000 2000
+F 0 "K_ESC1" H 2000 2233 60  0000 C CNN
+F 1 "KEYSW" H 2000 1900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2000 2000 60  0001 C CNN
+F 3 "" H 2000 2000 60  0000 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 6550
+Wire Wire Line
+	3650 6550 4650 6550
+Connection ~ 4650 6550
+Wire Wire Line
+	4650 6550 5650 6550
+Connection ~ 5650 6550
+Wire Wire Line
+	5650 6550 6650 6550
+Connection ~ 6650 6550
+Wire Wire Line
+	6650 6550 7650 6550
+Connection ~ 7650 6550
+Wire Wire Line
+	7650 6550 8650 6550
+Connection ~ 8650 6550
+Wire Wire Line
+	8650 6550 9650 6550
+Connection ~ 9650 6550
+Wire Wire Line
+	9650 6550 10650 6550
+Connection ~ 10650 6550
+Connection ~ 11650 6550
+Wire Wire Line
+	11650 6550 12650 6550
+Connection ~ 13350 7200
+Wire Wire Line
+	13350 7200 14350 7200
+Connection ~ 14350 7200
+Wire Wire Line
+	14350 7200 15350 7200
+Connection ~ 1650 7550
+Wire Wire Line
+	1650 7550 2650 7550
+Connection ~ 6650 7550
+Wire Wire Line
+	10500 7550 11500 7550
+Wire Wire Line
+	6300 1950 6300 2950
+Wire Wire Line
+	16150 3950 16150 4950
+Wire Wire Line
+	16150 5950 16150 6750
+Text GLabel 15150 1650 0    50   Input ~ 0
+col13
+Connection ~ 2650 5550
+Wire Wire Line
+	2650 5550 3650 5550
+Connection ~ 3650 5550
+Wire Wire Line
+	3650 5550 4650 5550
+Connection ~ 4650 5550
+Wire Wire Line
+	4650 5550 5650 5550
+Connection ~ 5650 5550
+Wire Wire Line
+	5650 5550 6650 5550
+Connection ~ 6650 5550
+Wire Wire Line
+	6650 5550 7650 5550
+Connection ~ 7650 5550
+Wire Wire Line
+	7650 5550 8650 5550
+Connection ~ 8650 5550
+Wire Wire Line
+	8650 5550 9650 5550
+Connection ~ 9650 5550
+Wire Wire Line
+	9650 5550 10650 5550
+Connection ~ 10650 5550
+Wire Wire Line
+	10650 5550 11650 5550
+Connection ~ 11650 5550
+Wire Wire Line
+	11650 5550 12650 5550
+Connection ~ 12650 5550
+Wire Wire Line
+	12650 5550 13650 5550
+Connection ~ 13650 5550
+Wire Wire Line
+	13650 5550 15650 5550
+Wire Wire Line
+	2300 1650 2300 1950
+Wire Wire Line
+	2300 6950 2150 6950
+Wire Wire Line
+	2150 5950 2300 5950
+Connection ~ 2300 5950
+Wire Wire Line
+	2300 4950 2150 4950
+Wire Wire Line
+	2150 3950 2300 3950
+Connection ~ 2300 3950
+Wire Wire Line
+	2300 3950 2300 4950
+Wire Wire Line
+	2150 2950 2300 2950
+Connection ~ 2300 2950
+Wire Wire Line
+	2300 2950 2300 3950
+Wire Wire Line
+	2150 1950 2300 1950
+Connection ~ 2300 1950
+Wire Wire Line
+	2300 1950 2300 2950
+Connection ~ 1650 2550
+Wire Wire Line
+	1650 2550 2650 2550
+Connection ~ 2650 2550
+Wire Wire Line
+	2650 2550 3650 2550
+Connection ~ 3650 2550
+Wire Wire Line
+	3650 2550 4650 2550
+Connection ~ 4650 2550
+Wire Wire Line
+	4650 2550 5650 2550
+Connection ~ 5650 2550
+Wire Wire Line
+	5650 2550 6650 2550
+Connection ~ 6650 2550
+Wire Wire Line
+	6650 2550 7650 2550
+Connection ~ 7650 2550
+Wire Wire Line
+	7650 2550 8650 2550
+Connection ~ 8650 2550
+Wire Wire Line
+	8650 2550 9650 2550
+Connection ~ 9650 2550
+Wire Wire Line
+	9650 2550 10650 2550
+Connection ~ 10650 2550
+Wire Wire Line
+	10650 2550 11650 2550
+Connection ~ 11650 2550
+Wire Wire Line
+	11650 2550 12650 2550
+Connection ~ 12650 2550
+Wire Wire Line
+	12650 2550 13650 2550
+Connection ~ 1650 3550
+Wire Wire Line
+	1650 3550 2650 3550
+Connection ~ 2650 3550
+Wire Wire Line
+	2650 3550 3650 3550
+Connection ~ 3650 3550
+Wire Wire Line
+	3650 3550 4650 3550
+Connection ~ 4650 3550
+Wire Wire Line
+	4650 3550 5650 3550
+Connection ~ 5650 3550
+Wire Wire Line
+	5650 3550 6650 3550
+Connection ~ 6650 3550
+Wire Wire Line
+	6650 3550 7650 3550
+Connection ~ 7650 3550
+Wire Wire Line
+	7650 3550 8650 3550
+Connection ~ 8650 3550
+Wire Wire Line
+	8650 3550 9650 3550
+Connection ~ 9650 3550
+Wire Wire Line
+	9650 3550 10650 3550
+Connection ~ 10650 3550
+Wire Wire Line
+	10650 3550 11650 3550
+Connection ~ 11650 3550
+Wire Wire Line
+	11650 3550 12650 3550
+Connection ~ 12650 3550
+Wire Wire Line
+	12650 3550 13650 3550
+Connection ~ 13650 3550
+Wire Wire Line
+	13650 3550 14650 3550
+Connection ~ 1650 4550
+Wire Wire Line
+	1650 4550 2650 4550
+Connection ~ 2650 4550
+Wire Wire Line
+	2650 4550 3650 4550
+Connection ~ 3650 4550
+Wire Wire Line
+	3650 4550 4650 4550
+Connection ~ 4650 4550
+Wire Wire Line
+	4650 4550 5650 4550
+Connection ~ 5650 4550
+Wire Wire Line
+	5650 4550 6650 4550
+Connection ~ 6650 4550
+Wire Wire Line
+	6650 4550 7650 4550
+Connection ~ 7650 4550
+Wire Wire Line
+	7650 4550 8650 4550
+Connection ~ 8650 4550
+Wire Wire Line
+	8650 4550 9650 4550
+Connection ~ 9650 4550
+Wire Wire Line
+	9650 4550 10650 4550
+Connection ~ 10650 4550
+Wire Wire Line
+	10650 4550 11650 4550
+Connection ~ 11650 4550
+Wire Wire Line
+	11650 4550 12650 4550
+Connection ~ 12650 4550
+Wire Wire Line
+	12650 4550 13650 4550
+Connection ~ 13650 4550
+Wire Wire Line
+	13650 4550 14650 4550
+Connection ~ 14650 4550
+Wire Wire Line
+	14650 4550 15650 4550
+Wire Wire Line
+	1650 5550 2650 5550
+Wire Wire Line
+	1400 6550 1650 6550
+Connection ~ 1650 6550
+Wire Wire Line
+	1650 6550 2650 6550
+Connection ~ 2650 6550
+Wire Wire Line
+	2650 6550 3650 6550
+Wire Wire Line
+	1650 5550 1400 5550
+Connection ~ 1650 5550
+Connection ~ 2300 6950
+Wire Wire Line
+	2300 6950 2300 7100
+Wire Wire Line
+	2300 5950 2300 6950
+Wire Wire Line
+	11500 6550 11650 6550
+Wire Wire Line
+	10650 6550 11650 6550
+Wire Wire Line
+	1950 2150 1650 2150
+Wire Wire Line
+	1650 2150 1650 2250
+Wire Wire Line
+	2950 2150 2650 2150
+Wire Wire Line
+	2650 2150 2650 2250
+Wire Wire Line
+	3150 1950 3300 1950
+Connection ~ 3300 1950
+Wire Wire Line
+	2300 4950 2300 5950
+Connection ~ 2300 4950
+Wire Wire Line
+	3300 6950 3150 6950
+Wire Wire Line
+	3300 1950 3300 2950
+Wire Wire Line
+	7300 6950 7150 6950
+Wire Wire Line
+	11000 6950 11150 6950
+Connection ~ 11150 6950
+Wire Wire Line
+	11150 6950 11150 7450
+Wire Wire Line
+	12000 6950 12150 6950
+Connection ~ 12150 6950
+Wire Wire Line
+	12150 6950 12150 7300
+Wire Wire Line
+	6150 5950 6300 5950
+Wire Wire Line
+	6150 4950 6300 4950
+Connection ~ 6300 4950
+Wire Wire Line
+	6300 4950 6300 5950
+Wire Wire Line
+	3150 5950 3300 5950
+Connection ~ 3300 5950
+Wire Wire Line
+	3300 5950 3300 6950
+Wire Wire Line
+	3150 4950 3300 4950
+Connection ~ 3300 4950
+Wire Wire Line
+	3300 4950 3300 5950
+Wire Wire Line
+	3150 3950 3300 3950
+Connection ~ 3300 3950
+Wire Wire Line
+	3300 3950 3300 4950
+Wire Wire Line
+	3150 2950 3300 2950
+Connection ~ 3300 2950
+Wire Wire Line
+	3300 2950 3300 3950
+Wire Wire Line
+	4150 1950 4300 1950
+Connection ~ 4300 1950
+Wire Wire Line
+	4300 1950 4300 2950
+Wire Wire Line
+	4150 2950 4300 2950
+Connection ~ 4300 2950
+Wire Wire Line
+	4300 2950 4300 3950
+Wire Wire Line
+	4150 3950 4300 3950
+Connection ~ 4300 3950
+Wire Wire Line
+	4300 3950 4300 4950
+Wire Wire Line
+	4150 4950 4300 4950
+Connection ~ 4300 4950
+Wire Wire Line
+	4300 4950 4300 5950
+Wire Wire Line
+	4150 5950 4300 5950
+Wire Wire Line
+	5150 5950 5300 5950
+Wire Wire Line
+	5150 4950 5300 4950
+Connection ~ 5300 4950
+Wire Wire Line
+	5300 4950 5300 5950
+Wire Wire Line
+	5150 3950 5300 3950
+Connection ~ 5300 3950
+Wire Wire Line
+	5300 3950 5300 4950
+Wire Wire Line
+	5150 2950 5300 2950
+Connection ~ 5300 2950
+Wire Wire Line
+	5300 2950 5300 3950
+Wire Wire Line
+	5150 1950 5300 1950
+Wire Wire Line
+	5300 1950 5300 2950
+Wire Wire Line
+	6150 1950 6300 1950
+Wire Wire Line
+	4300 1650 4300 1950
+Wire Wire Line
+	3300 1650 3300 1950
+Wire Wire Line
+	5300 1950 5300 1650
+Connection ~ 5300 1950
+Wire Wire Line
+	6300 1950 6300 1650
+Connection ~ 6300 1950
+Wire Wire Line
+	8300 1650 8300 1950
+Wire Wire Line
+	9300 1650 9300 1950
+Wire Wire Line
+	13300 1650 13300 1950
+Wire Wire Line
+	14300 5850 14300 4950
+Connection ~ 16150 3950
+Wire Wire Line
+	16150 4950 16150 5950
+Connection ~ 16150 4950
+Connection ~ 16150 5950
+Wire Wire Line
+	16150 6750 15850 6750
+Wire Wire Line
+	11500 7550 13100 7550
+Wire Wire Line
+	13100 7550 13100 7200
+Connection ~ 11500 7550
+Wire Wire Line
+	12650 6550 13500 6550
+Wire Wire Line
+	13500 6550 13500 6400
+Wire Wire Line
+	13500 6400 14350 6400
+Connection ~ 12650 6550
+Wire Wire Line
+	14350 6400 15650 6400
+Connection ~ 14350 6400
+Wire Wire Line
+	13300 6150 13950 6150
+Wire Wire Line
+	13950 6150 13950 6750
+Wire Wire Line
+	13950 6750 13850 6750
+Wire Wire Line
+	14300 5850 14850 5850
+Wire Wire Line
+	14850 5850 14850 5950
+Wire Wire Line
+	14850 5950 14850 6750
+Connection ~ 14850 5950
+Wire Wire Line
+	6150 3950 6300 3950
+Connection ~ 6300 3950
+Wire Wire Line
+	6300 3950 6300 4950
+Wire Wire Line
+	6150 2950 6300 2950
+Connection ~ 6300 2950
+Wire Wire Line
+	6300 2950 6300 3950
+Wire Wire Line
+	7150 1950 7300 1950
+Connection ~ 7300 1950
+Wire Wire Line
+	7300 1950 7300 2950
+Wire Wire Line
+	7150 2950 7300 2950
+Connection ~ 7300 2950
+Wire Wire Line
+	7300 2950 7300 3950
+Wire Wire Line
+	7150 3950 7300 3950
+Connection ~ 7300 3950
+Wire Wire Line
+	7300 3950 7300 4950
+Wire Wire Line
+	7150 4950 7300 4950
+Connection ~ 7300 4950
+Wire Wire Line
+	7300 4950 7300 5950
+Wire Wire Line
+	7150 5950 7300 5950
+Connection ~ 7300 5950
+Wire Wire Line
+	8150 5950 8300 5950
+Connection ~ 8300 5950
+Wire Wire Line
+	8300 5950 8300 6150
+Wire Wire Line
+	8150 4950 8300 4950
+Connection ~ 8300 4950
+Wire Wire Line
+	8300 4950 8300 5950
+Wire Wire Line
+	11150 1950 11150 2950
+Connection ~ 11150 2950
+Wire Wire Line
+	11150 2950 11150 3950
+Connection ~ 11150 3950
+Wire Wire Line
+	11150 3950 11150 4950
+Connection ~ 11150 4950
+Wire Wire Line
+	11150 4950 11150 5950
+Connection ~ 11150 5950
+Wire Wire Line
+	11150 5950 11150 6950
+Wire Wire Line
+	12150 1950 12150 2950
+Connection ~ 12150 2950
+Wire Wire Line
+	12150 2950 12150 3950
+Connection ~ 12150 3950
+Wire Wire Line
+	12150 3950 12150 4950
+Connection ~ 12150 4950
+Wire Wire Line
+	12150 4950 12150 5950
+Connection ~ 12150 5950
+Wire Wire Line
+	12150 5950 12150 6950
+Wire Wire Line
+	7300 1650 7300 1950
+Wire Wire Line
+	7300 5950 7300 6950
+Wire Wire Line
+	6650 7550 10500 7550
+Connection ~ 10500 7550
+Wire Wire Line
+	2650 7550 6650 7550
+Connection ~ 2650 7550
+Wire Wire Line
+	8150 3950 8300 3950
+Connection ~ 8300 3950
+Wire Wire Line
+	8300 3950 8300 4950
+Wire Wire Line
+	8150 2950 8300 2950
+Connection ~ 8300 2950
+Wire Wire Line
+	8300 2950 8300 3950
+Wire Wire Line
+	8150 1950 8300 1950
+Connection ~ 8300 1950
+Wire Wire Line
+	8300 1950 8300 2950
+Wire Wire Line
+	9150 1950 9300 1950
+Connection ~ 9300 1950
+Wire Wire Line
+	9300 1950 9300 2950
+Wire Wire Line
+	9150 2950 9300 2950
+Connection ~ 9300 2950
+Wire Wire Line
+	9300 2950 9300 3950
+Wire Wire Line
+	9150 3950 9300 3950
+Connection ~ 9300 3950
+Wire Wire Line
+	9300 3950 9300 4950
+Wire Wire Line
+	9150 4950 9300 4950
+Connection ~ 9300 4950
+Wire Wire Line
+	9300 4950 9300 5950
+Wire Wire Line
+	9150 5950 9300 5950
+Connection ~ 9300 5950
+Wire Wire Line
+	9300 5950 9300 6150
+Wire Wire Line
+	10300 6950 10300 5950
+Wire Wire Line
+	10150 5950 10300 5950
+Connection ~ 10300 5950
+Wire Wire Line
+	10300 5950 10300 4950
+Wire Wire Line
+	10150 4950 10300 4950
+Connection ~ 10300 4950
+Wire Wire Line
+	10300 4950 10300 3950
+Wire Wire Line
+	10150 3950 10300 3950
+Connection ~ 10300 3950
+Wire Wire Line
+	10300 3950 10300 2950
+Wire Wire Line
+	10150 2950 10300 2950
+Connection ~ 10300 2950
+Wire Wire Line
+	10300 2950 10300 1950
+Wire Wire Line
+	10150 1950 10300 1950
+Connection ~ 10300 1950
+Wire Wire Line
+	10300 1950 10300 1650
+Wire Wire Line
+	13150 5950 13300 5950
+Connection ~ 13300 5950
+Wire Wire Line
+	13300 5950 13300 6150
+Wire Wire Line
+	13150 4950 13300 4950
+Connection ~ 13300 4950
+Wire Wire Line
+	13300 4950 13300 5950
+Wire Wire Line
+	13150 3950 13300 3950
+Connection ~ 13300 3950
+Wire Wire Line
+	13300 3950 13300 4950
+Wire Wire Line
+	13150 2950 13300 2950
+Connection ~ 13300 2950
+Wire Wire Line
+	13300 2950 13300 3950
+Wire Wire Line
+	13150 1950 13300 1950
+Connection ~ 13300 1950
+Wire Wire Line
+	13300 1950 13300 2950
+Wire Wire Line
+	14150 1950 14300 1950
+Connection ~ 14300 1950
+Wire Wire Line
+	14300 1950 14300 1650
+Wire Wire Line
+	14150 2950 14300 2950
+Connection ~ 14300 2950
+Wire Wire Line
+	14300 2950 14300 1950
+Wire Wire Line
+	14150 3950 14300 3950
+Wire Wire Line
+	14300 3950 14300 2950
+Wire Wire Line
+	14150 4950 14300 4950
+Wire Wire Line
+	1650 3250 1950 3250
+Wire Wire Line
+	1950 3250 1950 3150
+Wire Wire Line
+	1950 4150 1650 4150
+Wire Wire Line
+	1650 4150 1650 4250
+Wire Wire Line
+	1950 5150 1650 5150
+Wire Wire Line
+	1650 5150 1650 5250
+Wire Wire Line
+	1950 6150 1650 6150
+Wire Wire Line
+	1650 6150 1650 6250
+Wire Wire Line
+	1950 7150 1650 7150
+Wire Wire Line
+	1650 7150 1650 7250
+Wire Wire Line
+	2950 7150 2650 7150
+Wire Wire Line
+	2650 7150 2650 7250
+Wire Wire Line
+	2950 6150 2650 6150
+Wire Wire Line
+	2650 6150 2650 6250
+Wire Wire Line
+	2950 5150 2650 5150
+Wire Wire Line
+	2650 5150 2650 5250
+Wire Wire Line
+	2950 4150 2650 4150
+Wire Wire Line
+	2650 4150 2650 4250
+Wire Wire Line
+	2950 3150 2650 3150
+Wire Wire Line
+	2650 3150 2650 3250
+Wire Wire Line
+	3950 2150 3650 2150
+Wire Wire Line
+	3650 2150 3650 2250
+Wire Wire Line
+	3950 3150 3650 3150
+Wire Wire Line
+	3650 3150 3650 3250
+Wire Wire Line
+	3950 4150 3650 4150
+Wire Wire Line
+	3650 4150 3650 4250
+Wire Wire Line
+	3950 5150 3650 5150
+Wire Wire Line
+	3650 5150 3650 5250
+Wire Wire Line
+	3950 6150 3650 6150
+Wire Wire Line
+	3650 6150 3650 6250
+Wire Wire Line
+	4950 6150 4650 6150
+Wire Wire Line
+	4650 6150 4650 6250
+Wire Wire Line
+	4950 5150 4650 5150
+Wire Wire Line
+	4650 5150 4650 5250
+Wire Wire Line
+	4950 4150 4650 4150
+Wire Wire Line
+	4650 4150 4650 4250
+Wire Wire Line
+	4950 3150 4650 3150
+Wire Wire Line
+	4650 3150 4650 3250
+Wire Wire Line
+	4950 2150 4650 2150
+Wire Wire Line
+	4650 2150 4650 2250
+Wire Wire Line
+	5950 2150 5650 2150
+Wire Wire Line
+	5650 2150 5650 2250
+Wire Wire Line
+	5950 3150 5650 3150
+Wire Wire Line
+	5650 3150 5650 3250
+Wire Wire Line
+	5950 4150 5650 4150
+Wire Wire Line
+	5650 4150 5650 4250
+Wire Wire Line
+	5950 5150 5650 5150
+Wire Wire Line
+	5650 5150 5650 5250
+Wire Wire Line
+	5950 6150 5650 6150
+Wire Wire Line
+	5650 6150 5650 6250
+Wire Wire Line
+	6950 6150 6650 6150
+Wire Wire Line
+	6650 6150 6650 6250
+Wire Wire Line
+	6950 7150 6650 7150
+Wire Wire Line
+	6650 7150 6650 7250
+Wire Wire Line
+	6950 5150 6650 5150
+Wire Wire Line
+	6650 5150 6650 5250
+Wire Wire Line
+	6950 4150 6650 4150
+Wire Wire Line
+	6650 4150 6650 4250
+Wire Wire Line
+	6950 3150 6650 3150
+Wire Wire Line
+	6650 3150 6650 3250
+Wire Wire Line
+	6950 2150 6650 2150
+Wire Wire Line
+	6650 2150 6650 2250
+Wire Wire Line
+	7950 6150 7650 6150
+Wire Wire Line
+	7650 6150 7650 6250
+Wire Wire Line
+	7950 5150 7650 5150
+Wire Wire Line
+	7650 5150 7650 5250
+Wire Wire Line
+	7950 4150 7650 4150
+Wire Wire Line
+	7650 4150 7650 4250
+Wire Wire Line
+	7950 3150 7650 3150
+Wire Wire Line
+	7650 3150 7650 3250
+Wire Wire Line
+	7950 2150 7650 2150
+Wire Wire Line
+	7650 2150 7650 2250
+Wire Wire Line
+	8950 2150 8650 2150
+Wire Wire Line
+	8650 2150 8650 2250
+Wire Wire Line
+	8950 3150 8650 3150
+Wire Wire Line
+	8650 3150 8650 3250
+Wire Wire Line
+	8950 4150 8650 4150
+Wire Wire Line
+	8650 4150 8650 4250
+Wire Wire Line
+	8950 5150 8650 5150
+Wire Wire Line
+	8650 5150 8650 5250
+Wire Wire Line
+	8950 6150 8650 6150
+Wire Wire Line
+	8650 6150 8650 6250
+Wire Wire Line
+	9950 6150 9650 6150
+Wire Wire Line
+	9650 6150 9650 6250
+Wire Wire Line
+	9950 5150 9650 5150
+Wire Wire Line
+	9650 5150 9650 5250
+Wire Wire Line
+	9950 4150 9650 4150
+Wire Wire Line
+	9650 4150 9650 4250
+Wire Wire Line
+	9950 3150 9650 3150
+Wire Wire Line
+	9650 3150 9650 3250
+Wire Wire Line
+	9950 2150 9650 2150
+Wire Wire Line
+	9650 2150 9650 2250
+Wire Wire Line
+	10950 2150 10650 2150
+Wire Wire Line
+	10650 2150 10650 2250
+Wire Wire Line
+	11950 2150 11650 2150
+Wire Wire Line
+	11650 2150 11650 2250
+Wire Wire Line
+	11150 1950 11150 1650
+Connection ~ 11150 1950
+Wire Wire Line
+	12150 1550 12150 1950
+Connection ~ 12150 1950
+Wire Wire Line
+	10950 3150 10650 3150
+Wire Wire Line
+	10650 3150 10650 3250
+Wire Wire Line
+	10950 4150 10650 4150
+Wire Wire Line
+	10650 4150 10650 4250
+Wire Wire Line
+	10950 5150 10650 5150
+Wire Wire Line
+	10650 5150 10650 5250
+Wire Wire Line
+	10950 6150 10650 6150
+Wire Wire Line
+	10650 6150 10650 6250
+Wire Wire Line
+	10800 7150 10500 7150
+Wire Wire Line
+	10500 7150 10500 7250
+Wire Wire Line
+	11800 7150 11500 7150
+Wire Wire Line
+	11500 7150 11500 7250
+Wire Wire Line
+	11950 6150 11650 6150
+Wire Wire Line
+	11650 6150 11650 6250
+Wire Wire Line
+	11950 5150 11650 5150
+Wire Wire Line
+	11650 5150 11650 5250
+Wire Wire Line
+	11950 4150 11650 4150
+Wire Wire Line
+	11650 4150 11650 4250
+Wire Wire Line
+	11950 3150 11650 3150
+Wire Wire Line
+	11650 3150 11650 3250
+Wire Wire Line
+	12950 2150 12650 2150
+Wire Wire Line
+	12650 2150 12650 2250
+Wire Wire Line
+	12950 3150 12650 3150
+Wire Wire Line
+	12650 3150 12650 3250
+Wire Wire Line
+	12950 4150 12650 4150
+Wire Wire Line
+	12650 4150 12650 4250
+Wire Wire Line
+	12950 5150 12650 5150
+Wire Wire Line
+	12650 5150 12650 5250
+Wire Wire Line
+	12950 6150 12650 6150
+Wire Wire Line
+	12650 6150 12650 6250
+Wire Wire Line
+	13650 6950 13450 6950
+Wire Wire Line
+	13450 6950 13450 6900
+Wire Wire Line
+	13450 6900 13350 6900
+Wire Wire Line
+	14350 6900 14500 6900
+Wire Wire Line
+	14500 6900 14500 6950
+Wire Wire Line
+	14500 6950 14650 6950
+Wire Wire Line
+	15350 6900 15500 6900
+Wire Wire Line
+	15500 6900 15500 6950
+Wire Wire Line
+	15500 6950 15650 6950
+Wire Wire Line
+	14350 6100 14500 6100
+Wire Wire Line
+	14500 6100 14500 6150
+Wire Wire Line
+	14500 6150 14650 6150
+Wire Wire Line
+	15650 6100 15800 6100
+Wire Wire Line
+	15800 6100 15800 6150
+Wire Wire Line
+	15800 6150 15950 6150
+Wire Wire Line
+	13650 5250 13650 5150
+Wire Wire Line
+	13650 5150 13950 5150
+Wire Wire Line
+	13950 4150 13650 4150
+Wire Wire Line
+	13650 4150 13650 4250
+Wire Wire Line
+	13950 3150 13650 3150
+Wire Wire Line
+	13650 3150 13650 3250
+Wire Wire Line
+	13950 2150 13650 2150
+Wire Wire Line
+	13650 2150 13650 2250
+Wire Wire Line
+	14950 3150 14650 3150
+Wire Wire Line
+	14650 3150 14650 3250
+Wire Wire Line
+	14950 4150 14650 4150
+Wire Wire Line
+	14650 4150 14650 4250
+Wire Wire Line
+	15950 4150 15650 4150
+Wire Wire Line
+	15650 4150 15650 4250
+Wire Wire Line
+	15950 5150 15650 5150
+Wire Wire Line
+	15650 5150 15650 5250
+$Comp
+L Device:Rotary_Encoder_Switch SW0
+U 1 1 5FF35003
+P 17000 6050
+F 0 "SW0" H 17000 6417 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 17000 6326 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 16850 6210 50  0001 C CNN
+F 3 "~" H 17000 6310 50  0001 C CNN
+	1    17000 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5ED40CDD
+P 17450 5850
+F 0 "#PWR0101" H 17450 5600 50  0001 C CNN
+F 1 "GND" H 17455 5677 50  0000 C CNN
+F 2 "" H 17450 5850 50  0001 C CNN
+F 3 "" H 17450 5850 50  0001 C CNN
+	1    17450 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	17300 6050 17450 6050
+Wire Wire Line
+	17450 6050 17450 5850
+Text GLabel 17400 6150 2    50   Input ~ 0
+encA
+Wire Wire Line
+	17400 6150 17300 6150
+Text GLabel 17500 5950 2    50   Input ~ 0
+encB
+Wire Wire Line
+	17300 5950 17500 5950
+Text GLabel 1400 2550 0    50   Input ~ 0
+row0
+Text GLabel 1400 3550 0    50   Input ~ 0
+row1
+Text GLabel 1400 4550 0    50   Input ~ 0
+row2
+Text GLabel 1400 5550 0    50   Input ~ 0
+row3
+Text GLabel 1400 6550 0    50   Input ~ 0
+row4
+Text GLabel 1400 7550 0    50   Input ~ 0
+row5
+Text GLabel 17650 2000 0    50   Input ~ 0
+row0
+Text GLabel 17650 2300 0    50   Input ~ 0
+row1
+Text GLabel 17650 2400 0    50   Input ~ 0
+row2
+Text GLabel 17650 2500 0    50   Input ~ 0
+row3
+Text GLabel 17650 2600 0    50   Input ~ 0
+row4
+Text GLabel 17650 2700 0    50   Input ~ 0
+row5
+$Comp
+L power:GND #PWR0102
+U 1 1 5EEC97C1
+P 17150 2150
+F 0 "#PWR0102" H 17150 1900 50  0001 C CNN
+F 1 "GND" V 17155 2022 50  0000 R CNN
+F 2 "" H 17150 2150 50  0001 C CNN
+F 3 "" H 17150 2150 50  0001 C CNN
+	1    17150 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17650 2100 17350 2100
+Wire Wire Line
+	17350 2100 17350 2150
+Wire Wire Line
+	17350 2150 17150 2150
+Wire Wire Line
+	17350 2150 17350 2200
+Wire Wire Line
+	17350 2200 17650 2200
+Connection ~ 17350 2150
+$Comp
+L power:GND #PWR0103
+U 1 1 5EF22AC6
+P 19400 2000
+F 0 "#PWR0103" H 19400 1750 50  0001 C CNN
+F 1 "GND" V 19405 1872 50  0000 R CNN
+F 2 "" H 19400 2000 50  0001 C CNN
+F 3 "" H 19400 2000 50  0001 C CNN
+	1    19400 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19050 2000 19400 2000
+Text GLabel 19050 1900 2    50   Input ~ 0
+col13
+Text GLabel 18150 3400 3    50   Input ~ 0
+col0
+Text GLabel 18250 3400 3    50   Input ~ 0
+col1
+Text GLabel 18350 3400 3    50   Input ~ 0
+col2
+Text GLabel 18450 3400 3    50   Input ~ 0
+col3
+Text GLabel 18550 3400 3    50   Input ~ 0
+col4
+Text GLabel 19050 3000 2    50   Input ~ 0
+col5
+Text GLabel 19050 2900 2    50   Input ~ 0
+col6
+Text GLabel 19050 2800 2    50   Input ~ 0
+col7
+Text GLabel 19050 2700 2    50   Input ~ 0
+col8
+Text GLabel 19050 2600 2    50   Input ~ 0
+col9
+Text GLabel 19050 2500 2    50   Input ~ 0
+col10
+Text GLabel 19050 2400 2    50   Input ~ 0
+col11
+$Comp
+L keebio:Elite-C U0
+U 1 1 5FF2C7A4
+P 18350 2450
+F 0 "U0" H 18350 3287 60  0000 C CNN
+F 1 "Elite-C" H 18350 3181 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C-castellated-29pin" V 19400 -50 60  0001 C CNN
+F 3 "" V 19400 -50 60  0001 C CNN
+	1    18350 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 2300 2    50   Input ~ 0
+col12
+Text GLabel 17650 2900 0    50   Input ~ 0
+encA
+Text GLabel 17650 3000 0    50   Input ~ 0
+encB
+Text GLabel 19400 2200 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	19050 2200 19400 2200
+NoConn ~ 19050 2100
+Text GLabel 17650 2800 0    50   Input ~ 0
+RGB
+$Comp
+L Jumper:Jumper_3_Open JP0
+U 1 1 5F081D14
+P 20350 1550
+F 0 "JP0" H 20350 1774 50  0000 C CNN
+F 1 "Jumper_3_Open" H 20350 1683 50  0000 C CNN
+F 2 "Keebio-Parts:SolderJumperRight" H 20350 1550 50  0001 C CNN
+F 3 "~" H 20350 1550 50  0001 C CNN
+	1    20350 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 20350 1700 3    50   Input ~ 0
+RGB
+Text GLabel 20100 1550 0    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR0104
+U 1 1 5F08428D
+P 20600 1550
+F 0 "#PWR0104" H 20600 1300 50  0001 C CNN
+F 1 "GND" V 20605 1422 50  0000 R CNN
+F 2 "" H 20600 1550 50  0001 C CNN
+F 3 "" H 20600 1550 50  0001 C CNN
+	1    20600 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15150 1650 15150 2950
+Wire Wire Line
+	16150 5950 16700 5950
+Wire Wire Line
+	16700 6150 15950 6150
+Connection ~ 15950 6150
+Text GLabel 16150 1650 0    50   Input ~ 0
+col14
+Wire Wire Line
+	16150 3550 16150 3950
+Wire Wire Line
+	16150 1650 16150 2950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_DEL1
+U 1 1 5EFC7BF3
+P 16000 3000
+F 0 "K_DEL1" H 16000 3233 60  0000 C CNN
+F 1 "KEYSW" H 16000 2900 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 16000 3000 60  0001 C CNN
+F 3 "" H 16000 3000 60  0000 C CNN
+	1    16000 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 16150 2950
+Wire Wire Line
+	16150 2950 16150 3950
+$Comp
+L Diode:1N4148 D_DEL1
+U 1 1 5EFC832C
+P 15700 3400
+F 0 "D_DEL1" V 15746 3321 50  0000 R CNN
+F 1 "D" V 15645 3321 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 15700 3400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15700 3400 50  0001 C CNN
+	1    15700 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15700 3550 14650 3550
+Connection ~ 14650 3550
+Wire Wire Line
+	15700 3250 15700 3150
+Wire Wire Line
+	15700 3150 15950 3150
+Text GLabel 17650 1900 0    50   Input ~ 0
+col14
+Wire Wire Line
+	15150 2950 15150 3950
+Connection ~ 15150 2950
+Wire Wire Line
+	15150 3950 15150 4950
+Wire Wire Line
+	15150 4950 14300 4950
+Connection ~ 15150 3950
+Connection ~ 14300 4950
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 5F1D2C5A
+P 17000 5050
+F 0 "SW1" H 17000 5417 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 17000 5326 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 16850 5210 50  0001 C CNN
+F 3 "~" H 17000 5310 50  0001 C CNN
+	1    17000 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW2
+U 1 1 5F1D3CDF
+P 17000 4050
+F 0 "SW2" H 17000 4417 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 17000 4326 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 16850 4210 50  0001 C CNN
+F 3 "~" H 17000 4310 50  0001 C CNN
+	1    17000 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16700 3950 16150 3950
+Wire Wire Line
+	16700 4950 16150 4950
+Wire Wire Line
+	16700 4150 15950 4150
+Connection ~ 15950 4150
+Wire Wire Line
+	16700 5150 15950 5150
+Connection ~ 15950 5150
+Text GLabel 17600 4950 2    50   Input ~ 0
+encB
+Text GLabel 17600 5150 2    50   Input ~ 0
+encA
+$Comp
+L power:GND #PWR0105
+U 1 1 5F285AFC
+P 17450 4800
+F 0 "#PWR0105" H 17450 4550 50  0001 C CNN
+F 1 "GND" H 17455 4627 50  0000 C CNN
+F 2 "" H 17450 4800 50  0001 C CNN
+F 3 "" H 17450 4800 50  0001 C CNN
+	1    17450 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5F285FD6
+P 17400 3800
+F 0 "#PWR0106" H 17400 3550 50  0001 C CNN
+F 1 "GND" H 17405 3627 50  0000 C CNN
+F 2 "" H 17400 3800 50  0001 C CNN
+F 3 "" H 17400 3800 50  0001 C CNN
+	1    17400 3800
+	-1   0    0    1   
+$EndComp
+Text GLabel 17500 3950 2    50   Input ~ 0
+encB
+Text GLabel 17550 4150 2    50   Input ~ 0
+encA
+Wire Wire Line
+	17300 3950 17500 3950
+Wire Wire Line
+	17550 4150 17300 4150
+Wire Wire Line
+	17300 4050 17400 4050
+Wire Wire Line
+	17400 4050 17400 3800
+Wire Wire Line
+	17300 4950 17600 4950
+Wire Wire Line
+	17600 5150 17300 5150
+Wire Wire Line
+	17300 5050 17450 5050
+Wire Wire Line
+	17450 5050 17450 4800
+$EndSCHEMATC
