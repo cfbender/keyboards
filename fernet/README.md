@@ -1,4 +1,4 @@
-# Fernet
+# Fernet (_fur-net_)
 
 _"Fernet is an Italian type of amaro, a bitter, aromatic spirit. Fernet is made from a number of herbs and spices which vary according to the brand, but usually include myrrh, rhubarb, chamomile, cardamom, aloe, and especially saffron, with a base of grape distilled spirits."_
 
