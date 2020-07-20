@@ -35,8 +35,8 @@
   "matrix": { "rows": 9, "cols": 9 },
   "layouts": {
     "labels": [
-      "Split Backspace",
-      "Split Right Shift",
+      "2u Backspace",
+      "ANSI Right Shift",
       ["Bottom row", "7u Spacebar", "ANSI Bottom"]
     ],
     "keymap": [
